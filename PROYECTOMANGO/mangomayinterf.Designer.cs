@@ -547,7 +547,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(952, 510);
             this.Controls.Add(this.panelBeneficios);
             this.Controls.Add(this.paneldelusoculinario);
@@ -566,8 +565,6 @@
             this.paneldelusoculinario.PerformLayout();
             this.panelBeneficios.ResumeLayout(false);
             this.panelBeneficios.PerformLayout();
-            this.panelrecetaGlaseadoMangJengibre.ResumeLayout(false);
-            this.panelrecetaGlaseadoMangJengibre.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -627,6 +624,5 @@
         private System.Windows.Forms.Label la3b7el16;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
