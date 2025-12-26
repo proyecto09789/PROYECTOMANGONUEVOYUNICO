@@ -12,8 +12,7 @@ namespace PROYECTOBETA001
 {
     public partial class ProcProductivo : Form
     {
-        Point panelOculto;
-        Point panelVisible;
+       
         public ProcProductivo()
         {
             InitializeComponent();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROYECTOMANGO
 {
-    public partial class Form1 : Form
+    public partial class Tectmay : Form
     {
-        public Form1()
+        public Tectmay()
         {
             InitializeComponent();
         }

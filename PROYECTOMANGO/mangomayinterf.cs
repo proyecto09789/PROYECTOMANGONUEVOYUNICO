@@ -75,6 +75,11 @@ namespace PROYECTOBETA001
      
 
         }
+
+        private void panelrecetaGlaseadoMangJengibre_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     
 }

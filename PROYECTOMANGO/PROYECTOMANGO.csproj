@@ -55,11 +55,17 @@
     <Compile Include="CreateAccount.Designer.cs">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Datoscuriosooiu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Datoscuriosooiu.Designer.cs">
+      <DependentUpon>Datoscuriosooiu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuidatumango098.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuidatumango098.Designer.cs">
+      <DependentUpon>Cuidatumango098.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfazprinc.cs">
       <SubType>Form</SubType>
@@ -87,8 +93,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tectmay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tectmay.Designer.cs">
+      <DependentUpon>Tectmay.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CreateAccount.resx">
       <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Datoscuriosooiu.resx">
+      <DependentUpon>Datoscuriosooiu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuidatumango098.resx">
+      <DependentUpon>Cuidatumango098.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfazprinc.resx">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
@@ -148,6 +166,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mangoenslada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mangocdxd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SiembraMango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FloracionMango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CosechaMango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondointer.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1766684932931.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuad1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuad2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

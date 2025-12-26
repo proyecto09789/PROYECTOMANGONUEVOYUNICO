@@ -33,12 +33,6 @@
             this.bttSiembra = new System.Windows.Forms.Button();
             this.bttFloracio = new System.Windows.Forms.Button();
             this.bttCosecha = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,7 +43,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBfox9 = new System.Windows.Forms.PictureBox();
             this.bttSig2 = new System.Windows.Forms.Button();
             this.bttRegresar1 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
@@ -61,20 +55,26 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureB23ox7 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.bttSiguiente1 = new System.Windows.Forms.Button();
             this.bttVolverHome = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictlkureBox6 = new System.Windows.Forms.PictureBox();
+            this.picturejhox5 = new System.Windows.Forms.PictureBox();
+            this.picturelkuyBox4 = new System.Windows.Forms.PictureBox();
+            this.pictjhgureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureB34rox2 = new System.Windows.Forms.PictureBox();
+            this.picturkjyteBox1 = new System.Windows.Forms.PictureBox();
             this.panelSiembra.SuspendLayout();
             this.panel2Siembra.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBfox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureB23ox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictlkureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturejhox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturelkuyBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictjhgureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureB34rox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturkjyteBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bttRegreProc
@@ -133,63 +133,6 @@
             this.bttCosecha.Text = "Ver";
             this.bttCosecha.UseVisualStyleBackColor = true;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(628, 160);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(152, 132);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 10;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(377, 160);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(152, 132);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(120, 160);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(152, 132);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox3.Location = new System.Drawing.Point(604, 129);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(197, 235);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox2.Location = new System.Drawing.Point(353, 129);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(197, 235);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox1.Location = new System.Drawing.Point(95, 129);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(197, 235);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -238,11 +181,11 @@
             this.panelSiembra.Controls.Add(this.label7);
             this.panelSiembra.Controls.Add(this.label6);
             this.panelSiembra.Controls.Add(this.label5);
-            this.panelSiembra.Controls.Add(this.pictureBox7);
+            this.panelSiembra.Controls.Add(this.pictureB23ox7);
             this.panelSiembra.Controls.Add(this.label4);
             this.panelSiembra.Controls.Add(this.bttSiguiente1);
             this.panelSiembra.Controls.Add(this.bttVolverHome);
-            this.panelSiembra.Location = new System.Drawing.Point(1, 2);
+            this.panelSiembra.Location = new System.Drawing.Point(1, 0);
             this.panelSiembra.Name = "panelSiembra";
             this.panelSiembra.Size = new System.Drawing.Size(884, 511);
             this.panelSiembra.TabIndex = 14;
@@ -254,7 +197,7 @@
             this.panel2Siembra.Controls.Add(this.label15);
             this.panel2Siembra.Controls.Add(this.label16);
             this.panel2Siembra.Controls.Add(this.label20);
-            this.panel2Siembra.Controls.Add(this.pictureBox9);
+            this.panel2Siembra.Controls.Add(this.pictureBfox9);
             this.panel2Siembra.Controls.Add(this.bttSig2);
             this.panel2Siembra.Controls.Add(this.bttRegresar1);
             this.panel2Siembra.Controls.Add(this.label13);
@@ -318,14 +261,14 @@
             this.label20.TabIndex = 14;
             this.label20.Text = "Limpieza del terreno (eliminación de malezas, raíces y piedras).";
             // 
-            // pictureBox9
+            // pictureBfox9
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox9.Location = new System.Drawing.Point(213, 154);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(471, 210);
-            this.pictureBox9.TabIndex = 12;
-            this.pictureBox9.TabStop = false;
+            this.pictureBfox9.BackColor = System.Drawing.Color.Khaki;
+            this.pictureBfox9.Location = new System.Drawing.Point(213, 154);
+            this.pictureBfox9.Name = "pictureBfox9";
+            this.pictureBfox9.Size = new System.Drawing.Size(471, 210);
+            this.pictureBfox9.TabIndex = 12;
+            this.pictureBfox9.TabStop = false;
             // 
             // bttSig2
             // 
@@ -454,14 +397,14 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Clima:";
             // 
-            // pictureBox7
+            // pictureB23ox7
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Khaki;
-            this.pictureBox7.Location = new System.Drawing.Point(176, 134);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(585, 230);
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
+            this.pictureB23ox7.BackColor = System.Drawing.Color.Khaki;
+            this.pictureB23ox7.Location = new System.Drawing.Point(176, 134);
+            this.pictureB23ox7.Name = "pictureB23ox7";
+            this.pictureB23ox7.Size = new System.Drawing.Size(585, 230);
+            this.pictureB23ox7.TabIndex = 3;
+            this.pictureB23ox7.TabStop = false;
             // 
             // label4
             // 
@@ -500,6 +443,66 @@
             this.bttVolverHome.UseVisualStyleBackColor = false;
             this.bttVolverHome.Click += new System.EventHandler(this.button1_Click);
             // 
+            // pictlkureBox6
+            // 
+            this.pictlkureBox6.Image = global::PROYECTOMANGO.Properties.Resources.CosechaMango;
+            this.pictlkureBox6.Location = new System.Drawing.Point(628, 160);
+            this.pictlkureBox6.Name = "pictlkureBox6";
+            this.pictlkureBox6.Size = new System.Drawing.Size(152, 132);
+            this.pictlkureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictlkureBox6.TabIndex = 10;
+            this.pictlkureBox6.TabStop = false;
+            // 
+            // picturejhox5
+            // 
+            this.picturejhox5.Image = global::PROYECTOMANGO.Properties.Resources.FloracionMango;
+            this.picturejhox5.Location = new System.Drawing.Point(377, 160);
+            this.picturejhox5.Name = "picturejhox5";
+            this.picturejhox5.Size = new System.Drawing.Size(152, 132);
+            this.picturejhox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturejhox5.TabIndex = 9;
+            this.picturejhox5.TabStop = false;
+            // 
+            // picturelkuyBox4
+            // 
+            this.picturelkuyBox4.Image = global::PROYECTOMANGO.Properties.Resources.SiembraMango;
+            this.picturelkuyBox4.Location = new System.Drawing.Point(120, 160);
+            this.picturelkuyBox4.Name = "picturelkuyBox4";
+            this.picturelkuyBox4.Size = new System.Drawing.Size(152, 132);
+            this.picturelkuyBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturelkuyBox4.TabIndex = 8;
+            this.picturelkuyBox4.TabStop = false;
+            // 
+            // pictjhgureBox3
+            // 
+            this.pictjhgureBox3.BackColor = System.Drawing.Color.Silver;
+            this.pictjhgureBox3.Location = new System.Drawing.Point(604, 129);
+            this.pictjhgureBox3.Name = "pictjhgureBox3";
+            this.pictjhgureBox3.Size = new System.Drawing.Size(197, 235);
+            this.pictjhgureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictjhgureBox3.TabIndex = 4;
+            this.pictjhgureBox3.TabStop = false;
+            // 
+            // pictureB34rox2
+            // 
+            this.pictureB34rox2.BackColor = System.Drawing.Color.Silver;
+            this.pictureB34rox2.Location = new System.Drawing.Point(353, 129);
+            this.pictureB34rox2.Name = "pictureB34rox2";
+            this.pictureB34rox2.Size = new System.Drawing.Size(197, 235);
+            this.pictureB34rox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureB34rox2.TabIndex = 3;
+            this.pictureB34rox2.TabStop = false;
+            // 
+            // picturkjyteBox1
+            // 
+            this.picturkjyteBox1.BackColor = System.Drawing.Color.Silver;
+            this.picturkjyteBox1.Location = new System.Drawing.Point(95, 129);
+            this.picturkjyteBox1.Name = "picturkjyteBox1";
+            this.picturkjyteBox1.Size = new System.Drawing.Size(197, 235);
+            this.picturkjyteBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturkjyteBox1.TabIndex = 2;
+            this.picturkjyteBox1.TabStop = false;
+            // 
             // ProcProductivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -510,32 +513,33 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictlkureBox6);
+            this.Controls.Add(this.picturejhox5);
+            this.Controls.Add(this.picturelkuyBox4);
             this.Controls.Add(this.bttCosecha);
             this.Controls.Add(this.bttFloracio);
             this.Controls.Add(this.bttSiembra);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictjhgureBox3);
+            this.Controls.Add(this.pictureB34rox2);
+            this.Controls.Add(this.picturkjyteBox1);
             this.Controls.Add(this.lblTituProc);
             this.Controls.Add(this.bttRegreProc);
             this.Name = "ProcProductivo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProcProductivo";
             this.Load += new System.EventHandler(this.ProcProductivo_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelSiembra.ResumeLayout(false);
             this.panelSiembra.PerformLayout();
             this.panel2Siembra.ResumeLayout(false);
             this.panel2Siembra.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBfox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureB23ox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictlkureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturejhox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturelkuyBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictjhgureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureB34rox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturkjyteBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -545,22 +549,22 @@
 
         private System.Windows.Forms.Button bttRegreProc;
         private System.Windows.Forms.Label lblTituProc;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox picturkjyteBox1;
+        private System.Windows.Forms.PictureBox pictureB34rox2;
+        private System.Windows.Forms.PictureBox pictjhgureBox3;
         private System.Windows.Forms.Button bttSiembra;
         private System.Windows.Forms.Button bttFloracio;
         private System.Windows.Forms.Button bttCosecha;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox picturelkuyBox4;
+        private System.Windows.Forms.PictureBox picturejhox5;
+        private System.Windows.Forms.PictureBox pictlkureBox6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panelSiembra;
         private System.Windows.Forms.Button bttSiguiente1;
         private System.Windows.Forms.Button bttVolverHome;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureB23ox7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label9;
@@ -579,6 +583,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox pictureBfox9;
     }
 }
