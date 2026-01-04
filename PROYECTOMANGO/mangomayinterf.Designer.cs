@@ -145,7 +145,7 @@
             this.panelBeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelBeneficios.Location = new System.Drawing.Point(0, 1);
             this.panelBeneficios.Name = "panelBeneficios";
-            this.panelBeneficios.Size = new System.Drawing.Size(810, 428);
+            this.panelBeneficios.Size = new System.Drawing.Size(812, 428);
             this.panelBeneficios.TabIndex = 15;
             // 
             // labjthel16
@@ -341,9 +341,9 @@
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.label5);
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.Recesta);
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.CerrarbtnResetGlaseadoMango);
-            this.panelrecetaGlaseadoMangJengibre.Location = new System.Drawing.Point(1, 483);
+            this.panelrecetaGlaseadoMangJengibre.Location = new System.Drawing.Point(1, 469);
             this.panelrecetaGlaseadoMangJengibre.Name = "panelrecetaGlaseadoMangJengibre";
-            this.panelrecetaGlaseadoMangJengibre.Size = new System.Drawing.Size(951, 476);
+            this.panelrecetaGlaseadoMangJengibre.Size = new System.Drawing.Size(951, 490);
             this.panelrecetaGlaseadoMangJengibre.TabIndex = 8;
             // 
             // picturemjBox12
