@@ -17,7 +17,7 @@ namespace PROYECTOMANGO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Juegomayre1());
+            Application.Run(new LoginForm());
         }
     }
 }

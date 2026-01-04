@@ -683,6 +683,7 @@
             this.Controls.Add(this.panelmay3);
             this.Controls.Add(this.panelfinalmay1);
             this.Name = "Juegomayre1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Juegomayre1";
             this.Load += new System.EventHandler(this.Juegomayre1_Load);
             this.panelfinalmay1.ResumeLayout(false);

@@ -302,7 +302,6 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
-
             // 
             // ttmando0032
             // 
@@ -514,7 +513,7 @@
             this.btnjuegococi.Name = "btnjuegococi";
             this.btnjuegococi.Size = new System.Drawing.Size(120, 46);
             this.btnjuegococi.TabIndex = 10;
-            this.btnjuegococi.Text = "Juego";
+            this.btnjuegococi.Text = "Test";
             this.btnjuegococi.UseVisualStyleBackColor = false;
             this.btnjuegococi.Click += new System.EventHandler(this.btnjuegococi_Click);
             // 
