@@ -131,6 +131,7 @@
             this.pbMango.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbMango.TabIndex = 0;
             this.pbMango.TabStop = false;
+            this.pbMango.Click += new System.EventHandler(this.pbMango_Click);
             // 
             // Cuidatumango098
             // 
