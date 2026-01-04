@@ -36,6 +36,9 @@
     <Reference Include="MySql.Data">
       <HintPath>..\..\..\..\OneDrive\Documentos\MySql.Data.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data %281%29">
+      <HintPath>..\..\..\..\Downloads\MySql.Data (1).dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
