@@ -15,8 +15,6 @@ namespace PROYECTOBETA001
 
         MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=");
 
-
-
         public CreateAccountForm()
         {
             InitializeComponent();

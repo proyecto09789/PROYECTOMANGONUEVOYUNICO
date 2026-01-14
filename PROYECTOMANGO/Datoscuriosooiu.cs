@@ -1,5 +1,4 @@
-﻿using PROYECTOMANGO;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,16 +16,9 @@ namespace PROYECTOBETA001
 
         string[] datos = new string[]
         {
-            "El mango es una drupa: tiene pulpa, piel y una semilla grande.",
-            "El mango se cultiva desde hace más de 5,000 años en India.",
-            "La forma del mango inspiró el patrón paisley en la India.",
-            "Regalar mangos en India es un gesto de amistad.",
-            "Existe una leyenda que dice que Buda meditaba bajo un mango.",
-            "El mango está relacionado con el anacardo y el pistacho.",
-            "Partes del mango se han usado en remedios tradicionales.",
-            "El nombre científico del mango es Mangifera indica.",
-            "Una porción de mango aporta mucha vitamina C.",
-            "El mango es una de las frutas más consumidas del mundo."
+            "El mango es una de las frutas más antiguas del mundo: se cultiva desde hace más de 4.000 años, sobre todo en la India.",
+            "El árbol del mango puede vivir muchísimo: algunos pueden vivir más de 100 años y seguir dando frutos.",
+            "Existe en muchos tipos: hay más de 1.000 variedades de mango en todo el mundo, con distintos tamaños, colores y sabores.",
         };
         public Datoscuriosooi()
         {
@@ -35,7 +27,7 @@ namespace PROYECTOBETA001
         }
         void MostrarDato()
         {
-            txtTexto.Text = datos[indice];
+            labelDatos.Text = datos[indice];
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -49,12 +41,6 @@ namespace PROYECTOBETA001
             {
                 indice++;
                 MostrarDato();
-            }
-            else
-            {
-                FormPreguntas quiz = new FormPreguntas();
-                quiz.Show();
-                this.Hide();
             }
         }
 
@@ -72,11 +58,6 @@ namespace PROYECTOBETA001
             Interfazprinc frme2 = new Interfazprinc(); 
             frme2.Show();
             this.Hide();
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://www.mango.org/");
         }
     }
 }

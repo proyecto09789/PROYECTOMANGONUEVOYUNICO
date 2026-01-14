@@ -341,7 +341,7 @@
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.labelrec5);
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.Recesta);
             this.panelrecetaGlaseadoMangJengibre.Controls.Add(this.CerrarbtnResetGlaseadoMango);
-            this.panelrecetaGlaseadoMangJengibre.Location = new System.Drawing.Point(39, 48);
+            this.panelrecetaGlaseadoMangJengibre.Location = new System.Drawing.Point(1, 483);
             this.panelrecetaGlaseadoMangJengibre.Name = "panelrecetaGlaseadoMangJengibre";
             this.panelrecetaGlaseadoMangJengibre.Size = new System.Drawing.Size(951, 490);
             this.panelrecetaGlaseadoMangJengibre.TabIndex = 8;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOMANGO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,11 +20,13 @@ namespace PROYECTOBETA001
         public Interfazprinc()
         {
             InitializeComponent();
+
+
         }
 
-        private void Interfazprinc_Load(object sender, EventArgs e)
-        {
-
+        private async void Interfazprinc_Load(object sender, EventArgs e)
+        { 
+         
 
         }
            
@@ -64,7 +67,7 @@ namespace PROYECTOBETA001
 
         private void mascotMango_Click(object sender, EventArgs e)
         {
-            Cuidatumango098 VENT10 = new Cuidatumango098();
+            Mangomacomaykel VENT10 = new Mangomacomaykel();
             VENT10.Show();
             this.Hide();
         }

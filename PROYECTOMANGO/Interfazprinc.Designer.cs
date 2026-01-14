@@ -35,7 +35,16 @@
             this.transpvent = new System.Windows.Forms.Button();
             this.Usocunl12 = new System.Windows.Forms.Button();
             this.Btnproduc = new System.Windows.Forms.Button();
-            this.lavdbel1 = new System.Windows.Forms.Label();
+            this.imtra = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imtra)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // labwdel1
@@ -45,7 +54,7 @@
             this.labwdel1.BackColor = System.Drawing.Color.Transparent;
             this.labwdel1.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labwdel1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.labwdel1.Location = new System.Drawing.Point(174, 61);
+            this.labwdel1.Location = new System.Drawing.Point(379, 92);
             this.labwdel1.Name = "labwdel1";
             this.labwdel1.Size = new System.Drawing.Size(505, 23);
             this.labwdel1.TabIndex = 7;
@@ -71,9 +80,9 @@
             this.mascotMango.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mascotMango.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mascotMango.ForeColor = System.Drawing.Color.Khaki;
-            this.mascotMango.Location = new System.Drawing.Point(640, 161);
+            this.mascotMango.Location = new System.Drawing.Point(975, 389);
             this.mascotMango.Name = "mascotMango";
-            this.mascotMango.Size = new System.Drawing.Size(119, 186);
+            this.mascotMango.Size = new System.Drawing.Size(187, 74);
             this.mascotMango.TabIndex = 16;
             this.mascotMango.Text = "Cuieda tu mango";
             this.mascotMango.UseVisualStyleBackColor = false;
@@ -88,9 +97,9 @@
             this.btndatcurios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btndatcurios.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndatcurios.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.btndatcurios.Location = new System.Drawing.Point(106, 161);
+            this.btndatcurios.Location = new System.Drawing.Point(131, 389);
             this.btndatcurios.Name = "btndatcurios";
-            this.btndatcurios.Size = new System.Drawing.Size(119, 186);
+            this.btndatcurios.Size = new System.Drawing.Size(187, 74);
             this.btndatcurios.TabIndex = 11;
             this.btndatcurios.Text = "Datos Curiosos";
             this.btndatcurios.UseVisualStyleBackColor = false;
@@ -100,13 +109,13 @@
             // 
             this.transpvent.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.transpvent.BackColor = System.Drawing.Color.Firebrick;
-            this.transpvent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.transpvent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.transpvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.transpvent.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.transpvent.ForeColor = System.Drawing.Color.Khaki;
-            this.transpvent.Location = new System.Drawing.Point(240, 161);
+            this.transpvent.Location = new System.Drawing.Point(344, 389);
             this.transpvent.Name = "transpvent";
-            this.transpvent.Size = new System.Drawing.Size(119, 186);
+            this.transpvent.Size = new System.Drawing.Size(187, 74);
             this.transpvent.TabIndex = 10;
             this.transpvent.Text = "Transporte y Venta";
             this.transpvent.UseVisualStyleBackColor = false;
@@ -120,9 +129,9 @@
             this.Usocunl12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Usocunl12.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usocunl12.ForeColor = System.Drawing.Color.Khaki;
-            this.Usocunl12.Location = new System.Drawing.Point(374, 161);
+            this.Usocunl12.Location = new System.Drawing.Point(553, 389);
             this.Usocunl12.Name = "Usocunl12";
-            this.Usocunl12.Size = new System.Drawing.Size(119, 186);
+            this.Usocunl12.Size = new System.Drawing.Size(187, 74);
             this.Usocunl12.TabIndex = 9;
             this.Usocunl12.Text = "Usos Culinarios y Beneficios";
             this.Usocunl12.UseVisualStyleBackColor = false;
@@ -136,33 +145,77 @@
             this.Btnproduc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btnproduc.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnproduc.ForeColor = System.Drawing.Color.Khaki;
-            this.Btnproduc.Location = new System.Drawing.Point(507, 161);
+            this.Btnproduc.Location = new System.Drawing.Point(766, 389);
             this.Btnproduc.Name = "Btnproduc";
-            this.Btnproduc.Size = new System.Drawing.Size(119, 186);
+            this.Btnproduc.Size = new System.Drawing.Size(187, 74);
             this.Btnproduc.TabIndex = 2;
             this.Btnproduc.Text = "Proceso Productivo";
             this.Btnproduc.UseVisualStyleBackColor = false;
             this.Btnproduc.Click += new System.EventHandler(this.button1_Click);
             // 
-            // lavdbel1
+            // imtra
             // 
-            this.lavdbel1.AutoSize = true;
-            this.lavdbel1.BackColor = System.Drawing.Color.Transparent;
-            this.lavdbel1.Location = new System.Drawing.Point(116, 171);
-            this.lavdbel1.Name = "lavdbel1";
-            this.lavdbel1.Size = new System.Drawing.Size(78, 13);
-            this.lavdbel1.TabIndex = 17;
-            this.lavdbel1.Text = "Datos Curiosos";
+            this.imtra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
+            this.imtra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imtra.Location = new System.Drawing.Point(344, 209);
+            this.imtra.Name = "imtra";
+            this.imtra.Size = new System.Drawing.Size(187, 189);
+            this.imtra.TabIndex = 17;
+            this.imtra.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__10_;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(553, 209);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(187, 189);
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(131, 209);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(187, 189);
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(766, 209);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(187, 189);
+            this.pictureBox3.TabIndex = 20;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(975, 209);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(187, 189);
+            this.pictureBox4.TabIndex = 21;
+            this.pictureBox4.TabStop = false;
             // 
             // Interfazprinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
-            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources._1766684932931;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__6_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(864, 517);
-            this.Controls.Add(this.lavdbel1);
+            this.ClientSize = new System.Drawing.Size(1274, 579);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.imtra);
             this.Controls.Add(this.mascotMango);
             this.Controls.Add(this.btndatcurios);
             this.Controls.Add(this.transpvent);
@@ -174,6 +227,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Interfazprinc";
             this.Load += new System.EventHandler(this.Interfazprinc_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.imtra)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,6 +245,10 @@
         private System.Windows.Forms.Button transpvent;
         private System.Windows.Forms.Button btndatcurios;
         private System.Windows.Forms.Button mascotMango;
-        private System.Windows.Forms.Label lavdbel1;
+        private System.Windows.Forms.PictureBox imtra;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
