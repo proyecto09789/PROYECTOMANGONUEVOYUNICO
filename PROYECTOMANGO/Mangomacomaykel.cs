@@ -257,5 +257,10 @@ namespace PROYECTOMANGO
         {
 
         }
+
+        private void paneletapacrecimiento3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
