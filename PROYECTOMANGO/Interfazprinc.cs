@@ -76,5 +76,10 @@ namespace PROYECTOBETA001
         {
 
         }
+
+        private void labwdel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

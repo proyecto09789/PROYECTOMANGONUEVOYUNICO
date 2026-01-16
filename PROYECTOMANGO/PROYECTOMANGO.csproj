@@ -318,5 +318,29 @@
   <ItemGroup>
     <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %284%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Titulodatocurioso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transporte y venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usos Culinarios y Beneficios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Proceso Productivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuieda tu mango.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
