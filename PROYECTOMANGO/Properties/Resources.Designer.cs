@@ -273,6 +273,36 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap de_Información_y_Recursos_del {
+            get {
+                object obj = ResourceManager.GetObject("de Información y Recursos del", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap de_Información_y_Recursos_del__1_ {
+            get {
+                object obj = ResourceManager.GetObject("de Información y Recursos del (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap de_Información_y_Recursos_del__2_ {
+            get {
+                object obj = ResourceManager.GetObject("de Información y Recursos del (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap descarga {
             get {
                 object obj = ResourceManager.GetObject("descarga", resourceCulture);

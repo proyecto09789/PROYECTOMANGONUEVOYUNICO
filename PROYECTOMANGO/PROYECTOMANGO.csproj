@@ -342,5 +342,14 @@
   <ItemGroup>
     <None Include="Resources\Cuieda tu mango.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de Información y Recursos del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de Información y Recursos del %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de Información y Recursos del %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
