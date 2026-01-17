@@ -91,6 +91,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(190, 20);
             this.dateTimePicker1.TabIndex = 3;
+
             // 
             // btnCreateAccount
             // 
@@ -123,7 +124,7 @@
             this.cboGender.Name = "cboGender";
             this.cboGender.Size = new System.Drawing.Size(183, 21);
             this.cboGender.TabIndex = 4;
-            this.cboGender.SelectedIndexChanged += new System.EventHandler(this.cboGender_SelectedIndexChanged);
+
             // 
             // txtEmail
             // 

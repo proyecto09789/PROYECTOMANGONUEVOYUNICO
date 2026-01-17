@@ -52,14 +52,16 @@
             // 
             // mascotMango
             // 
-            this.mascotMango.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.mascotMango.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.mascotMango.BackColor = System.Drawing.Color.Firebrick;
             this.mascotMango.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__4_;
             this.mascotMango.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mascotMango.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mascotMango.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mascotMango.ForeColor = System.Drawing.Color.Khaki;
-            this.mascotMango.Location = new System.Drawing.Point(974, 413);
+            this.mascotMango.Location = new System.Drawing.Point(948, 468);
             this.mascotMango.Name = "mascotMango";
             this.mascotMango.Size = new System.Drawing.Size(187, 74);
             this.mascotMango.TabIndex = 16;
@@ -68,7 +70,9 @@
             // 
             // btndatcurios
             // 
-            this.btndatcurios.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btndatcurios.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btndatcurios.BackColor = System.Drawing.Color.Firebrick;
             this.btndatcurios.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__4_;
             this.btndatcurios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -76,7 +80,7 @@
             this.btndatcurios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btndatcurios.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndatcurios.ForeColor = System.Drawing.Color.PapayaWhip;
-            this.btndatcurios.Location = new System.Drawing.Point(130, 413);
+            this.btndatcurios.Location = new System.Drawing.Point(104, 468);
             this.btndatcurios.Name = "btndatcurios";
             this.btndatcurios.Size = new System.Drawing.Size(187, 74);
             this.btndatcurios.TabIndex = 11;
@@ -85,14 +89,16 @@
             // 
             // transpvent
             // 
-            this.transpvent.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.transpvent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.transpvent.BackColor = System.Drawing.Color.Firebrick;
             this.transpvent.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__4_;
             this.transpvent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.transpvent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.transpvent.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.transpvent.ForeColor = System.Drawing.Color.Khaki;
-            this.transpvent.Location = new System.Drawing.Point(343, 413);
+            this.transpvent.Location = new System.Drawing.Point(317, 468);
             this.transpvent.Name = "transpvent";
             this.transpvent.Size = new System.Drawing.Size(187, 74);
             this.transpvent.TabIndex = 10;
@@ -101,14 +107,16 @@
             // 
             // Usocunl12
             // 
-            this.Usocunl12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Usocunl12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Usocunl12.BackColor = System.Drawing.Color.Firebrick;
             this.Usocunl12.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__4_;
             this.Usocunl12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Usocunl12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Usocunl12.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usocunl12.ForeColor = System.Drawing.Color.Khaki;
-            this.Usocunl12.Location = new System.Drawing.Point(552, 413);
+            this.Usocunl12.Location = new System.Drawing.Point(526, 468);
             this.Usocunl12.Name = "Usocunl12";
             this.Usocunl12.Size = new System.Drawing.Size(187, 74);
             this.Usocunl12.TabIndex = 9;
@@ -117,14 +125,16 @@
             // 
             // Btnproduc
             // 
-            this.Btnproduc.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btnproduc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Btnproduc.BackColor = System.Drawing.Color.Firebrick;
             this.Btnproduc.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__4_;
             this.Btnproduc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Btnproduc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btnproduc.Font = new System.Drawing.Font("Cascadia Mono", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnproduc.ForeColor = System.Drawing.Color.Khaki;
-            this.Btnproduc.Location = new System.Drawing.Point(765, 413);
+            this.Btnproduc.Location = new System.Drawing.Point(739, 468);
             this.Btnproduc.Name = "Btnproduc";
             this.Btnproduc.Size = new System.Drawing.Size(187, 74);
             this.Btnproduc.TabIndex = 2;
@@ -133,9 +143,12 @@
             // 
             // imtra
             // 
+            this.imtra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.imtra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
             this.imtra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imtra.Location = new System.Drawing.Point(343, 233);
+            this.imtra.Location = new System.Drawing.Point(317, 291);
             this.imtra.Name = "imtra";
             this.imtra.Size = new System.Drawing.Size(187, 189);
             this.imtra.TabIndex = 17;
@@ -143,9 +156,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__10_;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(552, 233);
+            this.pictureBox1.Location = new System.Drawing.Point(526, 291);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(187, 189);
             this.pictureBox1.TabIndex = 18;
@@ -153,9 +169,12 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__1_;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(130, 233);
+            this.pictureBox2.Location = new System.Drawing.Point(104, 291);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(187, 189);
             this.pictureBox2.TabIndex = 19;
@@ -163,9 +182,12 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__2_;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(765, 233);
+            this.pictureBox3.Location = new System.Drawing.Point(739, 291);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(187, 189);
             this.pictureBox3.TabIndex = 20;
@@ -173,10 +195,13 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__3_;
-            this.pictureBox4.Location = new System.Drawing.Point(974, 233);
+            this.pictureBox4.Location = new System.Drawing.Point(948, 291);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(187, 189);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -185,10 +210,13 @@
             // 
             // texnotit
             // 
+            this.texnotit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.texnotit.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Titulodatocurioso;
             this.texnotit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.texnotit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.texnotit.Location = new System.Drawing.Point(130, 181);
+            this.texnotit.Location = new System.Drawing.Point(104, 239);
             this.texnotit.Name = "texnotit";
             this.texnotit.Size = new System.Drawing.Size(187, 57);
             this.texnotit.TabIndex = 22;
@@ -196,10 +224,13 @@
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.transporte_y_venta;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(343, 181);
+            this.button1.Location = new System.Drawing.Point(317, 239);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(187, 57);
             this.button1.TabIndex = 23;
@@ -207,10 +238,13 @@
             // 
             // button2
             // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Usos_Culinarios_y_Beneficios;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(552, 181);
+            this.button2.Location = new System.Drawing.Point(526, 239);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(187, 57);
             this.button2.TabIndex = 24;
@@ -218,10 +252,14 @@
             // 
             // button3
             // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Proceso_Productivo;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(765, 181);
+            this.button3.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.button3.Location = new System.Drawing.Point(739, 239);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(187, 57);
             this.button3.TabIndex = 25;
@@ -229,10 +267,13 @@
             // 
             // button4
             // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button4.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Cuieda_tu_mango;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Location = new System.Drawing.Point(974, 181);
+            this.button4.Location = new System.Drawing.Point(948, 239);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(187, 57);
             this.button4.TabIndex = 26;
@@ -246,7 +287,7 @@
             this.BackColor = System.Drawing.Color.LemonChiffon;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__6_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1274, 579);
+            this.ClientSize = new System.Drawing.Size(1274, 660);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

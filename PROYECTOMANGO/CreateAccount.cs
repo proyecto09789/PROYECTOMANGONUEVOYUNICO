@@ -22,27 +22,27 @@ namespace PROYECTOBETA001
 
         private void CreateAccount_Load(object sender, EventArgs e)
         {
-            cboGender.Items.Add("Female");
-            cboGender.Items.Add("Male");
+            cboGender.Items.Add("Mujer");
+            cboGender.Items.Add("Hombre");
         }
 
-        private void btnCreateAccount_Click(object sender, EventArgs e)
+        private async void  btnCreateAccount_Click(object sender, EventArgs e)
         {
 
             if (!this.txtEmail.Text.Contains('@') || !this.txtEmail.Text.Contains('.'))
             {
-                MessageBox.Show("Please Enter A Valid Email", "Invalid Email", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, ingrese un correo electrónico válidol", "Correo electrónico inválido", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             if (txtPassword.Text != txtCPassword.Text)
             {
-                MessageBox.Show("Password doesn't match!", "Error");
+                MessageBox.Show("¡La contraseña no coincide!", "Error");
                 return;
             }
 
             if (string.IsNullOrEmpty(txtFName.Text) || string.IsNullOrEmpty(txtLName.Text) || string.IsNullOrEmpty(cboGender.Text) || string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text) || string.IsNullOrEmpty(txtCPassword.Text))
             {
-                MessageBox.Show("Please fill out all information!", "Error");
+                MessageBox.Show("Por favor, complete toda la información!", "Error");
                 return;
             }
 
@@ -60,10 +60,10 @@ namespace PROYECTOBETA001
                 bool userExists = false, mailExists = false;
 
                 using (var dr1 = cmd1.ExecuteReader())
-                    if (userExists = dr1.HasRows) MessageBox.Show("Username not available!");
+                    if (userExists = dr1.HasRows) MessageBox.Show("Usuario no valido");
 
                 using (var dr2 = cmd2.ExecuteReader())
-                    if (mailExists = dr2.HasRows) MessageBox.Show("Email not available!");
+                    if (mailExists = dr2.HasRows) MessageBox.Show("Gmail no valido");
 
 
                 if (!(userExists || mailExists))
@@ -83,7 +83,12 @@ namespace PROYECTOBETA001
                         MessageBox.Show(ex.Message);
                     }
 
-                    MessageBox.Show("Account Successfully Created!");
+                    MessageBox.Show("Cuenta creada exitosamente");
+
+                    await Task.Delay(1500);
+                    LoginForm fr23m4 = new LoginForm();   
+                    fr23m4.Show();
+                    this.Hide();
 
                 }
 
@@ -98,14 +103,12 @@ namespace PROYECTOBETA001
         {
             this.Hide();
             LoginForm frm4 = new LoginForm();
-            frm4.ShowDialog();
+            frm4.Show();
+            this.Hide();
 
 
         }
 
-        private void cboGender_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }

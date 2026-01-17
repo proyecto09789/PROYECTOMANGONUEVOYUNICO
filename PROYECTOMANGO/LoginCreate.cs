@@ -71,7 +71,7 @@ namespace PROYECTOBETA001
                 connection.Close();
             }
         }
-
+/*
         private void HacerBotonRedondeado(Button boton, int radio)
         {
             GraphicsPath path = new GraphicsPath();
@@ -84,7 +84,7 @@ namespace PROYECTOBETA001
 
             path.CloseFigure();
             boton.Region = new Region(path);
-        }
+        }*/
 
 
         private void btnCreate_Click(object sender, EventArgs e)
@@ -122,12 +122,8 @@ namespace PROYECTOBETA001
             HacerBotonRedondeado(btnLogin, 32);*/
             /*________________________________________________________________________________________________________________________________________________________________*/
 
-
-
-
-
-
         }
+        
 
         private async void btnLogin1_Click(object sender, EventArgs e)
         {
