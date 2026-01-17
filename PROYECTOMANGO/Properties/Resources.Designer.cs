@@ -594,6 +594,17 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (" +
+                        "1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__2_ {
             get {
                 object obj = ResourceManager.GetObject("Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (" +

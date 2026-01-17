@@ -352,5 +352,8 @@
   <ItemGroup>
     <None Include="Resources\de Información y Recursos del %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %281%291.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

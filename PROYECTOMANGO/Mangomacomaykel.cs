@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOBETA001;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -261,6 +262,15 @@ namespace PROYECTOMANGO
         private void paneletapacrecimiento3_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private async void btnnMenu12_Click(object sender, EventArgs e)
+        {
+            Interfazprinc pag10 = new Interfazprinc();
+            pag10.Show();
+            this.Hide();
+
+            await Task.Delay(2000);
         }
     }
 }

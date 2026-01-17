@@ -81,5 +81,15 @@ namespace PROYECTOBETA001
         {
 
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void titelprdu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

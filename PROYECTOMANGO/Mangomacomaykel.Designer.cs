@@ -59,6 +59,7 @@
             this.lblVidaValor = new System.Windows.Forms.Label();
             this.lblNivel = new System.Windows.Forms.Label();
             this.lblexpr = new System.Windows.Forms.Label();
+            this.btnnMenu12 = new System.Windows.Forms.Button();
             this.panelmaymas1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.manf1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.manf2)).BeginInit();
@@ -433,11 +434,25 @@
             this.lblexpr.Text = "Experiencia: 0/100";
             this.lblexpr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnnMenu12
+            // 
+            this.btnnMenu12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnnMenu12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnnMenu12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnMenu12.Location = new System.Drawing.Point(641, 9);
+            this.btnnMenu12.Name = "btnnMenu12";
+            this.btnnMenu12.Size = new System.Drawing.Size(64, 28);
+            this.btnnMenu12.TabIndex = 24;
+            this.btnnMenu12.Text = "MENU";
+            this.btnnMenu12.UseVisualStyleBackColor = false;
+            this.btnnMenu12.Click += new System.EventHandler(this.btnnMenu12_Click);
+            // 
             // Mangomacomaykel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(717, 597);
+            this.Controls.Add(this.btnnMenu12);
             this.Controls.Add(this.paneletapacrecimiento3);
             this.Controls.Add(this.progresspbVida);
             this.Controls.Add(this.lblEnergiaTitulo);
@@ -505,5 +520,6 @@
         private System.Windows.Forms.Button btnRegar03;
         private System.Windows.Forms.Button btnAlimentar03;
         private System.Windows.Forms.PictureBox plantitacreceetapa3p0;
+        private System.Windows.Forms.Button btnnMenu12;
     }
 }
