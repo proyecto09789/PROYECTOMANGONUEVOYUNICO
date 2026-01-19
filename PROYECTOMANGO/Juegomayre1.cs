@@ -18,7 +18,6 @@ namespace PROYECTOMANGO
      
            
         
-
         private int puntuacion = 0;
         private int preguntaActual = 0;
         private int Repuestacorrecta = 0;
@@ -97,6 +96,7 @@ namespace PROYECTOMANGO
             panelmay2.Location = new Point(38, 98);
             panelmay2.Visible = true;    // Vuelve a mostrar el panel
             lblnumpre.Text = $"{preguntaActual + 1}";
+
 
 
 
@@ -412,7 +412,7 @@ namespace PROYECTOMANGO
 
             await Task.Delay(1500);   // Espera 2 segundos (1500 ms)
             labelcorrect2.Text = "";
-            btnopm4.Enabled = true;
+            btnopm5.Enabled = true;
             panelmay2.Visible = false;    // Oculta el panel
             panelmay3.Location = new Point(38, 98);
             panelmay3.Visible = true;    // Vuelve a mostrar el panel
@@ -429,7 +429,7 @@ namespace PROYECTOMANGO
 
             await Task.Delay(1500);   // Espera 2 segundos (1500 ms)
             labelcorrect2.Text = "";
-            btnopm4.Enabled = true;
+            btnopm7.Enabled = true;
             panelmay2.Visible = false;    // Oculta el panel
             panelmay3.Location = new Point(38, 98);
             panelmay3.Visible = true;    // Vuelve a mostrar el panel
@@ -446,7 +446,7 @@ namespace PROYECTOMANGO
 
             await Task.Delay(1500);   // Espera 2 segundos (1500 ms)
             labelcorrect2.Text = "";
-            btnopm4.Enabled = true;
+            btnopm8.Enabled = true;
             panelmay2.Visible = false;    // Oculta el panel
             panelmay3.Location = new Point(38, 98);
             panelmay3.Visible = true;    // Vuelve a mostrar el panel

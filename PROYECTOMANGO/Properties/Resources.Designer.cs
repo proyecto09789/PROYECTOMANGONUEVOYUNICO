@@ -443,6 +443,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap FONDOMASCOTA {
+            get {
+                object obj = ResourceManager.GetObject("FONDOMASCOTA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap hechar_nutr {
             get {
                 object obj = ResourceManager.GetObject("hechar nutr", resourceCulture);
