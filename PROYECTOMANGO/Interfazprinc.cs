@@ -163,5 +163,39 @@ namespace PROYECTOBETA001
             VENT10.Show();
             this.Hide();
         }
+
+        private void lbdatoscurioso_Click(object sender, EventArgs e)
+        {
+            Datoscuriosooi frme2f = new Datoscuriosooi();
+            frme2f.Show();
+            this.Hide();
+        }
+
+        private void titelprdu1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbusoculinarioybeneficios_Click(object sender, EventArgs e)
+        {
+            mangomayinterf hg46 = new mangomayinterf();
+            hg46.Show();
+            this.Hide();
+        }
+
+        private void lbprocesoproductivo_Click(object sender, EventArgs e)
+        {
+
+            ProcProductivo f23s = new ProcProductivo();
+            f23s.Show();
+            this.Hide();
+        }
+
+        private void lbcuidatumango_Click(object sender, EventArgs e)
+        {
+            Mangomacomaykel VENT10 = new Mangomacomaykel();
+            VENT10.Show();
+            this.Hide();
+        }
     }
 }

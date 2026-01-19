@@ -30,11 +30,6 @@ namespace PROYECTOBETA001
         /// </summary>
         private void InitializeComponent()
         {
-            this.titelprdu4 = new System.Windows.Forms.PictureBox();
-            this.titelprdu3 = new System.Windows.Forms.PictureBox();
-            this.titelprdu2 = new System.Windows.Forms.PictureBox();
-            this.titelprdu1 = new System.Windows.Forms.PictureBox();
-            this.titelprdu = new System.Windows.Forms.PictureBox();
             this.fotocuidatumango1 = new System.Windows.Forms.PictureBox();
             this.fotoprocesoproductivo = new System.Windows.Forms.PictureBox();
             this.fotodatocuriso1 = new System.Windows.Forms.PictureBox();
@@ -42,11 +37,11 @@ namespace PROYECTOBETA001
             this.imtra = new System.Windows.Forms.PictureBox();
             this.progressVidaMascota = new System.Windows.Forms.ProgressBar();
             this.lblVidaMascota = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu)).BeginInit();
+            this.lbdatoscurioso = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbusoculinarioybeneficios = new System.Windows.Forms.Label();
+            this.lbprocesoproductivo = new System.Windows.Forms.Label();
+            this.lbcuidatumango = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fotocuidatumango1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotoprocesoproductivo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotodatocuriso1)).BeginInit();
@@ -54,77 +49,16 @@ namespace PROYECTOBETA001
             ((System.ComponentModel.ISupportInitialize)(this.imtra)).BeginInit();
             this.SuspendLayout();
             // 
-            // titelprdu4
-            // 
-            this.titelprdu4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.titelprdu4.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOCUIGATUMANGO;
-            this.titelprdu4.Location = new System.Drawing.Point(1016, 209);
-            this.titelprdu4.Name = "titelprdu4";
-            this.titelprdu4.Size = new System.Drawing.Size(224, 90);
-            this.titelprdu4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.titelprdu4.TabIndex = 32;
-            this.titelprdu4.TabStop = false;
-            this.titelprdu4.Click += new System.EventHandler(this.titelprdu4_Click);
-            // 
-            // titelprdu3
-            // 
-            this.titelprdu3.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOPROCESOPRODUCTIVO;
-            this.titelprdu3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.titelprdu3.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOPROCESOPRODUCTIVO;
-            this.titelprdu3.Location = new System.Drawing.Point(770, 209);
-            this.titelprdu3.Name = "titelprdu3";
-            this.titelprdu3.Size = new System.Drawing.Size(224, 90);
-            this.titelprdu3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.titelprdu3.TabIndex = 31;
-            this.titelprdu3.TabStop = false;
-            this.titelprdu3.Click += new System.EventHandler(this.titelprdu3_Click);
-            // 
-            // titelprdu2
-            // 
-            this.titelprdu2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.titelprdu2.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOUSOSCULINARIOSYBENEFICIOS;
-            this.titelprdu2.Location = new System.Drawing.Point(526, 209);
-            this.titelprdu2.Name = "titelprdu2";
-            this.titelprdu2.Size = new System.Drawing.Size(224, 90);
-            this.titelprdu2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.titelprdu2.TabIndex = 30;
-            this.titelprdu2.TabStop = false;
-            this.titelprdu2.Click += new System.EventHandler(this.titelprdu2_Click);
-            // 
-            // titelprdu1
-            // 
-            this.titelprdu1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.titelprdu1.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONOTRANSPORTEYVENTAS;
-            this.titelprdu1.Location = new System.Drawing.Point(280, 209);
-            this.titelprdu1.Name = "titelprdu1";
-            this.titelprdu1.Size = new System.Drawing.Size(224, 90);
-            this.titelprdu1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.titelprdu1.TabIndex = 29;
-            this.titelprdu1.TabStop = false;
-            // 
-            // titelprdu
-            // 
-            this.titelprdu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.titelprdu.Image = global::PROYECTOMANGO.Properties.Resources.TUTULOINCONODATOSCURISOS;
-            this.titelprdu.Location = new System.Drawing.Point(37, 209);
-            this.titelprdu.Name = "titelprdu";
-            this.titelprdu.Size = new System.Drawing.Size(224, 90);
-            this.titelprdu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.titelprdu.TabIndex = 28;
-            this.titelprdu.TabStop = false;
-            this.titelprdu.Click += new System.EventHandler(this.titelprdu_Click);
-            // 
             // fotocuidatumango1
             // 
             this.fotocuidatumango1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.fotocuidatumango1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__8_;
             this.fotocuidatumango1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.fotocuidatumango1.Image = global::PROYECTOMANGO.Properties.Resources.INCONOCUIDATUMANGO;
-            this.fotocuidatumango1.Location = new System.Drawing.Point(1016, 291);
+            this.fotocuidatumango1.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_224115;
+            this.fotocuidatumango1.Location = new System.Drawing.Point(1016, 267);
             this.fotocuidatumango1.Name = "fotocuidatumango1";
-            this.fotocuidatumango1.Size = new System.Drawing.Size(224, 251);
+            this.fotocuidatumango1.Size = new System.Drawing.Size(224, 275);
             this.fotocuidatumango1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotocuidatumango1.TabIndex = 21;
             this.fotocuidatumango1.TabStop = false;
@@ -135,12 +69,11 @@ namespace PROYECTOBETA001
             this.fotoprocesoproductivo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.fotoprocesoproductivo.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Sistema_Integral_de_Información_y_Recursos_del_Mango__SIIREM__Cultivo_y_Cosecha__2_;
             this.fotoprocesoproductivo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.fotoprocesoproductivo.Image = global::PROYECTOMANGO.Properties.Resources.INCONOPROCESOPRODUCTIVO;
-            this.fotoprocesoproductivo.Location = new System.Drawing.Point(770, 291);
+            this.fotoprocesoproductivo.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_224014;
+            this.fotoprocesoproductivo.Location = new System.Drawing.Point(770, 267);
             this.fotoprocesoproductivo.Name = "fotoprocesoproductivo";
-            this.fotoprocesoproductivo.Size = new System.Drawing.Size(224, 251);
+            this.fotoprocesoproductivo.Size = new System.Drawing.Size(224, 275);
             this.fotoprocesoproductivo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotoprocesoproductivo.TabIndex = 20;
             this.fotoprocesoproductivo.TabStop = false;
@@ -151,11 +84,12 @@ namespace PROYECTOBETA001
             this.fotodatocuriso1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.fotodatocuriso1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.INCONODEDATODCURIOSO;
             this.fotodatocuriso1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.fotodatocuriso1.Location = new System.Drawing.Point(37, 291);
+            this.fotodatocuriso1.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_223617;
+            this.fotodatocuriso1.Location = new System.Drawing.Point(37, 267);
             this.fotodatocuriso1.Name = "fotodatocuriso1";
-            this.fotodatocuriso1.Size = new System.Drawing.Size(224, 251);
+            this.fotodatocuriso1.Size = new System.Drawing.Size(224, 275);
+            this.fotodatocuriso1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotodatocuriso1.TabIndex = 19;
             this.fotodatocuriso1.TabStop = false;
             this.fotodatocuriso1.Click += new System.EventHandler(this.fotodatocuriso1_Click);
@@ -165,12 +99,11 @@ namespace PROYECTOBETA001
             this.fotousoculinario1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.fotousoculinario1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Coffee_Please__10_;
             this.fotousoculinario1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.fotousoculinario1.Image = global::PROYECTOMANGO.Properties.Resources.INCONOUSOCULINARIOYBENEFICIO;
-            this.fotousoculinario1.Location = new System.Drawing.Point(526, 291);
+            this.fotousoculinario1.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_223926;
+            this.fotousoculinario1.Location = new System.Drawing.Point(526, 267);
             this.fotousoculinario1.Name = "fotousoculinario1";
-            this.fotousoculinario1.Size = new System.Drawing.Size(224, 251);
+            this.fotousoculinario1.Size = new System.Drawing.Size(224, 275);
             this.fotousoculinario1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotousoculinario1.TabIndex = 18;
             this.fotousoculinario1.TabStop = false;
@@ -181,11 +114,12 @@ namespace PROYECTOBETA001
             this.imtra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.imtra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.INCONODETRANSPORTEYVENTA;
             this.imtra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.imtra.Location = new System.Drawing.Point(280, 291);
+            this.imtra.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_223846;
+            this.imtra.Location = new System.Drawing.Point(280, 267);
             this.imtra.Name = "imtra";
-            this.imtra.Size = new System.Drawing.Size(224, 251);
+            this.imtra.Size = new System.Drawing.Size(224, 275);
+            this.imtra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imtra.TabIndex = 17;
             this.imtra.TabStop = false;
             // 
@@ -207,34 +141,88 @@ namespace PROYECTOBETA001
             this.lblVidaMascota.Text = "Vida de tu Mangito: 100";
             this.lblVidaMascota.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // lbdatoscurioso
+            // 
+            this.lbdatoscurioso.BackColor = System.Drawing.Color.Khaki;
+            this.lbdatoscurioso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbdatoscurioso.Location = new System.Drawing.Point(37, 209);
+            this.lbdatoscurioso.Name = "lbdatoscurioso";
+            this.lbdatoscurioso.Size = new System.Drawing.Size(224, 73);
+            this.lbdatoscurioso.TabIndex = 36;
+            this.lbdatoscurioso.Text = "Datos Curioso";
+            this.lbdatoscurioso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbdatoscurioso.Click += new System.EventHandler(this.lbdatoscurioso_Click);
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Khaki;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(280, 209);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(224, 73);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "Transporte y Venta";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbusoculinarioybeneficios
+            // 
+            this.lbusoculinarioybeneficios.BackColor = System.Drawing.Color.Khaki;
+            this.lbusoculinarioybeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbusoculinarioybeneficios.Location = new System.Drawing.Point(526, 209);
+            this.lbusoculinarioybeneficios.Name = "lbusoculinarioybeneficios";
+            this.lbusoculinarioybeneficios.Size = new System.Drawing.Size(224, 73);
+            this.lbusoculinarioybeneficios.TabIndex = 38;
+            this.lbusoculinarioybeneficios.Text = "Usos Culinarios y Beneficios";
+            this.lbusoculinarioybeneficios.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbusoculinarioybeneficios.Click += new System.EventHandler(this.lbusoculinarioybeneficios_Click);
+            // 
+            // lbprocesoproductivo
+            // 
+            this.lbprocesoproductivo.BackColor = System.Drawing.Color.Khaki;
+            this.lbprocesoproductivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbprocesoproductivo.Location = new System.Drawing.Point(770, 209);
+            this.lbprocesoproductivo.Name = "lbprocesoproductivo";
+            this.lbprocesoproductivo.Size = new System.Drawing.Size(224, 73);
+            this.lbprocesoproductivo.TabIndex = 39;
+            this.lbprocesoproductivo.Text = "Proceso Productivo";
+            this.lbprocesoproductivo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbprocesoproductivo.Click += new System.EventHandler(this.lbprocesoproductivo_Click);
+            // 
+            // lbcuidatumango
+            // 
+            this.lbcuidatumango.BackColor = System.Drawing.Color.Khaki;
+            this.lbcuidatumango.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbcuidatumango.Location = new System.Drawing.Point(1016, 209);
+            this.lbcuidatumango.Name = "lbcuidatumango";
+            this.lbcuidatumango.Size = new System.Drawing.Size(224, 73);
+            this.lbcuidatumango.TabIndex = 40;
+            this.lbcuidatumango.Text = "Cuida tu mango";
+            this.lbcuidatumango.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbcuidatumango.Click += new System.EventHandler(this.lbcuidatumango_Click);
+            // 
             // Interfazprinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
-            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDO_INTERFAZ;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.de_Información_y_Recursos_del__1950_x_1150_px_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1274, 660);
+            this.Controls.Add(this.lbcuidatumango);
+            this.Controls.Add(this.lbprocesoproductivo);
+            this.Controls.Add(this.lbusoculinarioybeneficios);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbdatoscurioso);
             this.Controls.Add(this.fotocuidatumango1);
             this.Controls.Add(this.fotoprocesoproductivo);
             this.Controls.Add(this.fotousoculinario1);
             this.Controls.Add(this.fotodatocuriso1);
-            this.Controls.Add(this.titelprdu4);
-            this.Controls.Add(this.titelprdu3);
-            this.Controls.Add(this.titelprdu2);
-            this.Controls.Add(this.titelprdu);
             this.Controls.Add(this.imtra);
             this.Controls.Add(this.progressVidaMascota);
             this.Controls.Add(this.lblVidaMascota);
-            this.Controls.Add(this.titelprdu1);
             this.Name = "Interfazprinc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Interfazprinc";
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.titelprdu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotocuidatumango1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotoprocesoproductivo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotodatocuriso1)).EndInit();
@@ -250,12 +238,12 @@ namespace PROYECTOBETA001
         private System.Windows.Forms.PictureBox fotodatocuriso1;
         private System.Windows.Forms.PictureBox fotoprocesoproductivo;
         private System.Windows.Forms.PictureBox fotocuidatumango1;
-        private System.Windows.Forms.PictureBox titelprdu;
-        private System.Windows.Forms.PictureBox titelprdu1;
-        private System.Windows.Forms.PictureBox titelprdu2;
-        private System.Windows.Forms.PictureBox titelprdu3;
-        private System.Windows.Forms.PictureBox titelprdu4;
         private System.Windows.Forms.ProgressBar progressVidaMascota;
         private System.Windows.Forms.Label lblVidaMascota;
+        private System.Windows.Forms.Label lbdatoscurioso;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbusoculinarioybeneficios;
+        private System.Windows.Forms.Label lbprocesoproductivo;
+        private System.Windows.Forms.Label lbcuidatumango;
     }
 }

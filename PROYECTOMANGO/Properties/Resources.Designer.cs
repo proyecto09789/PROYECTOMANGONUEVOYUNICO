@@ -113,6 +113,56 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Captura_de_pantalla_2026_01_18_223617 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-01-18 223617", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Captura_de_pantalla_2026_01_18_223846 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-01-18 223846", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Captura_de_pantalla_2026_01_18_223926 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-01-18 223926", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Captura_de_pantalla_2026_01_18_224014 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-01-18 224014", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Captura_de_pantalla_2026_01_18_224115 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2026-01-18 224115", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Coffee_Please__1_ {
             get {
                 object obj = ResourceManager.GetObject("Coffee Please (1)", resourceCulture);
@@ -303,6 +353,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap de_Información_y_Recursos_del__1950_x_1150_px_ {
+            get {
+                object obj = ResourceManager.GetObject("de Información y Recursos del (1950 x 1150 px)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap de_Información_y_Recursos_del__2_ {
             get {
                 object obj = ResourceManager.GetObject("de Información y Recursos del (2)", resourceCulture);
@@ -426,6 +486,16 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap FONDOINTERFAACTUALIZADO {
             get {
                 object obj = ResourceManager.GetObject("FONDOINTERFAACTUALIZADO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap FONDOINTERFANUEVO {
+            get {
+                object obj = ResourceManager.GetObject("FONDOINTERFANUEVO", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -606,6 +676,16 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap mangoFondo1 {
             get {
                 object obj = ResourceManager.GetObject("mangoFondo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap MSGOINCONOBENEFIINTER {
+            get {
+                object obj = ResourceManager.GetObject("MSGOINCONOBENEFIINTER", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -431,5 +431,29 @@
   <ItemGroup>
     <None Include="Resources\FONDPINTERMAYK.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDOINTERFANUEVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSGOINCONOBENEFIINTER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de Información y Recursos del %281950 x 1150 px%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-01-18 223617.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-01-18 223846.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-01-18 223926.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-01-18 224014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2026-01-18 224115.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -418,8 +418,9 @@
             // panelBeneficios
             // 
             this.panelBeneficios.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panelBeneficios.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDPINTERMAYK;
+            this.panelBeneficios.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDOINTERFANUEVO;
             this.panelBeneficios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelBeneficios.Controls.Add(this.labjthel16);
             this.panelBeneficios.Controls.Add(this.pictureBjhox13);
             this.panelBeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelBeneficios.Location = new System.Drawing.Point(0, 1);
@@ -429,11 +430,11 @@
             // 
             // labjthel16
             // 
-            this.labjthel16.AutoSize = true;
+            this.labjthel16.BackColor = System.Drawing.Color.Transparent;
             this.labjthel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labjthel16.Location = new System.Drawing.Point(1022, 152);
+            this.labjthel16.Location = new System.Drawing.Point(462, 148);
             this.labjthel16.Name = "labjthel16";
-            this.labjthel16.Size = new System.Drawing.Size(249, 144);
+            this.labjthel16.Size = new System.Drawing.Size(249, 191);
             this.labjthel16.TabIndex = 2;
             this.labjthel16.Text = "- Rico en vitamina C y A\r\n\r\n- Buena fuente de antioxidantes\r\n\r\n- Refuerza el sist" +
     "ema inmunológico\r\n\r\n- Favorece la digestión\r\n\r\n- Promueve la salud ocular";
@@ -442,9 +443,11 @@
             // 
             this.pictureBjhox13.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.dfg;
             this.pictureBjhox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBjhox13.Location = new System.Drawing.Point(121, 143);
+            this.pictureBjhox13.Image = global::PROYECTOMANGO.Properties.Resources.MSGOINCONOBENEFIINTER;
+            this.pictureBjhox13.Location = new System.Drawing.Point(88, 134);
             this.pictureBjhox13.Name = "pictureBjhox13";
-            this.pictureBjhox13.Size = new System.Drawing.Size(201, 196);
+            this.pictureBjhox13.Size = new System.Drawing.Size(282, 214);
+            this.pictureBjhox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBjhox13.TabIndex = 1;
             this.pictureBjhox13.TabStop = false;
             // 
@@ -548,8 +551,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 510);
-            this.Controls.Add(this.labjthel16);
+            this.ClientSize = new System.Drawing.Size(951, 510);
             this.Controls.Add(this.panelrecetaGlaseadoMangJengibre);
             this.Controls.Add(this.btnjuegococi);
             this.Controls.Add(this.paneldelusoculinario);
@@ -583,7 +585,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictmjtdureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
