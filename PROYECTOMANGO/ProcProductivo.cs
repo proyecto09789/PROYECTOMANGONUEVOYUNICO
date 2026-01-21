@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOMANGO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +21,9 @@ namespace PROYECTOBETA001
 
         private void bttSiembra_Click(object sender, EventArgs e)
         {
-            panelSiembra.Visible = true;
+            SiembraForm siembraForm = new SiembraForm();
+            siembraForm.Show();
+            this.Hide();
         }
 
         private void label12_Click(object sender, EventArgs e)
@@ -30,19 +33,17 @@ namespace PROYECTOBETA001
 
         private void button1_Click(object sender, EventArgs e)
         {
-            panelSiembra.Visible = false;
-            panel2Siembra.Visible = false;
+           
         }
 
         private void bttSiguiente1_Click(object sender, EventArgs e)
         {
-            panel2Siembra.Visible = true;
+            
         }
 
         private void bttRegresar1_Click(object sender, EventArgs e)
         {
-            panel2Siembra.Visible = false;
-            panelSiembra.Visible = true;
+         
         }
 
         private void bttSig2_Click(object sender, EventArgs e)
@@ -52,8 +53,7 @@ namespace PROYECTOBETA001
 
         private void ProcProductivo_Load(object sender, EventArgs e)
         {
-            panelSiembra.Visible = false;
-            panel2Siembra.Visible = false;
+           
         }
 
         private void bttRegreProc_Click(object sender, EventArgs e)
@@ -62,6 +62,20 @@ namespace PROYECTOBETA001
             f23fws.Show();
             this.Hide();
 
+        }
+
+        private void bttFloracio_Click(object sender, EventArgs e)
+        {
+            FloracionForm floracionForm = new FloracionForm();
+            floracionForm.Show();
+            this.Hide();
+        }
+
+        private void bttCosecha_Click(object sender, EventArgs e)
+        {
+            CosechaForm cosechaForm = new CosechaForm();
+            cosechaForm.Show();
+            this.Hide();
         }
     }
 }
