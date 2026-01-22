@@ -563,6 +563,26 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap Gemini_Generated_Image_booz9dbooz9dbooz {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_booz9dbooz9dbooz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Gemini_Generated_Image_ug0szfug0szfug0s {
+            get {
+                object obj = ResourceManager.GetObject("Gemini_Generated_Image_ug0szfug0szfug0s", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap hechar_nutr {
             get {
                 object obj = ResourceManager.GetObject("hechar nutr", resourceCulture);

@@ -1,7 +1,9 @@
-﻿using System;
+﻿using PROYECTOMANGO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,9 +18,16 @@ namespace PROYECTOBETA001
 
         string[] datos = new string[]
         {
-            "El mango es una de las frutas más antiguas del mundo: se cultiva desde hace más de 4.000 años, sobre todo en la India.",
-            "El árbol del mango puede vivir muchísimo: algunos pueden vivir más de 100 años y seguir dando frutos.",
-            "Existe en muchos tipos: hay más de 1.000 variedades de mango en todo el mundo, con distintos tamaños, colores y sabores.",
+            "El mango es una fruta tropical originaria del sur de Asia.",
+            "Existen más de 1,000 variedades de mango en todo el mundo.",
+            "El mango es una drupa, igual que el durazno.",
+            "Es rico en vitamina C y vitamina A.",
+            "Un árbol de mango puede vivir más de 100 años.",
+            "India es el mayor productor de mango del mundo.",
+            "El mango ayuda a la digestión.",
+            "Su semilla es muy grande en comparación con otras frutas.",
+            "El mango es conocido como el rey de las frutas.",
+            "El mango crece en climas tropicales."
         };
         public Datoscuriosooi()
         {
@@ -27,7 +36,8 @@ namespace PROYECTOBETA001
         }
         void MostrarDato()
         {
-            labelDatos.Text = datos[indice];
+            txtDatos.Text = datos[indice];
+            lblContador.Text = $"Dato {indice + 1} de {datos.Length}";
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -42,7 +52,13 @@ namespace PROYECTOBETA001
                 indice++;
                 MostrarDato();
             }
-        }
+            else
+            {
+                FormPreguntas fp = new FormPreguntas();
+                fp.Show();
+                this.Close();
+            }
+            }
 
         private void bntAnterio_Click(object sender, EventArgs e)
         {
@@ -58,6 +74,15 @@ namespace PROYECTOBETA001
             Interfazprinc frme2 = new Interfazprinc(); 
             frme2.Show();
             this.Hide();
+        }
+
+        private void LinkFuentes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://www.mango.org/mango-facts/",
+                UseShellExecute = true
+            });
         }
     }
 }
