@@ -40,7 +40,8 @@
             // lblPreguntas
             // 
             this.lblPreguntas.AutoSize = true;
-            this.lblPreguntas.BackColor = System.Drawing.Color.Transparent;
+            this.lblPreguntas.BackColor = System.Drawing.Color.Silver;
+            this.lblPreguntas.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblPreguntas.Location = new System.Drawing.Point(49, 132);
             this.lblPreguntas.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblPreguntas.Name = "lblPreguntas";
@@ -51,7 +52,8 @@
             // lblContador
             // 
             this.lblContador.AutoSize = true;
-            this.lblContador.BackColor = System.Drawing.Color.Transparent;
+            this.lblContador.BackColor = System.Drawing.Color.Silver;
+            this.lblContador.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblContador.Location = new System.Drawing.Point(71, 450);
             this.lblContador.Name = "lblContador";
             this.lblContador.Size = new System.Drawing.Size(79, 33);
@@ -61,47 +63,54 @@
             // labelTitulo
             // 
             this.labelTitulo.AutoSize = true;
-            this.labelTitulo.BackColor = System.Drawing.Color.Transparent;
-            this.labelTitulo.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitulo.Location = new System.Drawing.Point(237, 9);
+            this.labelTitulo.BackColor = System.Drawing.Color.Silver;
+            this.labelTitulo.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitulo.ForeColor = System.Drawing.Color.DarkGreen;
+            this.labelTitulo.Location = new System.Drawing.Point(186, 9);
             this.labelTitulo.Name = "labelTitulo";
-            this.labelTitulo.Size = new System.Drawing.Size(314, 58);
+            this.labelTitulo.Size = new System.Drawing.Size(330, 60);
             this.labelTitulo.TabIndex = 2;
-            this.labelTitulo.Text = "Pon a prueba tus conocimeintos\r\n                 del mango";
+            this.labelTitulo.Text = "Pon a prueba tus conocimeintos\r\n              del mango";
             this.labelTitulo.Click += new System.EventHandler(this.labelTitulo_Click);
             // 
             // rbOpcion1
             // 
             this.rbOpcion1.AutoSize = true;
+            this.rbOpcion1.BackColor = System.Drawing.Color.Silver;
+            this.rbOpcion1.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion1.Location = new System.Drawing.Point(136, 220);
             this.rbOpcion1.Name = "rbOpcion1";
             this.rbOpcion1.Size = new System.Drawing.Size(174, 37);
             this.rbOpcion1.TabIndex = 3;
             this.rbOpcion1.TabStop = true;
             this.rbOpcion1.Text = "radioButton1";
-            this.rbOpcion1.UseVisualStyleBackColor = true;
+            this.rbOpcion1.UseVisualStyleBackColor = false;
             // 
             // rbOpcion2
             // 
             this.rbOpcion2.AutoSize = true;
+            this.rbOpcion2.BackColor = System.Drawing.Color.Silver;
+            this.rbOpcion2.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion2.Location = new System.Drawing.Point(136, 263);
             this.rbOpcion2.Name = "rbOpcion2";
             this.rbOpcion2.Size = new System.Drawing.Size(178, 37);
             this.rbOpcion2.TabIndex = 4;
             this.rbOpcion2.TabStop = true;
             this.rbOpcion2.Text = "radioButton2";
-            this.rbOpcion2.UseVisualStyleBackColor = true;
+            this.rbOpcion2.UseVisualStyleBackColor = false;
             // 
             // rbOpcion3
             // 
             this.rbOpcion3.AutoSize = true;
+            this.rbOpcion3.BackColor = System.Drawing.Color.Silver;
+            this.rbOpcion3.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion3.Location = new System.Drawing.Point(136, 306);
             this.rbOpcion3.Name = "rbOpcion3";
             this.rbOpcion3.Size = new System.Drawing.Size(178, 37);
             this.rbOpcion3.TabIndex = 5;
             this.rbOpcion3.TabStop = true;
             this.rbOpcion3.Text = "radioButton3";
-            this.rbOpcion3.UseVisualStyleBackColor = true;
+            this.rbOpcion3.UseVisualStyleBackColor = false;
             // 
             // btnResponder
             // 

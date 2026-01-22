@@ -15,6 +15,7 @@ namespace PROYECTOMANGO
     {
         int indice = 0;
         int puntos = 0;
+        bool[] respuestasUsuario;
 
         string[] preguntas =
         {
@@ -48,6 +49,7 @@ namespace PROYECTOMANGO
         public FormPreguntas()
         {
             InitializeComponent();
+            respuestasUsuario = new bool[preguntas.Length];
             MostrarPreguntas();
         }
 
@@ -67,23 +69,28 @@ namespace PROYECTOMANGO
             int seleccion = -1;
 
             if (rbOpcion1.Checked) seleccion = 0;
-            if (rbOpcion2.Checked) seleccion = 1;
-            if (rbOpcion3.Checked) seleccion = 2;
-
+            else if (rbOpcion2.Checked) seleccion = 1;
+            else if (rbOpcion3.Checked) seleccion = 2;
+        
             if (seleccion == -1)
             {
-                MessageBox.Show("Selecciona una opción");
+                MessageBox.Show(
+                    "Por favor selecciona una opción antes de continuar.",
+                    "Aviso",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                    );
                 return;
             }
 
             if (seleccion == respuestasCorrectas[indice])
             {
                 puntos++;
-                MessageBox.Show("¡Correcto! :D");
+                respuestasUsuario[indice] = true;
             }
             else
             {
-                MessageBox.Show("Incorrecto :(");
+                respuestasUsuario[indice] = false;
             }
 
             indice++;
@@ -94,11 +101,15 @@ namespace PROYECTOMANGO
             }
             else
             {
-                MessageBox.Show($"Quiz terminado\nPuntaje: {puntos} / {preguntas.Length}");
+                FormResultados fr = new FormResultados(
+                    preguntas,
+                    opciones,
+                    respuestasCorrectas,
+                    respuestasUsuario,
+                    puntos
+                );
 
-                // Volver al inicio
-                Interfazprinc f = new Interfazprinc();
-                f.Show();
+                fr.Show();
                 this.Close();
             }
         }

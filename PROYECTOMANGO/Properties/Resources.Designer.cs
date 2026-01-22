@@ -283,6 +283,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap cosecha {
+            get {
+                object obj = ResourceManager.GetObject("cosecha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap cosechaimg {
             get {
                 object obj = ResourceManager.GetObject("cosechaimg", resourceCulture);
@@ -453,6 +463,36 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap empaque {
+            get {
+                object obj = ResourceManager.GetObject("empaque", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap entrega {
+            get {
+                object obj = ResourceManager.GetObject("entrega", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap entrega1 {
+            get {
+                object obj = ResourceManager.GetObject("entrega1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap FINALTEST {
             get {
                 object obj = ResourceManager.GetObject("FINALTEST", resourceCulture);
@@ -543,6 +583,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap fondoMango {
+            get {
+                object obj = ResourceManager.GetObject("fondoMango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap FONDOMASCOTA {
             get {
                 object obj = ResourceManager.GetObject("FONDOMASCOTA", resourceCulture);
@@ -556,26 +606,6 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap FONDPINTERMAYK {
             get {
                 object obj = ResourceManager.GetObject("FONDPINTERMAYK", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap Gemini_Generated_Image_booz9dbooz9dbooz {
-            get {
-                object obj = ResourceManager.GetObject("Gemini_Generated_Image_booz9dbooz9dbooz", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap Gemini_Generated_Image_ug0szfug0szfug0s {
-            get {
-                object obj = ResourceManager.GetObject("Gemini_Generated_Image_ug0szfug0szfug0s", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -606,6 +636,26 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap Hecharpronutri {
             get {
                 object obj = ResourceManager.GetObject("Hecharpronutri", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap images1 {
+            get {
+                object obj = ResourceManager.GetObject("images1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,9 +723,29 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap lavado {
+            get {
+                object obj = ResourceManager.GetObject("lavado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap mango {
             get {
                 object obj = ResourceManager.GetObject("mango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap mango23 {
+            get {
+                object obj = ResourceManager.GetObject("mango23", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -954,6 +1024,16 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap Titulodatocurioso {
             get {
                 object obj = ResourceManager.GetObject("Titulodatocurioso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap transporte {
+            get {
+                object obj = ResourceManager.GetObject("transporte", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
