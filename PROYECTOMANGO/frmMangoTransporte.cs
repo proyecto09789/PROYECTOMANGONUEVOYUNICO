@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOBETA001;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -260,6 +261,13 @@ namespace PROYECTOMANGO
 
            foreach (var slot in slots)
               slot.AllowDrop = false;
+        }
+
+        private void Men1u_Click(object sender, EventArgs e)
+        {
+           Interfazprinc int455az = new Interfazprinc();
+              int455az.Show();
+              this.Hide();
         }
     }
 }

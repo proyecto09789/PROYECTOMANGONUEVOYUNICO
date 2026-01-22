@@ -81,6 +81,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Calendario_del_mango";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calendario_del_mango";
             this.Load += new System.EventHandler(this.Calendario_del_mango_Load);
             this.ResumeLayout(false);

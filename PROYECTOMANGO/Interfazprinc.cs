@@ -197,5 +197,19 @@ namespace PROYECTOBETA001
             VENT10.Show();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Calendario_del_mango DHEY = new Calendario_del_mango();
+            DHEY.Show();
+            this.Hide();
+        }
+
+        private void imtra_Click(object sender, EventArgs e)
+        {
+            Calendario_del_mango DHEY = new Calendario_del_mango();
+            DHEY.Show();
+            this.Hide();
+        }
     }
 }

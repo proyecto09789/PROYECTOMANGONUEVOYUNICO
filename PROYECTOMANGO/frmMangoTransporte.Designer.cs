@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblIntentos = new System.Windows.Forms.Label();
+            this.btnVerificar = new System.Windows.Forms.Button();
             this.panelLlegada5 = new System.Windows.Forms.Panel();
             this.panelEtapa5 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -44,8 +46,7 @@
             this.panelLlegada1 = new System.Windows.Forms.Panel();
             this.panelEtapa1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnVerificar = new System.Windows.Forms.Button();
-            this.lblIntentos = new System.Windows.Forms.Label();
+            this.Men1u = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panelEtapa5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -64,6 +65,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.panel1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.mango23;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.Men1u);
             this.panel1.Controls.Add(this.lblIntentos);
             this.panel1.Controls.Add(this.btnVerificar);
             this.panel1.Controls.Add(this.panelLlegada5);
@@ -81,6 +83,32 @@
             this.panel1.Size = new System.Drawing.Size(856, 452);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // lblIntentos
+            // 
+            this.lblIntentos.AutoSize = true;
+            this.lblIntentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIntentos.ForeColor = System.Drawing.Color.Green;
+            this.lblIntentos.Location = new System.Drawing.Point(634, 143);
+            this.lblIntentos.Name = "lblIntentos";
+            this.lblIntentos.Size = new System.Drawing.Size(19, 20);
+            this.lblIntentos.TabIndex = 9;
+            this.lblIntentos.Text = "0";
+            // 
+            // btnVerificar
+            // 
+            this.btnVerificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnVerificar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVerificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerificar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnVerificar.Location = new System.Drawing.Point(345, 359);
+            this.btnVerificar.Name = "btnVerificar";
+            this.btnVerificar.Size = new System.Drawing.Size(165, 31);
+            this.btnVerificar.TabIndex = 8;
+            this.btnVerificar.Text = "VERIFICAR";
+            this.btnVerificar.UseVisualStyleBackColor = false;
+            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
             // 
             // panelLlegada5
             // 
@@ -211,31 +239,16 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // btnVerificar
+            // Men1u
             // 
-            this.btnVerificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.btnVerificar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVerificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVerificar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnVerificar.Location = new System.Drawing.Point(345, 359);
-            this.btnVerificar.Name = "btnVerificar";
-            this.btnVerificar.Size = new System.Drawing.Size(165, 31);
-            this.btnVerificar.TabIndex = 8;
-            this.btnVerificar.Text = "VERIFICAR";
-            this.btnVerificar.UseVisualStyleBackColor = false;
-            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
-            // 
-            // lblIntentos
-            // 
-            this.lblIntentos.AutoSize = true;
-            this.lblIntentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIntentos.ForeColor = System.Drawing.Color.Green;
-            this.lblIntentos.Location = new System.Drawing.Point(634, 143);
-            this.lblIntentos.Name = "lblIntentos";
-            this.lblIntentos.Size = new System.Drawing.Size(19, 20);
-            this.lblIntentos.TabIndex = 9;
-            this.lblIntentos.Text = "0";
+            this.Men1u.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Men1u.Location = new System.Drawing.Point(15, 13);
+            this.Men1u.Name = "Men1u";
+            this.Men1u.Size = new System.Drawing.Size(75, 23);
+            this.Men1u.TabIndex = 10;
+            this.Men1u.Text = "MENU";
+            this.Men1u.UseVisualStyleBackColor = true;
+            this.Men1u.Click += new System.EventHandler(this.Men1u_Click);
             // 
             // frmMangoTransporte
             // 
@@ -244,6 +257,7 @@
             this.ClientSize = new System.Drawing.Size(853, 450);
             this.Controls.Add(this.panel1);
             this.Name = "frmMangoTransporte";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMangoTransporte";
             this.Load += new System.EventHandler(this.frmMangoTransporte_Load);
             this.panel1.ResumeLayout(false);
@@ -282,5 +296,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Label lblIntentos;
+        private System.Windows.Forms.Button Men1u;
     }
 }

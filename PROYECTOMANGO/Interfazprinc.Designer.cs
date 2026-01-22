@@ -122,6 +122,7 @@ namespace PROYECTOBETA001
             this.imtra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imtra.TabIndex = 17;
             this.imtra.TabStop = false;
+            this.imtra.Click += new System.EventHandler(this.imtra_Click);
             // 
             // progressVidaMascota
             // 
@@ -163,6 +164,7 @@ namespace PROYECTOBETA001
             this.label1.TabIndex = 37;
             this.label1.Text = "Transporte y Venta";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lbusoculinarioybeneficios
             // 

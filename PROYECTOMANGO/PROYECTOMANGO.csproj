@@ -582,5 +582,8 @@
   <ItemGroup>
     <None Include="Resources\Gemini_Generated_Image_ug0szfug0szfug0s.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_bxnn55bxnn55bxnn.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
