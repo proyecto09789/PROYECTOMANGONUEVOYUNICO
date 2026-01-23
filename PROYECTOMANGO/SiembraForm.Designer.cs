@@ -68,9 +68,9 @@
             // lblTituloTema
             // 
             this.lblTituloTema.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloTema.Location = new System.Drawing.Point(422, 116);
+            this.lblTituloTema.Location = new System.Drawing.Point(401, 116);
             this.lblTituloTema.Name = "lblTituloTema";
-            this.lblTituloTema.Size = new System.Drawing.Size(366, 38);
+            this.lblTituloTema.Size = new System.Drawing.Size(423, 38);
             this.lblTituloTema.TabIndex = 5;
             this.lblTituloTema.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblTituloTema.Click += new System.EventHandler(this.lblTituloTema_Click);

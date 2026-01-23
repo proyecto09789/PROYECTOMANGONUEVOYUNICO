@@ -83,9 +83,9 @@
             // 
             // lblTituloTemaFloracion
             // 
-            this.lblTituloTemaFloracion.Location = new System.Drawing.Point(441, 128);
+            this.lblTituloTemaFloracion.Location = new System.Drawing.Point(399, 128);
             this.lblTituloTemaFloracion.Name = "lblTituloTemaFloracion";
-            this.lblTituloTemaFloracion.Size = new System.Drawing.Size(366, 38);
+            this.lblTituloTemaFloracion.Size = new System.Drawing.Size(425, 38);
             this.lblTituloTemaFloracion.TabIndex = 2;
             this.lblTituloTemaFloracion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 

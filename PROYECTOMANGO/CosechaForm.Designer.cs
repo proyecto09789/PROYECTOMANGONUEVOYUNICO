@@ -75,9 +75,9 @@
             // 
             // lblTituloTemaCosecha
             // 
-            this.lblTituloTemaCosecha.Location = new System.Drawing.Point(422, 116);
+            this.lblTituloTemaCosecha.Location = new System.Drawing.Point(399, 116);
             this.lblTituloTemaCosecha.Name = "lblTituloTemaCosecha";
-            this.lblTituloTemaCosecha.Size = new System.Drawing.Size(366, 38);
+            this.lblTituloTemaCosecha.Size = new System.Drawing.Size(425, 38);
             this.lblTituloTemaCosecha.TabIndex = 1;
             this.lblTituloTemaCosecha.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -139,6 +139,7 @@
             this.Controls.Add(this.btnVolverCosecha);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CosechaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CosechaForm";
             this.pnlCosecha.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbImagenTemaCosecha)).EndInit();

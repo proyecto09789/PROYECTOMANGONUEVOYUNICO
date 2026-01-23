@@ -49,9 +49,10 @@
             this.bttRegreProc.BackColor = System.Drawing.Color.Green;
             this.bttRegreProc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttRegreProc.ForeColor = System.Drawing.Color.Ivory;
-            this.bttRegreProc.Location = new System.Drawing.Point(10, 11);
+            this.bttRegreProc.Location = new System.Drawing.Point(13, 14);
+            this.bttRegreProc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttRegreProc.Name = "bttRegreProc";
-            this.bttRegreProc.Size = new System.Drawing.Size(80, 34);
+            this.bttRegreProc.Size = new System.Drawing.Size(107, 42);
             this.bttRegreProc.TabIndex = 0;
             this.bttRegreProc.Text = "Menú";
             this.bttRegreProc.UseVisualStyleBackColor = false;
@@ -64,21 +65,21 @@
             this.lblTituProc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTituProc.Font = new System.Drawing.Font("Georgia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituProc.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.lblTituProc.Location = new System.Drawing.Point(86, 56);
+            this.lblTituProc.Location = new System.Drawing.Point(115, 69);
+            this.lblTituProc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTituProc.Name = "lblTituProc";
-            this.lblTituProc.Size = new System.Drawing.Size(779, 56);
+            this.lblTituProc.Size = new System.Drawing.Size(968, 69);
             this.lblTituProc.TabIndex = 1;
             this.lblTituProc.Text = "Proceso Productivo del Mango";
             // 
             // lblSiembraT
             // 
             this.lblSiembraT.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.lblSiembraT.Font = new System.Drawing.Font("Georgia", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSiembraT.Font = new System.Drawing.Font("Georgia", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSiembraT.ForeColor = System.Drawing.Color.Ivory;
-            this.lblSiembraT.Location = new System.Drawing.Point(89, 150);
-            this.lblSiembraT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblSiembraT.Location = new System.Drawing.Point(119, 185);
             this.lblSiembraT.Name = "lblSiembraT";
-            this.lblSiembraT.Size = new System.Drawing.Size(204, 44);
+            this.lblSiembraT.Size = new System.Drawing.Size(272, 54);
             this.lblSiembraT.TabIndex = 8;
             this.lblSiembraT.Text = "SIEMBRA";
             this.lblSiembraT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -86,12 +87,11 @@
             // lblFloracionT
             // 
             this.lblFloracionT.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.lblFloracionT.Font = new System.Drawing.Font("Georgia", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFloracionT.Font = new System.Drawing.Font("Georgia", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFloracionT.ForeColor = System.Drawing.Color.Ivory;
-            this.lblFloracionT.Location = new System.Drawing.Point(364, 150);
-            this.lblFloracionT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFloracionT.Location = new System.Drawing.Point(485, 185);
             this.lblFloracionT.Name = "lblFloracionT";
-            this.lblFloracionT.Size = new System.Drawing.Size(204, 44);
+            this.lblFloracionT.Size = new System.Drawing.Size(272, 54);
             this.lblFloracionT.TabIndex = 9;
             this.lblFloracionT.Text = "FLORACIÓN";
             this.lblFloracionT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -99,12 +99,11 @@
             // lblCosechaT
             // 
             this.lblCosechaT.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.lblCosechaT.Font = new System.Drawing.Font("Georgia", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCosechaT.Font = new System.Drawing.Font("Georgia", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCosechaT.ForeColor = System.Drawing.Color.Ivory;
-            this.lblCosechaT.Location = new System.Drawing.Point(631, 150);
-            this.lblCosechaT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCosechaT.Location = new System.Drawing.Point(841, 185);
             this.lblCosechaT.Name = "lblCosechaT";
-            this.lblCosechaT.Size = new System.Drawing.Size(204, 44);
+            this.lblCosechaT.Size = new System.Drawing.Size(272, 54);
             this.lblCosechaT.TabIndex = 10;
             this.lblCosechaT.Text = "COSECHA";
             this.lblCosechaT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -116,9 +115,10 @@
             this.bttCosecha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttCosecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttCosecha.ForeColor = System.Drawing.Color.Beige;
-            this.bttCosecha.Location = new System.Drawing.Point(676, 375);
+            this.bttCosecha.Location = new System.Drawing.Point(901, 462);
+            this.bttCosecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttCosecha.Name = "bttCosecha";
-            this.bttCosecha.Size = new System.Drawing.Size(108, 54);
+            this.bttCosecha.Size = new System.Drawing.Size(144, 66);
             this.bttCosecha.TabIndex = 7;
             this.bttCosecha.UseVisualStyleBackColor = false;
             this.bttCosecha.Click += new System.EventHandler(this.bttCosecha_Click);
@@ -131,9 +131,10 @@
             this.bttFloracio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttFloracio.ForeColor = System.Drawing.Color.Beige;
             this.bttFloracio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bttFloracio.Location = new System.Drawing.Point(406, 375);
+            this.bttFloracio.Location = new System.Drawing.Point(541, 462);
+            this.bttFloracio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttFloracio.Name = "bttFloracio";
-            this.bttFloracio.Size = new System.Drawing.Size(108, 54);
+            this.bttFloracio.Size = new System.Drawing.Size(144, 66);
             this.bttFloracio.TabIndex = 6;
             this.bttFloracio.UseVisualStyleBackColor = false;
             this.bttFloracio.Click += new System.EventHandler(this.bttFloracio_Click);
@@ -145,9 +146,10 @@
             this.bttSiembra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttSiembra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttSiembra.ForeColor = System.Drawing.Color.Beige;
-            this.bttSiembra.Location = new System.Drawing.Point(134, 375);
+            this.bttSiembra.Location = new System.Drawing.Point(179, 462);
+            this.bttSiembra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bttSiembra.Name = "bttSiembra";
-            this.bttSiembra.Size = new System.Drawing.Size(108, 54);
+            this.bttSiembra.Size = new System.Drawing.Size(144, 66);
             this.bttSiembra.TabIndex = 5;
             this.bttSiembra.UseVisualStyleBackColor = false;
             this.bttSiembra.Click += new System.EventHandler(this.bttSiembra_Click);
@@ -157,9 +159,10 @@
             this.pBoxCosecha.BackColor = System.Drawing.Color.Beige;
             this.pBoxCosecha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxCosecha.Image = global::PROYECTOMANGO.Properties.Resources.imgcosecha_1_;
-            this.pBoxCosecha.Location = new System.Drawing.Point(631, 194);
+            this.pBoxCosecha.Location = new System.Drawing.Point(841, 239);
+            this.pBoxCosecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pBoxCosecha.Name = "pBoxCosecha";
-            this.pBoxCosecha.Size = new System.Drawing.Size(204, 235);
+            this.pBoxCosecha.Size = new System.Drawing.Size(271, 289);
             this.pBoxCosecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBoxCosecha.TabIndex = 4;
             this.pBoxCosecha.TabStop = false;
@@ -170,9 +173,10 @@
             this.pBoxFloracion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBoxFloracion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxFloracion.Image = global::PROYECTOMANGO.Properties.Resources.imgfloracion_1_;
-            this.pBoxFloracion.Location = new System.Drawing.Point(364, 194);
+            this.pBoxFloracion.Location = new System.Drawing.Point(485, 239);
+            this.pBoxFloracion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pBoxFloracion.Name = "pBoxFloracion";
-            this.pBoxFloracion.Size = new System.Drawing.Size(204, 235);
+            this.pBoxFloracion.Size = new System.Drawing.Size(271, 289);
             this.pBoxFloracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBoxFloracion.TabIndex = 3;
             this.pBoxFloracion.TabStop = false;
@@ -182,21 +186,23 @@
             this.pBoxSiembra.BackColor = System.Drawing.Color.Beige;
             this.pBoxSiembra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxSiembra.Image = global::PROYECTOMANGO.Properties.Resources.imgsiembraorg;
-            this.pBoxSiembra.Location = new System.Drawing.Point(89, 194);
+            this.pBoxSiembra.Location = new System.Drawing.Point(119, 239);
+            this.pBoxSiembra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pBoxSiembra.Name = "pBoxSiembra";
-            this.pBoxSiembra.Size = new System.Drawing.Size(204, 235);
+            this.pBoxSiembra.Size = new System.Drawing.Size(271, 289);
             this.pBoxSiembra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBoxSiembra.TabIndex = 2;
             this.pBoxSiembra.TabStop = false;
             // 
             // ProcProductivo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(885, 512);
+            this.ClientSize = new System.Drawing.Size(1180, 630);
             this.Controls.Add(this.lblCosechaT);
             this.Controls.Add(this.lblFloracionT);
             this.Controls.Add(this.lblSiembraT);
@@ -211,6 +217,7 @@
             this.ForeColor = System.Drawing.Color.LemonChiffon;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ProcProductivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProcProductivo";
