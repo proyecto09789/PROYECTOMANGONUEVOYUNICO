@@ -138,7 +138,6 @@
             this.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8);
             this.Name = "FormPreguntas";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormPreguntas";
             this.ResumeLayout(false);
             this.PerformLayout();

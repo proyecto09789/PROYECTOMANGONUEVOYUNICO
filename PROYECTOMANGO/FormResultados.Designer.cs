@@ -48,9 +48,9 @@
             this.lstResultados.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstResultados.FormattingEnabled = true;
             this.lstResultados.ItemHeight = 30;
-            this.lstResultados.Location = new System.Drawing.Point(51, 61);
+            this.lstResultados.Location = new System.Drawing.Point(12, 61);
             this.lstResultados.Name = "lstResultados";
-            this.lstResultados.Size = new System.Drawing.Size(412, 304);
+            this.lstResultados.Size = new System.Drawing.Size(490, 304);
             this.lstResultados.TabIndex = 1;
             // 
             // btnFin
@@ -75,8 +75,7 @@
             this.Controls.Add(this.lblPuntaje);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Name = "FormResultados";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "FormResultados";
             this.ResumeLayout(false);
             this.PerformLayout();
 

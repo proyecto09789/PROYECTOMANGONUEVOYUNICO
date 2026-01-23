@@ -19,33 +19,35 @@ namespace PROYECTOMANGO
 
         string[] preguntas =
         {
-            "¿De dónde es originario el mango?",
-            "¿Qué tipo de fruta es el mango?",
-            "¿Qué vitamina abunda en el mango?",
-            "¿Cuántas variedades de mango existen?",
-            "¿Qué país es el mayor productor de mango?",
-            "¿Cuántos años puede vivir un árbol de mango?",
-            "¿Cómo se llama el hueso del mango?",
-            "¿El mango ayuda a qué proceso?",
-            "¿Cómo se conoce al mango?",
-            "¿El mango pertenece a qué clima?"
+    "¿De dónde es originario el mango?",
+    "¿Qué tipo de fruta es el mango?",
+    "¿Con qué frutos secos está relacionado el mango?",
+    "¿Cuántas variedades de mango existen aproximadamente?",
+    "¿Qué diseño famoso está inspirado en la forma del mango?",
+    "¿Cuántos años puede vivir un árbol de mango?",
+    "¿Cómo se llama el hueso del mango?",
+    "¿El mango ayuda a qué proceso del cuerpo?",
+    "¿Cómo se conoce al mango por su importancia?",
+    "¿El mango pertenece a qué clima?"
         };
 
         string[,] opciones =
         {
-            { "África", "Asia", "América" },
-            { "Cítrico", "Drupa", "Baya" },
-            { "Vitamina C", "Vitamina D", "Vitamina B12" },
-            { "10", "Más de 1000", "50" },
-            { "México", "India", "Brasil" },
-            { "20 años", "50 años", "Más de 100 años" },
-            { "Cáscara", "Semilla", "Pulpa" },
-            { "La respiración", "La digestión", "La vista" },
-            { "Rey de las frutas", "Fruta dorada", "Fruta dulce" },
-            { "Frío", "Templado", "Tropical" }
+    { "África", "Asia", "América" },                     
+    { "Cítrico", "Drupa", "Baya" },                      
+    { "Almendras", "Anacardos y pistachos", "Nueces" },  
+    { "10", "Más de 1000", "50" },                       
+    { "Patrón paisley", "Diseño floral", "Espiral" },   
+    { "20 años", "50 años", "Más de 100 años" },        
+    { "Cáscara", "Semilla", "Pulpa" },                   
+    { "La respiración", "La digestión", "La vista" },   
+    { "Fruta dorada", "Rey de las frutas", "Fruta dulce" }, 
+    { "Frío", "Templado", "Tropical" }
         };
 
-        int [] respuestasCorrectas = { 1, 1, 0, 1, 1, 2, 1, 1, 0, 2 };
+        int[] respuestasCorrectas = { 1,1,1,1,0,2,1,1,1,2 };
+
+
         public FormPreguntas()
         {
             InitializeComponent();

@@ -19,45 +19,45 @@ namespace PROYECTOBETA001
         string[] datos = new string[]
         {
     "🥭 DATO 1\n\n" +
+    "El mango es originario del sur de Asia\n" +
+    "y se cultiva desde hace más de 4,000 años.",
+
+    "🥭 DATO 2\n\n" +
     "El mango es una fruta tropical\n" +
     "que pertenece al grupo de las drupas.",
 
-    "🥭 DATO 2\n\n" +
-    "El mango es una excelente fuente\n" +
-    "de vitamina C y vitamina A.",
-
     "🥭 DATO 3\n\n" +
-    "Existen más de 1,000 variedades\n" +
-    "de mango cultivadas en todo el mundo.",
+    "El mango está relacionado con\n" +
+    "los anacardos y los pistachos\n" +
+    "porque pertenecen a la misma familia.",
 
     "🥭 DATO 4\n\n" +
-    "El mango se cultiva en más de\n" +
-    "100 países alrededor del planeta.",
+    "Existen más de 1,000 variedades\n" +
+    "de mango en todo el mundo.",
 
     "🥭 DATO 5\n\n" +
-    "India es el mayor productor de mango\n" +
-    "a nivel mundial.",
+    "El famoso patrón paisley\n" +
+    "está inspirado en la forma del mango.",
 
     "🥭 DATO 6\n\n" +
-    "El mango es la fruta nacional\n" +
-    "de países como India, Pakistán\n" +
-    "y Filipinas.",
+    "Un árbol de mango puede vivir\n" +
+    "más de 100 años y seguir dando frutos.",
 
     "🥭 DATO 7\n\n" +
-    "Los mangos pueden tener colores\n" +
-    "amarillo, verde, naranja o rojo.",
+    "El hueso del mango se llama semilla\n" +
+    "y se encuentra en el centro del fruto.",
 
     "🥭 DATO 8\n\n" +
-    "El mango contiene antioxidantes\n" +
-    "que ayudan a proteger el cuerpo.",
+    "Gracias a su fibra natural,\n" +
+    "el mango ayuda a mejorar la digestión.",
 
     "🥭 DATO 9\n\n" +
-    "El árbol de mango puede vivir\n" +
-    "más de 100 años.",
+    "El mango es conocido como\n" +
+    "el Rey de las Frutas en muchos países.",
 
     "🥭 DATO 10\n\n" +
-    "El mango es una de las frutas\n" +
-    "más consumidas en el mundo."
+    "El mango crece mejor en climas\n" +
+    "tropicales con temperaturas cálidas."
         };
         public Datoscuriosooi()
         {
