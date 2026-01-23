@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOBETA001;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace PROYECTOMANGO
         public FloracionForm()
         {
             InitializeComponent();
+        }
+
+        private void btnVolverFloracion_Click(object sender, EventArgs e)
+        {
+            ProcProductivo procProductivo = new ProcProductivo();
+            procProductivo.Show();
+            this.Hide();    
         }
     }
 }

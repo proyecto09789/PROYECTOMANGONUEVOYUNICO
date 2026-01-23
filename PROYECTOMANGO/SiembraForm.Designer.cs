@@ -33,7 +33,7 @@
             this.lblTituloTema = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.pbImagenTema = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlSBSiembra = new System.Windows.Forms.Panel();
             this.lblSelecciontema = new System.Windows.Forms.Label();
             this.cmbTemas = new System.Windows.Forms.ComboBox();
             this.lblEtpSiembra = new System.Windows.Forms.Label();
@@ -47,7 +47,7 @@
             this.btnVolverSiembra.Name = "btnVolverSiembra";
             this.btnVolverSiembra.Size = new System.Drawing.Size(95, 31);
             this.btnVolverSiembra.TabIndex = 0;
-            this.btnVolverSiembra.Text = "REGRESAR";
+            this.btnVolverSiembra.Text = "Volver";
             this.btnVolverSiembra.UseVisualStyleBackColor = true;
             this.btnVolverSiembra.Click += new System.EventHandler(this.btnVolverSiembra_Click);
             // 
@@ -57,7 +57,7 @@
             this.pnlSiembra.Controls.Add(this.lblTituloTema);
             this.pnlSiembra.Controls.Add(this.lblDescripcion);
             this.pnlSiembra.Controls.Add(this.pbImagenTema);
-            this.pnlSiembra.Controls.Add(this.panel1);
+            this.pnlSiembra.Controls.Add(this.pnlSBSiembra);
             this.pnlSiembra.Controls.Add(this.lblSelecciontema);
             this.pnlSiembra.Controls.Add(this.cmbTemas);
             this.pnlSiembra.Location = new System.Drawing.Point(141, 70);
@@ -72,6 +72,7 @@
             this.lblTituloTema.Name = "lblTituloTema";
             this.lblTituloTema.Size = new System.Drawing.Size(366, 38);
             this.lblTituloTema.TabIndex = 5;
+            this.lblTituloTema.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblTituloTema.Click += new System.EventHandler(this.lblTituloTema_Click);
             // 
             // lblDescripcion
@@ -90,13 +91,13 @@
             this.pbImagenTema.TabIndex = 3;
             this.pbImagenTema.TabStop = false;
             // 
-            // panel1
+            // pnlSBSiembra
             // 
-            this.panel1.BackColor = System.Drawing.Color.Honeydew;
-            this.panel1.Location = new System.Drawing.Point(62, 413);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(777, 96);
-            this.panel1.TabIndex = 2;
+            this.pnlSBSiembra.BackColor = System.Drawing.Color.Honeydew;
+            this.pnlSBSiembra.Location = new System.Drawing.Point(62, 413);
+            this.pnlSBSiembra.Name = "pnlSBSiembra";
+            this.pnlSBSiembra.Size = new System.Drawing.Size(777, 96);
+            this.pnlSBSiembra.TabIndex = 2;
             // 
             // lblSelecciontema
             // 
@@ -129,9 +130,9 @@
             this.lblEtpSiembra.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.lblEtpSiembra.Font = new System.Drawing.Font("Georgia", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEtpSiembra.ForeColor = System.Drawing.Color.Ivory;
-            this.lblEtpSiembra.Location = new System.Drawing.Point(376, 33);
+            this.lblEtpSiembra.Location = new System.Drawing.Point(379, 38);
             this.lblEtpSiembra.Name = "lblEtpSiembra";
-            this.lblEtpSiembra.Size = new System.Drawing.Size(414, 49);
+            this.lblEtpSiembra.Size = new System.Drawing.Size(420, 51);
             this.lblEtpSiembra.TabIndex = 0;
             this.lblEtpSiembra.Text = "Etapa de Siembra";
             // 
@@ -167,7 +168,7 @@
         private System.Windows.Forms.ComboBox cmbTemas;
         private System.Windows.Forms.Label lblSelecciontema;
         private System.Windows.Forms.PictureBox pbImagenTema;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlSBSiembra;
         private System.Windows.Forms.Label lblDescripcion;
         private System.Windows.Forms.Label lblTituloTema;
     }
