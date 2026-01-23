@@ -103,6 +103,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap btnPP_1_ {
+            get {
+                object obj = ResourceManager.GetObject("btnPP_1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Captura_de_pantalla_2025_12_21_180116 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2025-12-21 180116", resourceCulture);
@@ -613,6 +623,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap fondsiem123 {
+            get {
+                object obj = ResourceManager.GetObject("fondsiem123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Gemini_Generated_Image_booz9dbooz9dbooz {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_booz9dbooz9dbooz", resourceCulture);
@@ -686,6 +706,36 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap images1 {
             get {
                 object obj = ResourceManager.GetObject("images1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap imgcosecha_1_ {
+            get {
+                object obj = ResourceManager.GetObject("imgcosecha(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap imgfloracion_1_ {
+            get {
+                object obj = ResourceManager.GetObject("imgfloracion(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap imgsiembraorg {
+            get {
+                object obj = ResourceManager.GetObject("imgsiembraorg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
