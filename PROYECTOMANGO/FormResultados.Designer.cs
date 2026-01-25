@@ -36,8 +36,10 @@
             // lblPuntaje
             // 
             this.lblPuntaje.AutoSize = true;
+            this.lblPuntaje.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
             this.lblPuntaje.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPuntaje.Location = new System.Drawing.Point(102, 9);
+            this.lblPuntaje.ForeColor = System.Drawing.Color.White;
+            this.lblPuntaje.Location = new System.Drawing.Point(154, 9);
             this.lblPuntaje.Name = "lblPuntaje";
             this.lblPuntaje.Size = new System.Drawing.Size(100, 40);
             this.lblPuntaje.TabIndex = 0;
@@ -56,20 +58,24 @@
             // 
             // btnFin
             // 
+            this.btnFin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
+            this.btnFin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFin.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFin.Location = new System.Drawing.Point(542, 410);
+            this.btnFin.ForeColor = System.Drawing.Color.Transparent;
+            this.btnFin.Location = new System.Drawing.Point(507, 413);
             this.btnFin.Name = "btnFin";
-            this.btnFin.Size = new System.Drawing.Size(99, 46);
+            this.btnFin.Size = new System.Drawing.Size(112, 46);
             this.btnFin.TabIndex = 2;
             this.btnFin.Text = "Salir";
-            this.btnFin.UseVisualStyleBackColor = true;
+            this.btnFin.UseVisualStyleBackColor = false;
             this.btnFin.Click += new System.EventHandler(this.btnFin_Click);
             // 
             // FormResultados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Gemini_Generated_Image_bxnn55bxnn55bxnn;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(653, 481);
             this.Controls.Add(this.btnFin);
             this.Controls.Add(this.lstResultados);

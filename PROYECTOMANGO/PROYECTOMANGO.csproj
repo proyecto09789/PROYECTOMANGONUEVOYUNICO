@@ -597,5 +597,14 @@
   <ItemGroup>
     <None Include="Resources\FONDOUSOCUL.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2026-01-25 at 12.18.24 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_2c11772c11772c11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letreo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

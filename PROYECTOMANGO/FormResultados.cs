@@ -28,7 +28,7 @@ namespace PROYECTOMANGO
                 lstResultados.Items.Add(preguntas[i]);
                 lstResultados.Items.Add($"Estado: {estado}");
                 lstResultados.Items.Add($"Respuesta correcta: {respuestaCorrecta}");
-                lstResultados.Items.Add(""); // espacio visual
+                lstResultados.Items.Add("---------------------------------------------------------------"); 
             }
         }
 

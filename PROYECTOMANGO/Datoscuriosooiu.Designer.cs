@@ -38,44 +38,49 @@
             // 
             // bntAnterio
             // 
+            this.bntAnterio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
             this.bntAnterio.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntAnterio.ForeColor = System.Drawing.Color.Transparent;
             this.bntAnterio.Location = new System.Drawing.Point(105, 409);
             this.bntAnterio.Name = "bntAnterio";
-            this.bntAnterio.Size = new System.Drawing.Size(129, 36);
+            this.bntAnterio.Size = new System.Drawing.Size(134, 38);
             this.bntAnterio.TabIndex = 1;
             this.bntAnterio.Text = "Anterior";
-            this.bntAnterio.UseVisualStyleBackColor = true;
+            this.bntAnterio.UseVisualStyleBackColor = false;
             this.bntAnterio.Click += new System.EventHandler(this.bntAnterio_Click);
             // 
             // btnSiguiente
             // 
+            this.btnSiguiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
             this.btnSiguiente.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSiguiente.Location = new System.Drawing.Point(592, 409);
+            this.btnSiguiente.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSiguiente.Location = new System.Drawing.Point(585, 407);
             this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(129, 36);
+            this.btnSiguiente.Size = new System.Drawing.Size(134, 38);
             this.btnSiguiente.TabIndex = 2;
             this.btnSiguiente.Text = "Siguiente";
-            this.btnSiguiente.UseVisualStyleBackColor = true;
+            this.btnSiguiente.UseVisualStyleBackColor = false;
             this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
             // btnRegresar
             // 
+            this.btnRegresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
             this.btnRegresar.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresar.Location = new System.Drawing.Point(25, 12);
             this.btnRegresar.Name = "btnRegresar";
-            this.btnRegresar.Size = new System.Drawing.Size(129, 36);
+            this.btnRegresar.Size = new System.Drawing.Size(134, 38);
             this.btnRegresar.TabIndex = 3;
             this.btnRegresar.Text = "Regresar";
-            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.UseVisualStyleBackColor = false;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
             // lblContador
             // 
             this.lblContador.AutoSize = true;
-            this.lblContador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
+            this.lblContador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
             this.lblContador.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContador.ForeColor = System.Drawing.Color.Black;
-            this.lblContador.Location = new System.Drawing.Point(338, 433);
+            this.lblContador.ForeColor = System.Drawing.Color.White;
+            this.lblContador.Location = new System.Drawing.Point(356, 436);
             this.lblContador.Name = "lblContador";
             this.lblContador.Size = new System.Drawing.Size(79, 33);
             this.lblContador.TabIndex = 5;
@@ -96,9 +101,10 @@
             // lblDatos
             // 
             this.lblDatos.AutoSize = true;
-            this.lblDatos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
+            this.lblDatos.BackColor = System.Drawing.Color.Khaki;
             this.lblDatos.Font = new System.Drawing.Font("Comic Sans MS", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDatos.Location = new System.Drawing.Point(69, 104);
+            this.lblDatos.ForeColor = System.Drawing.Color.Black;
+            this.lblDatos.Location = new System.Drawing.Point(57, 117);
             this.lblDatos.Name = "lblDatos";
             this.lblDatos.Size = new System.Drawing.Size(116, 49);
             this.lblDatos.TabIndex = 7;
@@ -109,7 +115,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Gemini_Generated_Image_booz9dbooz9dbooz;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(792, 511);
             this.Controls.Add(this.lblDatos);
             this.Controls.Add(this.LinkFuentes);
@@ -117,6 +124,7 @@
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.bntAnterio);
+            this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Datoscuriosooi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DATOS CURIOSO";

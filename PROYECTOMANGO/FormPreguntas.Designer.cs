@@ -40,8 +40,8 @@
             // lblPreguntas
             // 
             this.lblPreguntas.AutoSize = true;
-            this.lblPreguntas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
-            this.lblPreguntas.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblPreguntas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
+            this.lblPreguntas.ForeColor = System.Drawing.Color.White;
             this.lblPreguntas.Location = new System.Drawing.Point(49, 132);
             this.lblPreguntas.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblPreguntas.Name = "lblPreguntas";
@@ -52,8 +52,8 @@
             // lblContador
             // 
             this.lblContador.AutoSize = true;
-            this.lblContador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
-            this.lblContador.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblContador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
+            this.lblContador.ForeColor = System.Drawing.Color.White;
             this.lblContador.Location = new System.Drawing.Point(71, 450);
             this.lblContador.Name = "lblContador";
             this.lblContador.Size = new System.Drawing.Size(79, 33);
@@ -63,10 +63,10 @@
             // labelTitulo
             // 
             this.labelTitulo.AutoSize = true;
-            this.labelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
+            this.labelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
             this.labelTitulo.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitulo.ForeColor = System.Drawing.Color.DarkGreen;
-            this.labelTitulo.Location = new System.Drawing.Point(223, 9);
+            this.labelTitulo.ForeColor = System.Drawing.Color.White;
+            this.labelTitulo.Location = new System.Drawing.Point(227, 9);
             this.labelTitulo.Name = "labelTitulo";
             this.labelTitulo.Size = new System.Drawing.Size(330, 60);
             this.labelTitulo.TabIndex = 2;
@@ -76,7 +76,7 @@
             // rbOpcion1
             // 
             this.rbOpcion1.AutoSize = true;
-            this.rbOpcion1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
+            this.rbOpcion1.BackColor = System.Drawing.Color.Khaki;
             this.rbOpcion1.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion1.Location = new System.Drawing.Point(136, 220);
             this.rbOpcion1.Name = "rbOpcion1";
@@ -89,7 +89,7 @@
             // rbOpcion2
             // 
             this.rbOpcion2.AutoSize = true;
-            this.rbOpcion2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
+            this.rbOpcion2.BackColor = System.Drawing.Color.Khaki;
             this.rbOpcion2.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion2.Location = new System.Drawing.Point(136, 263);
             this.rbOpcion2.Name = "rbOpcion2";
@@ -102,7 +102,7 @@
             // rbOpcion3
             // 
             this.rbOpcion3.AutoSize = true;
-            this.rbOpcion3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
+            this.rbOpcion3.BackColor = System.Drawing.Color.Khaki;
             this.rbOpcion3.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion3.Location = new System.Drawing.Point(136, 306);
             this.rbOpcion3.Name = "rbOpcion3";
@@ -114,19 +114,22 @@
             // 
             // btnResponder
             // 
+            this.btnResponder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
+            this.btnResponder.ForeColor = System.Drawing.Color.White;
             this.btnResponder.Location = new System.Drawing.Point(612, 442);
             this.btnResponder.Name = "btnResponder";
             this.btnResponder.Size = new System.Drawing.Size(142, 49);
             this.btnResponder.TabIndex = 6;
             this.btnResponder.Text = "Responder";
-            this.btnResponder.UseVisualStyleBackColor = true;
+            this.btnResponder.UseVisualStyleBackColor = false;
             this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
             // 
             // FormPreguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Gemini_Generated_Image_ug0szfug0szfug0s;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(792, 511);
             this.Controls.Add(this.btnResponder);
             this.Controls.Add(this.rbOpcion3);
