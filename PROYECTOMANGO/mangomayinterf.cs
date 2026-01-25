@@ -60,6 +60,10 @@ namespace PROYECTOBETA001
             ventjuegococi.Show();
             this.Hide();
         }
+
+       
+
+      
     }
     
 }

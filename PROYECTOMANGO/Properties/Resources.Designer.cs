@@ -613,6 +613,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap FONDOUSOCUL {
+            get {
+                object obj = ResourceManager.GetObject("FONDOUSOCUL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap FONDPINTERMAYK {
             get {
                 object obj = ResourceManager.GetObject("FONDPINTERMAYK", resourceCulture);
