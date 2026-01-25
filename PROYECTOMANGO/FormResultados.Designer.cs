@@ -36,27 +36,28 @@
             // lblPuntaje
             // 
             this.lblPuntaje.AutoSize = true;
-            this.lblPuntaje.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPuntaje.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPuntaje.Location = new System.Drawing.Point(102, 9);
             this.lblPuntaje.Name = "lblPuntaje";
-            this.lblPuntaje.Size = new System.Drawing.Size(92, 40);
+            this.lblPuntaje.Size = new System.Drawing.Size(100, 40);
             this.lblPuntaje.TabIndex = 0;
             this.lblPuntaje.Text = "label1";
             // 
             // lstResultados
             // 
-            this.lstResultados.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstResultados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
+            this.lstResultados.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstResultados.FormattingEnabled = true;
             this.lstResultados.ItemHeight = 30;
             this.lstResultados.Location = new System.Drawing.Point(12, 61);
             this.lstResultados.Name = "lstResultados";
-            this.lstResultados.Size = new System.Drawing.Size(490, 304);
+            this.lstResultados.Size = new System.Drawing.Size(629, 334);
             this.lstResultados.TabIndex = 1;
             // 
             // btnFin
             // 
-            this.btnFin.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFin.Location = new System.Drawing.Point(390, 395);
+            this.btnFin.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFin.Location = new System.Drawing.Point(542, 410);
             this.btnFin.Name = "btnFin";
             this.btnFin.Size = new System.Drawing.Size(99, 46);
             this.btnFin.TabIndex = 2;
@@ -69,7 +70,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Gemini_Generated_Image_bxnn55bxnn55bxnn;
-            this.ClientSize = new System.Drawing.Size(514, 453);
+            this.ClientSize = new System.Drawing.Size(653, 481);
             this.Controls.Add(this.btnFin);
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.lblPuntaje);

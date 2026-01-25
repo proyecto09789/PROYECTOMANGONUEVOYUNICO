@@ -40,7 +40,7 @@
             // lblPreguntas
             // 
             this.lblPreguntas.AutoSize = true;
-            this.lblPreguntas.BackColor = System.Drawing.Color.Silver;
+            this.lblPreguntas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
             this.lblPreguntas.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblPreguntas.Location = new System.Drawing.Point(49, 132);
             this.lblPreguntas.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
@@ -52,7 +52,7 @@
             // lblContador
             // 
             this.lblContador.AutoSize = true;
-            this.lblContador.BackColor = System.Drawing.Color.Silver;
+            this.lblContador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
             this.lblContador.ForeColor = System.Drawing.Color.DarkGreen;
             this.lblContador.Location = new System.Drawing.Point(71, 450);
             this.lblContador.Name = "lblContador";
@@ -63,20 +63,20 @@
             // labelTitulo
             // 
             this.labelTitulo.AutoSize = true;
-            this.labelTitulo.BackColor = System.Drawing.Color.Silver;
+            this.labelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
             this.labelTitulo.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitulo.ForeColor = System.Drawing.Color.DarkGreen;
-            this.labelTitulo.Location = new System.Drawing.Point(186, 9);
+            this.labelTitulo.Location = new System.Drawing.Point(223, 9);
             this.labelTitulo.Name = "labelTitulo";
             this.labelTitulo.Size = new System.Drawing.Size(330, 60);
             this.labelTitulo.TabIndex = 2;
-            this.labelTitulo.Text = "Pon a prueba tus conocimeintos\r\n              del mango";
+            this.labelTitulo.Text = "Pon a prueba tus conocimeintos\r\n             del mango";
             this.labelTitulo.Click += new System.EventHandler(this.labelTitulo_Click);
             // 
             // rbOpcion1
             // 
             this.rbOpcion1.AutoSize = true;
-            this.rbOpcion1.BackColor = System.Drawing.Color.Silver;
+            this.rbOpcion1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
             this.rbOpcion1.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion1.Location = new System.Drawing.Point(136, 220);
             this.rbOpcion1.Name = "rbOpcion1";
@@ -89,7 +89,7 @@
             // rbOpcion2
             // 
             this.rbOpcion2.AutoSize = true;
-            this.rbOpcion2.BackColor = System.Drawing.Color.Silver;
+            this.rbOpcion2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
             this.rbOpcion2.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion2.Location = new System.Drawing.Point(136, 263);
             this.rbOpcion2.Name = "rbOpcion2";
@@ -102,7 +102,7 @@
             // rbOpcion3
             // 
             this.rbOpcion3.AutoSize = true;
-            this.rbOpcion3.BackColor = System.Drawing.Color.Silver;
+            this.rbOpcion3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
             this.rbOpcion3.ForeColor = System.Drawing.Color.DarkGreen;
             this.rbOpcion3.Location = new System.Drawing.Point(136, 306);
             this.rbOpcion3.Name = "rbOpcion3";
