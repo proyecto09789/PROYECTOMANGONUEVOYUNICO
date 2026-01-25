@@ -483,6 +483,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap EnSaLADAPICANTE {
+            get {
+                object obj = ResourceManager.GetObject("EnSaLADAPICANTE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap entrega {
             get {
                 object obj = ResourceManager.GetObject("entrega", resourceCulture);
@@ -643,6 +653,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap friedmango {
+            get {
+                object obj = ResourceManager.GetObject("friedmango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Gemini_Generated_Image_2c11772c11772c11 {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_2c11772c11772c11", resourceCulture);
@@ -676,6 +696,16 @@ namespace PROYECTOMANGO.Properties {
         public static System.Drawing.Bitmap Gemini_Generated_Image_ug0szfug0szfug0s {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_ug0szfug0szfug0s", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap GLASEADOIMAGEMREC2 {
+            get {
+                object obj = ResourceManager.GetObject("GLASEADOIMAGEMREC2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

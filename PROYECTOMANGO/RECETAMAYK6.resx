@@ -117,36 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="labdfel15.Text" xml:space="preserve">
+  <data name="label6.Text" xml:space="preserve">
     <value>2 mangos, pelado y en rodajas
 ½ de vinagre de sidra de manzana
 3 cucharadas de miel
 1 cucharadita de mostaza Dijon
 2 dientes de ajo
 2 cucharadas de jengibre rallado
-1 jamón precocido según las instrucciones
- del paquete
-</value>
+1 jamón precocido según las instrucciones del paquete)</value>
   </data>
-  <data name="labelrec5.Text" xml:space="preserve">
-    <value>
-
-- Agregue el mango cortado, el vinagre de sidra de manzana, la miel, la mostaza
-    Dijon, los dientes de ago y el jengibre rallado en una licuadora.
-- Licúe hasta que quede una mezcla homogénea.
- 
-
--Cocine el jamón según las instrucciones del paquete, pero retire del horno 30 
-minutos antes de que se complete el tiempo de cocción.
-
-
-- Con una brocha, coloque generosamente el glaseado de mango y jengibre 
-sobre el jamón
-- Regrese el jamón al horno y hornee por 30 minutos hasta que el glaseado se
- haya caramelizado.
-
-
-- Deje reposar el jamón durante unos minutos.
-¡Corte y disfrute de los sabores festivos!</value>
+  <data name="label30.Text" xml:space="preserve">
+    <value>2 each Mangos tamaño grande
+1/2 each Cebolla morada, corte juliana
+1/2 taza cacahuates/manís tostados sin sal
+1/2 cdta de sal
+Salsa Picante (opcional)
+2 each Pepinos Persas, pelados y sin semillas
+1/2 taza de Cilantro picado
+3 Cda de Vinagre de Mango (receta a continuación)
+2 cdta de Menta picada</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>1. Pele y corte el mango en pedazos, colóquelos en una licuadora y hágalos puré hasta que esté suave y cremoso.
+2. En una cacerola chica, caliente el vinagre hasta que empiece a hervir a fuego lento, y retirar del fuego. Agregue el vinagre al puré de mango.
+3. Ponga la mezcla en un frasco y tápelo . Déjelo reposar durante 2 días. Para lograr un sabor mas intenso, déjelo reposar hasta máximo 2 semanas.
+4. Una vez infundido el puré, cuele la mezcla a través de una estopilla hasta que todas las partículas sean removidas.
+5. Colóquelo en un frasco con tapa. Listo para usar.</value>
+  </data>
+  <data name="subtex1p7.Text" xml:space="preserve">
+    <value>- Enrolla cada bola de arroz en harina de arroz y fríea hasta que quede crujiente, dorada y bien caliente. Rocía ligeramente cada bola de arroz frito con un poco de la nata de coco restante y sírvela con la salsa para mojar mango.</value>
+  </data>
+  <data name="subtex1p5.Text" xml:space="preserve">
+    <value>- Para preparar, moja ligeramente las manos enguantadas y parte el arroz en 24 porciones iguales. Aplana cada porción de arroz con la mano enguantada, coloca un trozo de mango en el centro, envuelve el arroz alrededor y presiona firmemente en una bola. Coloca en una bandeja forrada.</value>
+  </data>
+  <data name="subtex1p1.Text" xml:space="preserve">
+    <value>En una olla mediana, mezcla el agua, el azúcar, el zumo de lima y el mango picado y deja cocer a fuego lento hasta que los mangos estén suaves. Coloca en una batidora y mezcla hasta que quede suave. Relájate y reserva tu vida.</value>
   </data>
 </root>

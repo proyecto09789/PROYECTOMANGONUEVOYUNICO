@@ -1,4 +1,5 @@
 ﻿using PROYECTOMANGO;
+using RECETAMAYK34;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -16,9 +17,10 @@ namespace PROYECTOBETA001
         }
         private void btnRecetaman_Click(object sender, EventArgs e)
         {
-            
-            panelBeneficios.Visible = false;
-            paneldelusoculinario.Visible = true;
+
+            RECETAMAYK21 ventramang = new RECETAMAYK21();
+            ventramang.Show();
+            this.Hide();
 
         }
         private void mangomayinterf_Load(object sender, EventArgs e)
