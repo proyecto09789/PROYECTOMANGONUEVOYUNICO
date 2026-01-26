@@ -114,6 +114,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ahoyado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ahoyado.Designer.cs">
+      <DependentUpon>Ahoyado.cs</DependentUpon>
+    </Compile>
     <Compile Include="CalendarioMango.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +224,9 @@
     <Compile Include="SiembraForm.Designer.cs">
       <DependentUpon>SiembraForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ahoyado.resx">
+      <DependentUpon>Ahoyado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CalendarioMango.resx">
       <DependentUpon>CalendarioMango.cs</DependentUpon>
     </EmbeddedResource>

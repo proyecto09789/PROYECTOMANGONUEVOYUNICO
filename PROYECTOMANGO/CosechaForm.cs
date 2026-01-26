@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace PROYECTOMANGO
 {
@@ -23,6 +24,49 @@ namespace PROYECTOMANGO
             ProcProductivo procProductivo = new ProcProductivo();
             procProductivo.Show();
             this.Hide();
+        }
+
+        private void CargarFromulario(object formHijo)
+        {
+
+            if (this.AbrirFormPnlCosecha.Controls.Count > 0)
+                this.AbrirFormPnlCosecha.Controls.RemoveAt(0);
+
+            Form fh = formHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            fh.FormBorderStyle = FormBorderStyle.None;
+
+            this.AbrirFormPnlCosecha.Controls.Add(fh);
+            this.AbrirFormPnlCosecha.Tag = fh;
+            fh.Show();
+        }
+
+        private void cmbTemasCosecha_SelectedIndexChanged(object sender, EventArgs e)
+        {
+//Técnica de Corte
+//El Desleche
+//Lavado y Tratamiento
+//Clasificación y Empaque
+            string temaSeleccionado = cmbTemasCosecha.SelectedItem.ToString();
+            switch (temaSeleccionado)
+            {
+                case "Índices de Madurez":
+                    CargarFromulario(new IndicesDeMadurez());
+                    break;
+                case "Técnica de Corte":
+                    CargarFromulario(new TecnicaDeCorte());
+                    break;
+                case "El Desleche":
+                    CargarFromulario(new ElDesleche());
+                    break;
+                case "Lavado y Tratamiento":
+                    CargarFromulario(new LavadoYTratamiento());
+                    break;
+                case "Clasificación y Empaque":
+                    CargarFromulario(new ClasificacionYEmpaque());
+                    break;
+            }
         }
     }
 }

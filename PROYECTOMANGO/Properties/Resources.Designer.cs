@@ -473,6 +473,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap El_ahoyado1 {
+            get {
+                object obj = ResourceManager.GetObject("El ahoyado1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap empaque {
             get {
                 object obj = ResourceManager.GetObject("empaque", resourceCulture);

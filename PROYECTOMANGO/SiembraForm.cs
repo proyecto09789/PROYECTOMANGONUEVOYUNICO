@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using Org.BouncyCastle.Tls.Crypto.Impl.BC;
 
 namespace PROYECTOMANGO
 {
@@ -25,19 +27,45 @@ namespace PROYECTOMANGO
             this.Hide();
         }
 
-        private void cmbTemas_SelectedIndexChanged(object sender, EventArgs e)
+        private void CargarFromulario (object formHijo)
         {
-            if (cmbTemas.Text == "El Ahoyado")
-            {
-                lblTituloTema.Text = "Dimensiones del Agujero";
-                lblDescripcion.Text = "Para el mango, se recomienda cavar un hueco de 40x40x40 cm. " +
-                                      "Es vital mezclar la tierra extraída con abono orgánico antes de volver a llenar.";
-            }
+            
+            if (this.AbrirFormPnlSiembra.Controls.Count > 0)
+                this.AbrirFormPnlSiembra.Controls.RemoveAt(0);
+
+            Form fh = formHijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            fh.FormBorderStyle = FormBorderStyle.None;
+
+            this.AbrirFormPnlSiembra.Controls.Add(fh);
+            this.AbrirFormPnlSiembra.Tag = fh;
+            fh.Show();
         }
 
-        private void lblTituloTema_Click(object sender, EventArgs e)
+        private void cmbTemas_SelectedIndexChanged(object sender, EventArgs e)
         {
+            string temaSeleccionado = cmbTemas.SelectedItem.ToString();
 
+            switch (temaSeleccionado)
+            {
+                case "Selección del Terreno":
+                    CargarFromulario(new SeleccDeTerren());
+                    break;
+
+                case "Preparación de la Semilla":
+                    CargarFromulario(new PrepraSemilla());
+                    break;
+                case "El Ahoyado":
+                    CargarFromulario(new Ahoyado());
+                    break;
+                case "El Trasplante":
+                    CargarFromulario(new ElTrasplante());
+                    break;
+                case "Riego Inicial":
+                    CargarFromulario(new RiegoInicial());
+                    break;
+            }
         }
     }
 }

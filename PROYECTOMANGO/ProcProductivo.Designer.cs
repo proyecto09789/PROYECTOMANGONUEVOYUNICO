@@ -50,7 +50,7 @@
             this.bttRegreProc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttRegreProc.ForeColor = System.Drawing.Color.Ivory;
             this.bttRegreProc.Location = new System.Drawing.Point(13, 14);
-            this.bttRegreProc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttRegreProc.Margin = new System.Windows.Forms.Padding(4);
             this.bttRegreProc.Name = "bttRegreProc";
             this.bttRegreProc.Size = new System.Drawing.Size(107, 42);
             this.bttRegreProc.TabIndex = 0;
@@ -116,7 +116,7 @@
             this.bttCosecha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttCosecha.ForeColor = System.Drawing.Color.Beige;
             this.bttCosecha.Location = new System.Drawing.Point(901, 462);
-            this.bttCosecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttCosecha.Margin = new System.Windows.Forms.Padding(4);
             this.bttCosecha.Name = "bttCosecha";
             this.bttCosecha.Size = new System.Drawing.Size(144, 66);
             this.bttCosecha.TabIndex = 7;
@@ -131,8 +131,8 @@
             this.bttFloracio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttFloracio.ForeColor = System.Drawing.Color.Beige;
             this.bttFloracio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bttFloracio.Location = new System.Drawing.Point(541, 462);
-            this.bttFloracio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttFloracio.Location = new System.Drawing.Point(543, 462);
+            this.bttFloracio.Margin = new System.Windows.Forms.Padding(4);
             this.bttFloracio.Name = "bttFloracio";
             this.bttFloracio.Size = new System.Drawing.Size(144, 66);
             this.bttFloracio.TabIndex = 6;
@@ -147,7 +147,7 @@
             this.bttSiembra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bttSiembra.ForeColor = System.Drawing.Color.Beige;
             this.bttSiembra.Location = new System.Drawing.Point(179, 462);
-            this.bttSiembra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttSiembra.Margin = new System.Windows.Forms.Padding(4);
             this.bttSiembra.Name = "bttSiembra";
             this.bttSiembra.Size = new System.Drawing.Size(144, 66);
             this.bttSiembra.TabIndex = 5;
@@ -160,7 +160,7 @@
             this.pBoxCosecha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxCosecha.Image = global::PROYECTOMANGO.Properties.Resources.imgcosecha_1_;
             this.pBoxCosecha.Location = new System.Drawing.Point(841, 239);
-            this.pBoxCosecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pBoxCosecha.Margin = new System.Windows.Forms.Padding(4);
             this.pBoxCosecha.Name = "pBoxCosecha";
             this.pBoxCosecha.Size = new System.Drawing.Size(271, 289);
             this.pBoxCosecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -174,7 +174,7 @@
             this.pBoxFloracion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxFloracion.Image = global::PROYECTOMANGO.Properties.Resources.imgfloracion_1_;
             this.pBoxFloracion.Location = new System.Drawing.Point(485, 239);
-            this.pBoxFloracion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pBoxFloracion.Margin = new System.Windows.Forms.Padding(4);
             this.pBoxFloracion.Name = "pBoxFloracion";
             this.pBoxFloracion.Size = new System.Drawing.Size(271, 289);
             this.pBoxFloracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -187,7 +187,7 @@
             this.pBoxSiembra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pBoxSiembra.Image = global::PROYECTOMANGO.Properties.Resources.imgsiembraorg;
             this.pBoxSiembra.Location = new System.Drawing.Point(119, 239);
-            this.pBoxSiembra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pBoxSiembra.Margin = new System.Windows.Forms.Padding(4);
             this.pBoxSiembra.Name = "pBoxSiembra";
             this.pBoxSiembra.Size = new System.Drawing.Size(271, 289);
             this.pBoxSiembra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -217,7 +217,7 @@
             this.ForeColor = System.Drawing.Color.LemonChiffon;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProcProductivo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProcProductivo";

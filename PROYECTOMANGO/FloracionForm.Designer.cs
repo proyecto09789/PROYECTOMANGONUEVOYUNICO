@@ -30,71 +30,81 @@
         {
             this.btnVolverFloracion = new System.Windows.Forms.Button();
             this.pnlInfFloracion = new System.Windows.Forms.Panel();
-            this.pbTemaFloracion = new System.Windows.Forms.PictureBox();
-            this.pnlSBFloracion = new System.Windows.Forms.Panel();
-            this.lblTituloTemaFloracion = new System.Windows.Forms.Label();
-            this.lblDescripcionFloracion = new System.Windows.Forms.Label();
-            this.lblEtpFloracion = new System.Windows.Forms.Label();
-            this.cmbTemasFloracion = new System.Windows.Forms.ComboBox();
+            this.AbrirFormPnlFloracion = new System.Windows.Forms.Panel();
             this.lblSeleccionTemaFloracion = new System.Windows.Forms.Label();
+            this.cmbTemasFloracion = new System.Windows.Forms.ComboBox();
+            this.pbTemaFloracion = new System.Windows.Forms.PictureBox();
+            this.lblEtpFloracion = new System.Windows.Forms.Label();
             this.pnlInfFloracion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTemaFloracion)).BeginInit();
             this.SuspendLayout();
             // 
             // btnVolverFloracion
             // 
+            this.btnVolverFloracion.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolverFloracion.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver11;
+            this.btnVolverFloracion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnVolverFloracion.FlatAppearance.BorderSize = 0;
+            this.btnVolverFloracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolverFloracion.Location = new System.Drawing.Point(12, 12);
             this.btnVolverFloracion.Name = "btnVolverFloracion";
-            this.btnVolverFloracion.Size = new System.Drawing.Size(86, 38);
+            this.btnVolverFloracion.Size = new System.Drawing.Size(103, 75);
             this.btnVolverFloracion.TabIndex = 0;
-            this.btnVolverFloracion.Text = "Volver";
-            this.btnVolverFloracion.UseVisualStyleBackColor = true;
+            this.btnVolverFloracion.UseVisualStyleBackColor = false;
             this.btnVolverFloracion.Click += new System.EventHandler(this.btnVolverFloracion_Click);
             // 
             // pnlInfFloracion
             // 
             this.pnlInfFloracion.BackColor = System.Drawing.Color.OldLace;
+            this.pnlInfFloracion.Controls.Add(this.AbrirFormPnlFloracion);
             this.pnlInfFloracion.Controls.Add(this.lblSeleccionTemaFloracion);
             this.pnlInfFloracion.Controls.Add(this.cmbTemasFloracion);
-            this.pnlInfFloracion.Controls.Add(this.lblDescripcionFloracion);
-            this.pnlInfFloracion.Controls.Add(this.lblTituloTemaFloracion);
-            this.pnlInfFloracion.Controls.Add(this.pnlSBFloracion);
             this.pnlInfFloracion.Controls.Add(this.pbTemaFloracion);
             this.pnlInfFloracion.Location = new System.Drawing.Point(141, 70);
             this.pnlInfFloracion.Name = "pnlInfFloracion";
             this.pnlInfFloracion.Size = new System.Drawing.Size(888, 512);
             this.pnlInfFloracion.TabIndex = 1;
             // 
+            // AbrirFormPnlFloracion
+            // 
+            this.AbrirFormPnlFloracion.Location = new System.Drawing.Point(247, 83);
+            this.AbrirFormPnlFloracion.Name = "AbrirFormPnlFloracion";
+            this.AbrirFormPnlFloracion.Size = new System.Drawing.Size(620, 409);
+            this.AbrirFormPnlFloracion.TabIndex = 6;
+            // 
+            // lblSeleccionTemaFloracion
+            // 
+            this.lblSeleccionTemaFloracion.AutoSize = true;
+            this.lblSeleccionTemaFloracion.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSeleccionTemaFloracion.Location = new System.Drawing.Point(87, 36);
+            this.lblSeleccionTemaFloracion.Name = "lblSeleccionTemaFloracion";
+            this.lblSeleccionTemaFloracion.Size = new System.Drawing.Size(369, 24);
+            this.lblSeleccionTemaFloracion.TabIndex = 5;
+            this.lblSeleccionTemaFloracion.Text = "Seleccione un tema para aprender:";
+            // 
+            // cmbTemasFloracion
+            // 
+            this.cmbTemasFloracion.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTemasFloracion.FormattingEnabled = true;
+            this.cmbTemasFloracion.Items.AddRange(new object[] {
+            "Inducción Floral",
+            "Polinización Natural",
+            "Enfermedades (Antracnosis)",
+            "El Cuajado del Fruto",
+            "Riego Controlado"});
+            this.cmbTemasFloracion.Location = new System.Drawing.Point(475, 39);
+            this.cmbTemasFloracion.Name = "cmbTemasFloracion";
+            this.cmbTemasFloracion.Size = new System.Drawing.Size(301, 28);
+            this.cmbTemasFloracion.TabIndex = 4;
+            this.cmbTemasFloracion.SelectedIndexChanged += new System.EventHandler(this.cmbTemasFloracion_SelectedIndexChanged);
+            // 
             // pbTemaFloracion
             // 
-            this.pbTemaFloracion.Location = new System.Drawing.Point(62, 105);
+            this.pbTemaFloracion.Location = new System.Drawing.Point(41, 159);
             this.pbTemaFloracion.Name = "pbTemaFloracion";
-            this.pbTemaFloracion.Size = new System.Drawing.Size(277, 274);
+            this.pbTemaFloracion.Size = new System.Drawing.Size(178, 221);
             this.pbTemaFloracion.TabIndex = 0;
             this.pbTemaFloracion.TabStop = false;
-            // 
-            // pnlSBFloracion
-            // 
-            this.pnlSBFloracion.BackColor = System.Drawing.Color.Honeydew;
-            this.pnlSBFloracion.Location = new System.Drawing.Point(62, 413);
-            this.pnlSBFloracion.Name = "pnlSBFloracion";
-            this.pnlSBFloracion.Size = new System.Drawing.Size(777, 96);
-            this.pnlSBFloracion.TabIndex = 1;
-            // 
-            // lblTituloTemaFloracion
-            // 
-            this.lblTituloTemaFloracion.Location = new System.Drawing.Point(399, 128);
-            this.lblTituloTemaFloracion.Name = "lblTituloTemaFloracion";
-            this.lblTituloTemaFloracion.Size = new System.Drawing.Size(425, 38);
-            this.lblTituloTemaFloracion.TabIndex = 2;
-            this.lblTituloTemaFloracion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblDescripcionFloracion
-            // 
-            this.lblDescripcionFloracion.Location = new System.Drawing.Point(396, 177);
-            this.lblDescripcionFloracion.Name = "lblDescripcionFloracion";
-            this.lblDescripcionFloracion.Size = new System.Drawing.Size(428, 202);
-            this.lblDescripcionFloracion.TabIndex = 3;
             // 
             // lblEtpFloracion
             // 
@@ -107,24 +117,6 @@
             this.lblEtpFloracion.TabIndex = 4;
             this.lblEtpFloracion.Text = "Etapa de Floración";
             this.lblEtpFloracion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cmbTemasFloracion
-            // 
-            this.cmbTemasFloracion.FormattingEnabled = true;
-            this.cmbTemasFloracion.Location = new System.Drawing.Point(474, 49);
-            this.cmbTemasFloracion.Name = "cmbTemasFloracion";
-            this.cmbTemasFloracion.Size = new System.Drawing.Size(301, 24);
-            this.cmbTemasFloracion.TabIndex = 4;
-            // 
-            // lblSeleccionTemaFloracion
-            // 
-            this.lblSeleccionTemaFloracion.AutoSize = true;
-            this.lblSeleccionTemaFloracion.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSeleccionTemaFloracion.Location = new System.Drawing.Point(88, 49);
-            this.lblSeleccionTemaFloracion.Name = "lblSeleccionTemaFloracion";
-            this.lblSeleccionTemaFloracion.Size = new System.Drawing.Size(369, 24);
-            this.lblSeleccionTemaFloracion.TabIndex = 5;
-            this.lblSeleccionTemaFloracion.Text = "Seleccione un tema para aprender:";
             // 
             // FloracionForm
             // 
@@ -151,11 +143,9 @@
         private System.Windows.Forms.Button btnVolverFloracion;
         private System.Windows.Forms.Panel pnlInfFloracion;
         private System.Windows.Forms.PictureBox pbTemaFloracion;
-        private System.Windows.Forms.Panel pnlSBFloracion;
-        private System.Windows.Forms.Label lblTituloTemaFloracion;
-        private System.Windows.Forms.Label lblDescripcionFloracion;
         private System.Windows.Forms.Label lblEtpFloracion;
         private System.Windows.Forms.ComboBox cmbTemasFloracion;
         private System.Windows.Forms.Label lblSeleccionTemaFloracion;
+        private System.Windows.Forms.Panel AbrirFormPnlFloracion;
     }
 }
