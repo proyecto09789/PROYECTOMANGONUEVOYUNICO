@@ -381,7 +381,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Image = global::PROYECTOMANGO.Properties.Resources.GLASEADOIMAGEMREC2;
+
             this.pictureBox3.Location = new System.Drawing.Point(498, 88);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(268, 203);
@@ -585,7 +585,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.EnSaLADAPICANTE;
+
             this.pictureBox4.Location = new System.Drawing.Point(498, 88);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(268, 163);
@@ -835,7 +835,6 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::PROYECTOMANGO.Properties.Resources.friedmango;
             this.pictureBox1.Location = new System.Drawing.Point(498, 88);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(268, 203);

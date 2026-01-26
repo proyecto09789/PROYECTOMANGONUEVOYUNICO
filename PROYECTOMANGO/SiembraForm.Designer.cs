@@ -42,7 +42,6 @@
             // btnVolverSiembra
             // 
             this.btnVolverSiembra.BackColor = System.Drawing.Color.Transparent;
-            this.btnVolverSiembra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver11;
             this.btnVolverSiembra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolverSiembra.FlatAppearance.BorderSize = 0;
             this.btnVolverSiembra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
