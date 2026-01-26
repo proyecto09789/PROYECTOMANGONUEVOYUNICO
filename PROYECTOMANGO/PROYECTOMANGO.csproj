@@ -126,6 +126,12 @@
     <Compile Include="CalendarioMango.Designer.cs">
       <DependentUpon>CalendarioMango.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClasificacionYEmpaque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasificacionYEmpaque.Designer.cs">
+      <DependentUpon>ClasificacionYEmpaque.cs</DependentUpon>
+    </Compile>
     <Compile Include="CosechaForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +235,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CalendarioMango.resx">
       <DependentUpon>CalendarioMango.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClasificacionYEmpaque.resx">
+      <DependentUpon>ClasificacionYEmpaque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CosechaForm.resx">
       <DependentUpon>CosechaForm.cs</DependentUpon>
