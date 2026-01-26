@@ -603,6 +603,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EnSaLADAPICANTE1 {
+            get {
+                object obj = ResourceManager.GetObject("EnSaLADAPICANTE1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap entrega {
             get {
                 object obj = ResourceManager.GetObject("entrega", resourceCulture);
@@ -766,6 +776,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap friedmango {
             get {
                 object obj = ResourceManager.GetObject("friedmango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap friedmango1 {
+            get {
+                object obj = ResourceManager.GetObject("friedmango1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

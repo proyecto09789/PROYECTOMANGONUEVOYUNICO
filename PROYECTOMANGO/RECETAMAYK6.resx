@@ -117,14 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label6.Text" xml:space="preserve">
-    <value>2 mangos, pelado y en rodajas
-½ de vinagre de sidra de manzana
-3 cucharadas de miel
-1 cucharadita de mostaza Dijon
-2 dientes de ajo
-2 cucharadas de jengibre rallado
-1 jamón precocido según las instrucciones del paquete)</value>
+  <data name="subtex1p7.Text" xml:space="preserve">
+    <value>- Enrolla cada bola de arroz en harina de arroz y fríea hasta que quede crujiente, dorada y bien caliente. Rocía ligeramente cada bola de arroz frito con un poco de la nata de coco restante y sírvela con la salsa para mojar mango.</value>
+  </data>
+  <data name="subtex1p5.Text" xml:space="preserve">
+    <value>- Para preparar, moja ligeramente las manos enguantadas y parte el arroz en 24 porciones iguales. Aplana cada porción de arroz con la mano enguantada, coloca un trozo de mango en el centro, envuelve el arroz alrededor y presiona firmemente en una bola. Coloca en una bandeja forrada.</value>
+  </data>
+  <data name="subtex1p1.Text" xml:space="preserve">
+    <value>En una olla mediana, mezcla el agua, el azúcar, el zumo de lima y el mango picado y deja cocer a fuego lento hasta que los mangos estén suaves. Coloca en una batidora y mezcla hasta que quede suave. Relájate y reserva tu vida.</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
     <value>2 each Mangos tamaño grande
@@ -144,13 +144,13 @@ Salsa Picante (opcional)
 4. Una vez infundido el puré, cuele la mezcla a través de una estopilla hasta que todas las partículas sean removidas.
 5. Colóquelo en un frasco con tapa. Listo para usar.</value>
   </data>
-  <data name="subtex1p7.Text" xml:space="preserve">
-    <value>- Enrolla cada bola de arroz en harina de arroz y fríea hasta que quede crujiente, dorada y bien caliente. Rocía ligeramente cada bola de arroz frito con un poco de la nata de coco restante y sírvela con la salsa para mojar mango.</value>
-  </data>
-  <data name="subtex1p5.Text" xml:space="preserve">
-    <value>- Para preparar, moja ligeramente las manos enguantadas y parte el arroz en 24 porciones iguales. Aplana cada porción de arroz con la mano enguantada, coloca un trozo de mango en el centro, envuelve el arroz alrededor y presiona firmemente en una bola. Coloca en una bandeja forrada.</value>
-  </data>
-  <data name="subtex1p1.Text" xml:space="preserve">
-    <value>En una olla mediana, mezcla el agua, el azúcar, el zumo de lima y el mango picado y deja cocer a fuego lento hasta que los mangos estén suaves. Coloca en una batidora y mezcla hasta que quede suave. Relájate y reserva tu vida.</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>2 mangos, pelado y en rodajas
+½ de vinagre de sidra de manzana
+3 cucharadas de miel
+1 cucharadita de mostaza Dijon
+2 dientes de ajo
+2 cucharadas de jengibre rallado
+1 jamón precocido según las instrucciones del paquete)</value>
   </data>
 </root>

@@ -337,7 +337,7 @@
             this.panelBeneficios.Controls.Add(this.labjthel16);
             this.panelBeneficios.Controls.Add(this.pictureBjhox13);
             this.panelBeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelBeneficios.Location = new System.Drawing.Point(62, 294);
+            this.panelBeneficios.Location = new System.Drawing.Point(0, 0);
             this.panelBeneficios.Name = "panelBeneficios";
             this.panelBeneficios.Size = new System.Drawing.Size(812, 428);
             this.panelBeneficios.TabIndex = 15;
