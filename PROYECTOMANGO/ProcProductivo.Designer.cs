@@ -39,6 +39,7 @@
             this.pBoxCosecha = new System.Windows.Forms.PictureBox();
             this.pBoxFloracion = new System.Windows.Forms.PictureBox();
             this.pBoxSiembra = new System.Windows.Forms.PictureBox();
+            this.btnJuegInteractivoProcProduct = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxCosecha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxFloracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxSiembra)).BeginInit();
@@ -46,15 +47,17 @@
             // 
             // bttRegreProc
             // 
-            this.bttRegreProc.BackColor = System.Drawing.Color.Green;
+            this.bttRegreProc.BackColor = System.Drawing.Color.Transparent;
+            this.bttRegreProc.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver11;
+            this.bttRegreProc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bttRegreProc.FlatAppearance.BorderSize = 0;
             this.bttRegreProc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttRegreProc.ForeColor = System.Drawing.Color.Ivory;
+            this.bttRegreProc.ForeColor = System.Drawing.Color.Transparent;
             this.bttRegreProc.Location = new System.Drawing.Point(13, 14);
             this.bttRegreProc.Margin = new System.Windows.Forms.Padding(4);
             this.bttRegreProc.Name = "bttRegreProc";
-            this.bttRegreProc.Size = new System.Drawing.Size(107, 42);
+            this.bttRegreProc.Size = new System.Drawing.Size(103, 75);
             this.bttRegreProc.TabIndex = 0;
-            this.bttRegreProc.Text = "Menú";
             this.bttRegreProc.UseVisualStyleBackColor = false;
             this.bttRegreProc.Click += new System.EventHandler(this.bttRegreProc_Click);
             // 
@@ -194,6 +197,21 @@
             this.pBoxSiembra.TabIndex = 2;
             this.pBoxSiembra.TabStop = false;
             // 
+            // btnJuegInteractivoProcProduct
+            // 
+            this.btnJuegInteractivoProcProduct.BackColor = System.Drawing.Color.Transparent;
+            this.btnJuegInteractivoProcProduct.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.SQ3_1_;
+            this.btnJuegInteractivoProcProduct.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnJuegInteractivoProcProduct.FlatAppearance.BorderSize = 0;
+            this.btnJuegInteractivoProcProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnJuegInteractivoProcProduct.ForeColor = System.Drawing.Color.Transparent;
+            this.btnJuegInteractivoProcProduct.Location = new System.Drawing.Point(985, 547);
+            this.btnJuegInteractivoProcProduct.Name = "btnJuegInteractivoProcProduct";
+            this.btnJuegInteractivoProcProduct.Size = new System.Drawing.Size(194, 83);
+            this.btnJuegInteractivoProcProduct.TabIndex = 11;
+            this.btnJuegInteractivoProcProduct.UseVisualStyleBackColor = false;
+            this.btnJuegInteractivoProcProduct.Click += new System.EventHandler(this.btnJuegInteractivoProcProduct_Click);
+            // 
             // ProcProductivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -203,6 +221,7 @@
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1180, 630);
+            this.Controls.Add(this.btnJuegInteractivoProcProduct);
             this.Controls.Add(this.lblCosechaT);
             this.Controls.Add(this.lblFloracionT);
             this.Controls.Add(this.lblSiembraT);
@@ -243,5 +262,6 @@
         private System.Windows.Forms.Label lblSiembraT;
         private System.Windows.Forms.Label lblFloracionT;
         private System.Windows.Forms.Label lblCosechaT;
+        private System.Windows.Forms.Button btnJuegInteractivoProcProduct;
     }
 }

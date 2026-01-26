@@ -136,8 +136,8 @@
   <data name="CUAJADO DEL FRUTO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CUAJADO DEL FRUTO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cr2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cr2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="transporte y venta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transporte y venta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Seleccion del Terreno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Seleccion del Terreno1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +160,8 @@
   <data name="transporte" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\transporte.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="friedmango" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\friedmango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mangoFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mangoFondo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -177,15 +177,6 @@
   </data>
   <data name="CLASIFICACION Y EMPAQUE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CLASIFICACION Y EMPAQUE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Coffee Please (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coffee Please (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mangoFondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mangoFondo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SQ2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SQ2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FONDOINTERFANUEVO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FONDOINTERFANUEVO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,6 +214,9 @@
   <data name="regarsemilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\regarsemilla.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="siembraimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\siembraimg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="INICIOSISIÓNEXTISOSO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INICIOSISIÓNEXTISOSO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -237,9 +231,6 @@
   </data>
   <data name="INDICES DE MADUREZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INDICES DE MADUREZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2025-12-21 182447" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2025-12-21 182447.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fondsiem123" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondsiem123.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -343,8 +334,14 @@
   <data name="Coffee Please (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Gemini_Generated_Image_bxnn55bxnn55bxnn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_bxnn55bxnn55bxnn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FONDO INTERFAZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FONDO INTERFAZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TUTULOINCONOUSOSCULINARIOSYBENEFICIOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TUTULOINCONOUSOSCULINARIOSYBENEFICIOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -352,14 +349,17 @@
   <data name="Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Diseño sin título (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diseño sin título (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="INDUCCION FLORAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INDUCCION FLORAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cosechaimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cosechaimg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1766684932931" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1766684932931.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="entrega" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entrega.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -388,8 +388,8 @@
   <data name="INCONOPROCESOPRODUCTIVO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INCONOPROCESOPRODUCTIVO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Coffee Please (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coffee Please (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Seleccion de terreno2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Seleccion de terreno2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -418,8 +418,8 @@
   <data name="Hecharpronutri" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hecharpronutri.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FONDO INTERFAZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FONDO INTERFAZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SQ2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQ2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura de pantalla 2026-01-18 223926" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla 2026-01-18 223926.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -442,8 +442,8 @@
   <data name="cosecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cosecha.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Diseño sin título (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Diseño sin título (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Captura de pantalla 2025-12-21 182447" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2025-12-21 182447.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cuieda tu mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cuieda tu mango.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -457,8 +457,8 @@
   <data name="El trasplante1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\El trasplante1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1766684932931" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1766684932931.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="friedmango" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\friedmango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -475,6 +475,9 @@
   <data name="cuad1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cuad1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cr2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cr2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imgsiembraorg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgsiembraorg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -483,6 +486,9 @@
   </data>
   <data name="hechar nutr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hechar nutr.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQ3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQ3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ENFERMEDADES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENFERMEDADES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -496,17 +502,11 @@
   <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images1.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="transporte y venta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\transporte y venta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FINALTEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FINALTEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SiembraMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SiembraMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Boton de Volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Boton de Volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura de pantalla 2025-12-21 180116" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla 2025-12-21 180116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -535,6 +535,9 @@
   <data name="CosechaMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CosechaMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sistema Integral de Información y Recursos del Mango (SIIREM) Cultivo y Cosecha (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FONDOINTERFAACTUALIZADO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FONDOINTERFAACTUALIZADO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -547,8 +550,8 @@
   <data name="Seleccion del Terreno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Seleccion del Terreno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="siembraimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\siembraimg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Boton de Volver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boton de Volver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MSGOINCONOBENEFIINTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MSGOINCONOBENEFIINTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -556,7 +559,7 @@
   <data name="Gemini_Generated_Image_booz9dbooz9dbooz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_booz9dbooz9dbooz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SQ3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SQ3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SQ3(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQ3(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -77,5 +77,12 @@ namespace PROYECTOBETA001
             cosechaForm.Show();
             this.Hide();
         }
+
+        private void btnJuegInteractivoProcProduct_Click(object sender, EventArgs e)
+        {
+            JuegSeccProcProd juegSeccProcProd = new JuegSeccProcProd(); 
+            juegSeccProcProd.Show();
+            this.Hide();
+        }
     }
 }

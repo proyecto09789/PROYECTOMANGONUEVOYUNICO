@@ -1421,6 +1421,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SQ3_1_ {
+            get {
+                object obj = ResourceManager.GetObject("SQ3(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TECNICA_DE_CORTE {
             get {
                 object obj = ResourceManager.GetObject("TECNICA DE CORTE", resourceCulture);
