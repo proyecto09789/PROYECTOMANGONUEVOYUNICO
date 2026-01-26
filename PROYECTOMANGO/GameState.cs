@@ -1,11 +1,22 @@
 using System;
 using System.Timers;
 
+/*EL GAMESTATE ES LA CLASE QUE CONTROLA EL ESTADO DEL JUEGO, 
+ COMO LA VIDA, COMIDA, ENERGIA, EXPERIENCIA Y NIVEL DEL JUGADOR.
+Y QUE ESTA DISEÑADA COMO UN SINGLETON PARA ASEGURAR QUE SOLO HAYA
+UNA INSTANCIA DE ESTA CLASE EN TODO EL JUEGO. TAMBIÉN INCLUYE UN 
+TEMPORIZADOR QUE ACTUALIZA EL ESTADO DEL JUEGO CADA SEGUNDO Y
+NOTIFICA A LOS SUSCRIPTORES CUANDO HAY CAMBIOS EN EL ESTADO.
+*/
 namespace PROYECTOMANGO
 {
     public sealed class GameState
     {
+        //Aquí se implementa el patrón Singleton, asegurando que solo haya una instancia de GameState.
+        //Que  es singleton? Un singleton es un patrón de diseño que restringe la instanciación de una clase a un solo objeto.
         private static readonly Lazy<GameState> lazy = new Lazy<GameState>(() => new GameState());
+
+        // Propiedad pública para acceder a la instancia única
         public static GameState Instance => lazy.Value;
 
         private readonly Timer timer;
@@ -39,7 +50,9 @@ namespace PROYECTOMANGO
         {
             lock (sync)
             {
+                // el tick representa segundos transcurridos
                 tick++;
+
 
                 if (tick % vidaDecayInterval == 0)
                 {
@@ -73,6 +86,7 @@ namespace PROYECTOMANGO
             StateChanged?.Invoke(this, EventArgs.Empty);
         }
 
+        // Esto sirve para agregar energia (agua), pilas muchachos si le quieren agregar mas agua se le cambia aquí.
         public void AddEnergia(int amount)
         {
             lock (sync)
