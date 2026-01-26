@@ -101,9 +101,11 @@
             // 
             // pbImagenTemaCosecha
             // 
-            this.pbImagenTemaCosecha.Location = new System.Drawing.Point(41, 159);
+            this.pbImagenTemaCosecha.Image = global::PROYECTOMANGO.Properties.Resources.SQ3;
+            this.pbImagenTemaCosecha.Location = new System.Drawing.Point(3, 152);
             this.pbImagenTemaCosecha.Name = "pbImagenTemaCosecha";
-            this.pbImagenTemaCosecha.Size = new System.Drawing.Size(178, 221);
+            this.pbImagenTemaCosecha.Size = new System.Drawing.Size(238, 253);
+            this.pbImagenTemaCosecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImagenTemaCosecha.TabIndex = 0;
             this.pbImagenTemaCosecha.TabStop = false;
             // 

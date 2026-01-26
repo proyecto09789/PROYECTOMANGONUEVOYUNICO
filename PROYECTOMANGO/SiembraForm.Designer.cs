@@ -42,6 +42,7 @@
             // btnVolverSiembra
             // 
             this.btnVolverSiembra.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolverSiembra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver11;
             this.btnVolverSiembra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnVolverSiembra.FlatAppearance.BorderSize = 0;
             this.btnVolverSiembra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -74,9 +75,11 @@
             // 
             // pbImagenTema
             // 
-            this.pbImagenTema.Location = new System.Drawing.Point(41, 159);
+            this.pbImagenTema.Image = global::PROYECTOMANGO.Properties.Resources.SQ1;
+            this.pbImagenTema.Location = new System.Drawing.Point(3, 152);
             this.pbImagenTema.Name = "pbImagenTema";
-            this.pbImagenTema.Size = new System.Drawing.Size(178, 221);
+            this.pbImagenTema.Size = new System.Drawing.Size(238, 253);
+            this.pbImagenTema.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImagenTema.TabIndex = 3;
             this.pbImagenTema.TabStop = false;
             // 
