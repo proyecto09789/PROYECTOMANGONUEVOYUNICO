@@ -130,6 +130,8 @@ namespace PROYECTOMANGO
         private void PrepararSlot(Panel slot)
         {
             slot.AllowDrop = true;
+            slot.BorderStyle = BorderStyle.FixedSingle;
+            slot.BackColor = Color.FromArgb(255, 245, 230); // color suave
             slot.DragEnter += Slot_DragEnter;
             slot.DragDrop += Slot_DragDrop;
         }
