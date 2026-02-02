@@ -53,13 +53,13 @@ namespace PROYECTOMANGO
                     listaImagenes.Add((Properties.Resources.CosechaMangoScc11, 3));
                     break;
 
-                //case 2:
-                //    lblTitulo.Text = "Nivel 2: Siembra (Medio)";
-                //    listaImagenes.Add((Properties.Resources.SeleccDeTerrenScc2, 1));
-                //    listaImagenes.Add((Properties.Resources.PrepSemillaScc2, 2));
-                //    listaImagenes.Add((Properties.Resources.AhoyadoScc2, 3));
-                //    listaImagenes.Add((Properties.Resources.TrasplanteScc2, 4));
-                //    break;
+                case 2:
+                    lblTitulo.Text = "Nivel 2: Siembra (Medio)";
+                    listaImagenes.Add((Properties.Resources.SeleccDeTerrenScc2, 1));
+                    listaImagenes.Add((Properties.Resources.PrepSemillaScc2, 2));
+                    listaImagenes.Add((Properties.Resources.AhoyadoScc2, 3));
+                    listaImagenes.Add((Properties.Resources.TrasplanteScc2, 4));
+                    break;
 
                 //case 3:
                 //    lblTitulo.Text = "Nivel 3: Cosecha (Difícil)";
