@@ -66,14 +66,27 @@ namespace PROYECTOMANGO
             lblContador.Text = $"Pregunta {indice + 1} de {preguntas.Length}";
         }
 
-        private void btnResponder_Click(object sender, EventArgs e)
+      
+        private void labelTitulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Datoscuriosooi frme2 = new Datoscuriosooi();
+            frme2.Show();
+            this.Hide();
+        }
+
+        private void btnResponder1_Click(object sender, EventArgs e)
         {
             int seleccion = -1;
 
             if (rbOpcion1.Checked) seleccion = 0;
             else if (rbOpcion2.Checked) seleccion = 1;
             else if (rbOpcion3.Checked) seleccion = 2;
-        
+
             if (seleccion == -1)
             {
                 MessageBox.Show(
@@ -116,9 +129,16 @@ namespace PROYECTOMANGO
             }
         }
 
-        private void labelTitulo_Click(object sender, EventArgs e)
+        private void FormPreguntas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbOpcion2_CheckedChanged(object sender, EventArgs e)
         {
 
         }
     }
+    
+    
 }

@@ -31,117 +31,143 @@
             this.lblPreguntas = new System.Windows.Forms.Label();
             this.lblContador = new System.Windows.Forms.Label();
             this.labelTitulo = new System.Windows.Forms.Label();
+            this.btnResponder = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.rbOpcion1 = new System.Windows.Forms.RadioButton();
             this.rbOpcion2 = new System.Windows.Forms.RadioButton();
             this.rbOpcion3 = new System.Windows.Forms.RadioButton();
-            this.btnResponder = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.btnResponder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblPreguntas
             // 
             this.lblPreguntas.AutoSize = true;
-            this.lblPreguntas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
-            this.lblPreguntas.ForeColor = System.Drawing.Color.White;
-            this.lblPreguntas.Location = new System.Drawing.Point(49, 132);
+            this.lblPreguntas.BackColor = System.Drawing.Color.Transparent;
+            this.lblPreguntas.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPreguntas.ForeColor = System.Drawing.Color.Black;
+            this.lblPreguntas.Location = new System.Drawing.Point(4, 131);
             this.lblPreguntas.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblPreguntas.Name = "lblPreguntas";
-            this.lblPreguntas.Size = new System.Drawing.Size(79, 33);
+            this.lblPreguntas.Size = new System.Drawing.Size(104, 41);
             this.lblPreguntas.TabIndex = 0;
             this.lblPreguntas.Text = "label1";
             // 
             // lblContador
             // 
             this.lblContador.AutoSize = true;
-            this.lblContador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
-            this.lblContador.ForeColor = System.Drawing.Color.White;
+            this.lblContador.BackColor = System.Drawing.Color.Transparent;
+            this.lblContador.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblContador.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContador.ForeColor = System.Drawing.Color.Black;
             this.lblContador.Location = new System.Drawing.Point(71, 450);
             this.lblContador.Name = "lblContador";
-            this.lblContador.Size = new System.Drawing.Size(79, 33);
+            this.lblContador.Size = new System.Drawing.Size(106, 43);
             this.lblContador.TabIndex = 1;
             this.lblContador.Text = "label1";
             // 
             // labelTitulo
             // 
-            this.labelTitulo.AutoSize = true;
-            this.labelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
-            this.labelTitulo.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitulo.ForeColor = System.Drawing.Color.White;
-            this.labelTitulo.Location = new System.Drawing.Point(227, 9);
+            this.labelTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.labelTitulo.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitulo.ForeColor = System.Drawing.Color.Black;
+            this.labelTitulo.Location = new System.Drawing.Point(59, 30);
             this.labelTitulo.Name = "labelTitulo";
-            this.labelTitulo.Size = new System.Drawing.Size(330, 60);
+            this.labelTitulo.Size = new System.Drawing.Size(686, 66);
             this.labelTitulo.TabIndex = 2;
-            this.labelTitulo.Text = "Pon a prueba tus conocimeintos\r\n             del mango";
+            this.labelTitulo.Text = "Pon a prueba tus conocimientos del mango";
             this.labelTitulo.Click += new System.EventHandler(this.labelTitulo_Click);
+            // 
+            // btnResponder
+            // 
+            this.btnResponder.BackColor = System.Drawing.Color.Transparent;
+            this.btnResponder.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnResponder.Image = global::PROYECTOMANGO.Properties.Resources.btnPP_1__removebg_preview;
+            this.btnResponder.Location = new System.Drawing.Point(322, 394);
+            this.btnResponder.Name = "btnResponder";
+            this.btnResponder.Size = new System.Drawing.Size(134, 118);
+            this.btnResponder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnResponder.TabIndex = 7;
+            this.btnResponder.TabStop = false;
+            this.btnResponder.Click += new System.EventHandler(this.btnResponder1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::PROYECTOMANGO.Properties.Resources.ANI_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(462, 219);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(283, 298);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // rbOpcion1
             // 
             this.rbOpcion1.AutoSize = true;
-            this.rbOpcion1.BackColor = System.Drawing.Color.Khaki;
-            this.rbOpcion1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.rbOpcion1.Location = new System.Drawing.Point(136, 220);
+            this.rbOpcion1.BackColor = System.Drawing.Color.Gainsboro;
+            this.rbOpcion1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbOpcion1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbOpcion1.Location = new System.Drawing.Point(24, 315);
             this.rbOpcion1.Name = "rbOpcion1";
-            this.rbOpcion1.Size = new System.Drawing.Size(174, 37);
+            this.rbOpcion1.Size = new System.Drawing.Size(225, 45);
             this.rbOpcion1.TabIndex = 3;
             this.rbOpcion1.TabStop = true;
             this.rbOpcion1.Text = "radioButton1";
+            this.rbOpcion1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.rbOpcion1.UseVisualStyleBackColor = false;
             // 
             // rbOpcion2
             // 
             this.rbOpcion2.AutoSize = true;
-            this.rbOpcion2.BackColor = System.Drawing.Color.Khaki;
-            this.rbOpcion2.ForeColor = System.Drawing.Color.DarkGreen;
-            this.rbOpcion2.Location = new System.Drawing.Point(136, 263);
+            this.rbOpcion2.BackColor = System.Drawing.Color.Gainsboro;
+            this.rbOpcion2.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbOpcion2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbOpcion2.Location = new System.Drawing.Point(24, 264);
             this.rbOpcion2.Name = "rbOpcion2";
-            this.rbOpcion2.Size = new System.Drawing.Size(178, 37);
+            this.rbOpcion2.Size = new System.Drawing.Size(225, 45);
             this.rbOpcion2.TabIndex = 4;
             this.rbOpcion2.TabStop = true;
             this.rbOpcion2.Text = "radioButton2";
             this.rbOpcion2.UseVisualStyleBackColor = false;
+            this.rbOpcion2.CheckedChanged += new System.EventHandler(this.rbOpcion2_CheckedChanged);
             // 
             // rbOpcion3
             // 
             this.rbOpcion3.AutoSize = true;
-            this.rbOpcion3.BackColor = System.Drawing.Color.Khaki;
-            this.rbOpcion3.ForeColor = System.Drawing.Color.DarkGreen;
-            this.rbOpcion3.Location = new System.Drawing.Point(136, 306);
+            this.rbOpcion3.BackColor = System.Drawing.Color.Gainsboro;
+            this.rbOpcion3.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbOpcion3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbOpcion3.Location = new System.Drawing.Point(24, 213);
             this.rbOpcion3.Name = "rbOpcion3";
-            this.rbOpcion3.Size = new System.Drawing.Size(178, 37);
+            this.rbOpcion3.Size = new System.Drawing.Size(225, 45);
             this.rbOpcion3.TabIndex = 5;
             this.rbOpcion3.TabStop = true;
             this.rbOpcion3.Text = "radioButton3";
             this.rbOpcion3.UseVisualStyleBackColor = false;
             // 
-            // btnResponder
-            // 
-            this.btnResponder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
-            this.btnResponder.ForeColor = System.Drawing.Color.White;
-            this.btnResponder.Location = new System.Drawing.Point(612, 442);
-            this.btnResponder.Name = "btnResponder";
-            this.btnResponder.Size = new System.Drawing.Size(142, 49);
-            this.btnResponder.TabIndex = 6;
-            this.btnResponder.Text = "Responder";
-            this.btnResponder.UseVisualStyleBackColor = false;
-            this.btnResponder.Click += new System.EventHandler(this.btnResponder_Click);
-            // 
             // FormPreguntas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 33F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 42F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(792, 511);
-            this.Controls.Add(this.btnResponder);
-            this.Controls.Add(this.rbOpcion3);
-            this.Controls.Add(this.rbOpcion2);
+            this.ClientSize = new System.Drawing.Size(717, 511);
             this.Controls.Add(this.rbOpcion1);
+            this.Controls.Add(this.rbOpcion2);
+            this.Controls.Add(this.rbOpcion3);
+            this.Controls.Add(this.btnResponder);
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.lblContador);
             this.Controls.Add(this.lblPreguntas);
+            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8);
+            this.MaximizeBox = false;
             this.Name = "FormPreguntas";
-            this.Text = "FormPreguntas";
+            this.Load += new System.EventHandler(this.FormPreguntas_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.btnResponder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -152,9 +178,10 @@
         private System.Windows.Forms.Label lblPreguntas;
         private System.Windows.Forms.Label lblContador;
         private System.Windows.Forms.Label labelTitulo;
+        private System.Windows.Forms.PictureBox btnResponder;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RadioButton rbOpcion1;
         private System.Windows.Forms.RadioButton rbOpcion2;
         private System.Windows.Forms.RadioButton rbOpcion3;
-        private System.Windows.Forms.Button btnResponder;
     }
 }

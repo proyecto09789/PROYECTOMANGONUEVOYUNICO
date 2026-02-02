@@ -83,6 +83,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ANI_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ANI-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap botnconf {
             get {
                 object obj = ResourceManager.GetObject("botnconf", resourceCulture);
@@ -136,6 +146,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap btnPP_1_ {
             get {
                 object obj = ResourceManager.GetObject("btnPP_1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnPP_1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("btnPP_1_-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
