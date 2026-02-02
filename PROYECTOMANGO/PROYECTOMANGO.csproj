@@ -779,5 +779,29 @@
   <ItemGroup>
     <None Include="Resources\SQ3%281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnSiguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnVerificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SiembraMangoScc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FloracionMangoScc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CosechaMangoScc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CosechaMangoScc11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FloracionMangoScc11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SiembraMangoScc11.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

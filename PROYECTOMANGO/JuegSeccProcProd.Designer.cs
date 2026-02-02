@@ -31,17 +31,13 @@ namespace PROYECTOMANGO
         private void InitializeComponent()
         {
             this.btnVolverJuegSecc = new System.Windows.Forms.Button();
-            this.pnlPaso1 = new System.Windows.Forms.Panel();
-            this.pnlPaso2 = new System.Windows.Forms.Panel();
-            this.pnlPaso3 = new System.Windows.Forms.Panel();
-            this.pbImgJgScc1 = new System.Windows.Forms.PictureBox();
-            this.pbImgJgScc2 = new System.Windows.Forms.PictureBox();
-            this.pbImgJgScc = new System.Windows.Forms.PictureBox();
-            this.lblNivelJgScc = new System.Windows.Forms.Label();
-            this.lblErroresJgScc = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImgJgScc1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImgJgScc2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImgJgScc)).BeginInit();
+            this.pnlSecuencia = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnlOpciones = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnSiguiente = new System.Windows.Forms.Button();
+            this.btnVerificar = new System.Windows.Forms.Button();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.pbImportar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImportar)).BeginInit();
             this.SuspendLayout();
             // 
             // btnVolverJuegSecc
@@ -59,93 +55,70 @@ namespace PROYECTOMANGO
             this.btnVolverJuegSecc.UseVisualStyleBackColor = false;
             this.btnVolverJuegSecc.Click += new System.EventHandler(this.btnVolverJuegSecc_Click);
             // 
-            // pnlPaso1
+            // pnlSecuencia
             // 
-            this.pnlPaso1.AllowDrop = true;
-            this.pnlPaso1.Location = new System.Drawing.Point(261, 139);
-            this.pnlPaso1.Name = "pnlPaso1";
-            this.pnlPaso1.Size = new System.Drawing.Size(150, 150);
-            this.pnlPaso1.TabIndex = 1;
-            this.pnlPaso1.Tag = "1";
-            this.pnlPaso1.DragDrop += new System.Windows.Forms.DragEventHandler(this.SoltarFicha);
-            this.pnlPaso1.DragEnter += new System.Windows.Forms.DragEventHandler(this.ValidarEntrada);
+            this.pnlSecuencia.BackColor = System.Drawing.Color.Transparent;
+            this.pnlSecuencia.Location = new System.Drawing.Point(208, 139);
+            this.pnlSecuencia.Name = "pnlSecuencia";
+            this.pnlSecuencia.Size = new System.Drawing.Size(782, 133);
+            this.pnlSecuencia.TabIndex = 1;
             // 
-            // pnlPaso2
+            // pnlOpciones
             // 
-            this.pnlPaso2.AllowDrop = true;
-            this.pnlPaso2.Location = new System.Drawing.Point(532, 139);
-            this.pnlPaso2.Name = "pnlPaso2";
-            this.pnlPaso2.Size = new System.Drawing.Size(150, 150);
-            this.pnlPaso2.TabIndex = 2;
-            this.pnlPaso2.Tag = "2";
-            this.pnlPaso2.DragDrop += new System.Windows.Forms.DragEventHandler(this.SoltarFicha);
-            this.pnlPaso2.DragEnter += new System.Windows.Forms.DragEventHandler(this.ValidarEntrada);
+            this.pnlOpciones.BackColor = System.Drawing.Color.Transparent;
+            this.pnlOpciones.Location = new System.Drawing.Point(208, 335);
+            this.pnlOpciones.Name = "pnlOpciones";
+            this.pnlOpciones.Size = new System.Drawing.Size(782, 157);
+            this.pnlOpciones.TabIndex = 2;
             // 
-            // pnlPaso3
+            // btnSiguiente
             // 
-            this.pnlPaso3.AllowDrop = true;
-            this.pnlPaso3.Location = new System.Drawing.Point(796, 139);
-            this.pnlPaso3.Name = "pnlPaso3";
-            this.pnlPaso3.Size = new System.Drawing.Size(150, 150);
-            this.pnlPaso3.TabIndex = 3;
-            this.pnlPaso3.Tag = "3";
-            this.pnlPaso3.DragDrop += new System.Windows.Forms.DragEventHandler(this.SoltarFicha);
-            this.pnlPaso3.DragEnter += new System.Windows.Forms.DragEventHandler(this.ValidarEntrada);
+            this.btnSiguiente.BackColor = System.Drawing.Color.Transparent;
+            this.btnSiguiente.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.BtnSiguiente;
+            this.btnSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSiguiente.FlatAppearance.BorderSize = 0;
+            this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSiguiente.Location = new System.Drawing.Point(1018, 486);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(150, 67);
+            this.btnSiguiente.TabIndex = 0;
+            this.btnSiguiente.UseVisualStyleBackColor = false;
+            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
             // 
-            // pbImgJgScc1
+            // btnVerificar
             // 
-            this.pbImgJgScc1.Location = new System.Drawing.Point(532, 393);
-            this.pbImgJgScc1.Name = "pbImgJgScc1";
-            this.pbImgJgScc1.Size = new System.Drawing.Size(150, 150);
-            this.pbImgJgScc1.TabIndex = 5;
-            this.pbImgJgScc1.TabStop = false;
-            this.pbImgJgScc1.Tag = "2";
-            this.pbImgJgScc1.Click += new System.EventHandler(this.pbImgJgScc1_Click);
-            this.pbImgJgScc1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.IniciarArrastre);
+            this.btnVerificar.BackColor = System.Drawing.Color.Transparent;
+            this.btnVerificar.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.BtnVerificar;
+            this.btnVerificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnVerificar.FlatAppearance.BorderSize = 0;
+            this.btnVerificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerificar.Location = new System.Drawing.Point(43, 486);
+            this.btnVerificar.Name = "btnVerificar";
+            this.btnVerificar.Size = new System.Drawing.Size(150, 67);
+            this.btnVerificar.TabIndex = 3;
+            this.btnVerificar.UseVisualStyleBackColor = false;
+            this.btnVerificar.Click += new System.EventHandler(this.btnVerificar_Click);
             // 
-            // pbImgJgScc2
+            // lblTitulo
             // 
-            this.pbImgJgScc2.Location = new System.Drawing.Point(796, 393);
-            this.pbImgJgScc2.Name = "pbImgJgScc2";
-            this.pbImgJgScc2.Size = new System.Drawing.Size(150, 150);
-            this.pbImgJgScc2.TabIndex = 6;
-            this.pbImgJgScc2.TabStop = false;
-            this.pbImgJgScc2.Tag = "3";
-            this.pbImgJgScc2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.IniciarArrastre);
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Georgia", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.lblTitulo.Location = new System.Drawing.Point(444, 44);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(314, 43);
+            this.lblTitulo.TabIndex = 4;
+            this.lblTitulo.Text = "¡BIENVENIDO!";
             // 
-            // pbImgJgScc
+            // pbImportar
             // 
-            this.pbImgJgScc.Location = new System.Drawing.Point(261, 393);
-            this.pbImgJgScc.Name = "pbImgJgScc";
-            this.pbImgJgScc.Size = new System.Drawing.Size(150, 150);
-            this.pbImgJgScc.TabIndex = 7;
-            this.pbImgJgScc.TabStop = false;
-            this.pbImgJgScc.Tag = "1";
-            this.pbImgJgScc.MouseDown += new System.Windows.Forms.MouseEventHandler(this.IniciarArrastre);
-            // 
-            // lblNivelJgScc
-            // 
-            this.lblNivelJgScc.AutoSize = true;
-            this.lblNivelJgScc.BackColor = System.Drawing.Color.Transparent;
-            this.lblNivelJgScc.Font = new System.Drawing.Font("Georgia", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNivelJgScc.ForeColor = System.Drawing.Color.DarkKhaki;
-            this.lblNivelJgScc.Location = new System.Drawing.Point(12, 578);
-            this.lblNivelJgScc.Name = "lblNivelJgScc";
-            this.lblNivelJgScc.Size = new System.Drawing.Size(141, 43);
-            this.lblNivelJgScc.TabIndex = 8;
-            this.lblNivelJgScc.Text = "Nivel: ";
-            // 
-            // lblErroresJgScc
-            // 
-            this.lblErroresJgScc.AutoSize = true;
-            this.lblErroresJgScc.BackColor = System.Drawing.Color.Transparent;
-            this.lblErroresJgScc.Font = new System.Drawing.Font("Georgia", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblErroresJgScc.ForeColor = System.Drawing.Color.Brown;
-            this.lblErroresJgScc.Location = new System.Drawing.Point(923, 578);
-            this.lblErroresJgScc.Name = "lblErroresJgScc";
-            this.lblErroresJgScc.Size = new System.Drawing.Size(216, 43);
-            this.lblErroresJgScc.TabIndex = 9;
-            this.lblErroresJgScc.Text = "Errores: 0";
+            this.pbImportar.Image = global::PROYECTOMANGO.Properties.Resources.SiembraMangoScc11;
+            this.pbImportar.Location = new System.Drawing.Point(983, 60);
+            this.pbImportar.Name = "pbImportar";
+            this.pbImportar.Size = new System.Drawing.Size(100, 50);
+            this.pbImportar.TabIndex = 5;
+            this.pbImportar.TabStop = false;
             // 
             // JuegSeccProcProd
             // 
@@ -154,42 +127,32 @@ namespace PROYECTOMANGO
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1180, 630);
-            this.Controls.Add(this.lblErroresJgScc);
-            this.Controls.Add(this.lblNivelJgScc);
-            this.Controls.Add(this.pbImgJgScc);
-            this.Controls.Add(this.pbImgJgScc2);
-            this.Controls.Add(this.pbImgJgScc1);
-            this.Controls.Add(this.pnlPaso3);
-            this.Controls.Add(this.pnlPaso2);
-            this.Controls.Add(this.pnlPaso1);
+            this.Controls.Add(this.pbImportar);
+            this.Controls.Add(this.lblTitulo);
+            this.Controls.Add(this.btnVerificar);
+            this.Controls.Add(this.btnSiguiente);
+            this.Controls.Add(this.pnlOpciones);
+            this.Controls.Add(this.pnlSecuencia);
             this.Controls.Add(this.btnVolverJuegSecc);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "JuegSeccProcProd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JuegSeccProcProd";
-            ((System.ComponentModel.ISupportInitialize)(this.pbImgJgScc1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImgJgScc2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImgJgScc)).EndInit();
+            this.Load += new System.EventHandler(this.JuegSeccProcProd_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbImportar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
-        }
-
-        private void pbImgJgScc1_Click(object sender, EventArgs e)
-        {
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnVolverJuegSecc;
-        private System.Windows.Forms.Panel pnlPaso1;
-        private System.Windows.Forms.Panel pnlPaso2;
-        private System.Windows.Forms.Panel pnlPaso3;
-        private System.Windows.Forms.PictureBox pbImgJgScc1;
-        private System.Windows.Forms.PictureBox pbImgJgScc2;
-        private System.Windows.Forms.PictureBox pbImgJgScc;
-        private System.Windows.Forms.Label lblNivelJgScc;
-        private System.Windows.Forms.Label lblErroresJgScc;
+        private System.Windows.Forms.FlowLayoutPanel pnlSecuencia;
+        private System.Windows.Forms.FlowLayoutPanel pnlOpciones;
+        private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.Button btnVerificar;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.PictureBox pbImportar;
     }
 }

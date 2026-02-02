@@ -13,91 +13,16 @@ namespace PROYECTOMANGO
 {
     public partial class JuegSeccProcProd : Form
     {
+        int nivelActual = 1; // Controla en qué nivel estamos
         public JuegSeccProcProd()
         {
             InitializeComponent();
         }
 
-        int errores = 0;
-        int nivelActual = 1;
-        int aciertosEnNivel = 0; // Para saber cuándo completó el nivel
-
-        // Guardamos las posiciones originales para resetear las fichas al cambiar de nivel
-        Point posFicha1, posFicha2, posFicha3;
-        private void JuegSeccProd_Load(object sender, EventArgs e)
+        private void JuegSeccProcProd_Load(object sender, EventArgs e)
         {
-            posFicha1 = pbImgJgScc.Location;
-            posFicha2 = pbImgJgScc1.Location;
-            posFicha3 = pbImgJgScc2.Location;
-
-            CargarNivel(1); // Iniciamos el nivel 1
-        }
-
-
-        //LÓGICA DE NIVEL
-        private void CargarNivel(int nivel)
-        {
-            nivelActual = nivel;
-            aciertosEnNivel = 0; // Reiniciamos aciertos
-
-            // Actualizamos las etiquetas
-            lblNivelJgScc.Text = "Nivel: " + nivelActual;
-
-            // Reseteamos las fichas (las habilitamos y las regresamos a su lugar)
-            ResetearFicha(pbImgJgScc, posFicha1);
-            ResetearFicha(pbImgJgScc1, posFicha2);
-            ResetearFicha(pbImgJgScc2, posFicha3);
-
-            // Reseteamos los paneles (color gris original)
-            pnlPaso1.BackColor = Color.LightGray;
-            pnlPaso2.BackColor = Color.LightGray;
-            pnlPaso3.BackColor = Color.LightGray;
-
-            // CONFIGURACIÓN DE IMÁGENES POR NIVEL
-            // Aquí es donde tú pones tus imágenes reales usando Properties.Resources
-            switch (nivel)
-            {
-                case 1:
-                    MessageBox.Show("Nivel 1: Proceso Productivo del Mango");
-                    // Ejemplo: pictureBox1.Image = Properties.Resources.semilla;
-                    pbImgJgScc.Image = Properties.Resources.SQ1;   // Ficha 1
-                    pbImgJgScc1.Image = Properties.Resources.SQ2; // Ficha 2
-                    pbImgJgScc2.Image = Properties.Resources.SQ3;  // Ficha 3
-                    break;
-
-                case 2:
-                    MessageBox.Show("Nivel 2: Etapa de Siembra");
-                    pbImgJgScc.BackColor = Color.Yellow;
-                    pbImgJgScc1.BackColor = Color.Orange;
-                    pbImgJgScc2.BackColor = Color.Purple;
-                    break;
-
-                case 3:
-                    MessageBox.Show("Nivel 3: Etapa de Cosecha");
-                    pbImgJgScc.BackColor = Color.Gray;
-                    pbImgJgScc1.BackColor = Color.Black;
-                    pbImgJgScc2.BackColor = Color.Brown;
-                    break;
-
-                default:
-                    MessageBox.Show("¡Felicidades! Has completado todo el juego.");
-                    Application.Exit(); // Cierra el juego
-                    break;
-            }
-        }
-
-        private void ResetearFicha(PictureBox ficha, Point posicionOriginal)
-        {
-            ficha.Parent = this; // La sacamos del panel y la devolvemos al formulario
-            ficha.Location = posicionOriginal; // La movemos a su sitio
-            ficha.Enabled = true; // Permitimos que se mueva de nuevo
-            ficha.BringToFront(); // Que se vea encima de todo
-        }
-
-        private void IniciarArrastre(object sender, MouseEventArgs e)
-        {
-            PictureBox ficha = sender as PictureBox;
-            if (ficha != null) ficha.DoDragDrop(ficha, DragDropEffects.Move);
+            // Al abrir el juego, cargamos el nivel 1
+            CargarNivel();
         }
 
         private void btnVolverJuegSecc_Click(object sender, EventArgs e)
@@ -107,54 +32,144 @@ namespace PROYECTOMANGO
             this.Hide();
         }
 
-        private void ValidarEntrada(object sender, DragEventArgs e)
+        private void CargarNivel()
         {
-            if (e.Data.GetDataPresent(typeof(PictureBox))) e.Effect = DragDropEffects.Move;
-            else e.Effect = DragDropEffects.None;
+            // 1. Limpiamos los paneles de cualquier nivel anterior
+            pnlSecuencia.Controls.Clear();
+            pnlOpciones.Controls.Clear();
+
+            // Lista temporal para guardar las imágenes de este nivel
+            // Usamos una clase simple o tupla: (Imagen, NumeroDeOrden)
+            var listaImagenes = new List<(Image img, int orden)>();
+
+            // 2. CONFIGURACIÓN DE NIVELES (Aquí defines tus reglas)
+            switch (nivelActual)
+            {
+                case 1:
+                    lblTitulo.Text = "Nivel 1: Fácil";
+                    // Asegúrate de usar TUS nombres de recursos aquí
+                    listaImagenes.Add((Properties.Resources.SiembraMangoScc11, 1));
+                    listaImagenes.Add((Properties.Resources.FloracionMangoScc11, 2));
+                    listaImagenes.Add((Properties.Resources.CosechaMangoScc11, 3));
+                    break;
+
+                //case 2:
+                //    lblTitulo.Text = "Nivel 2: Siembra (Medio)";
+                //    listaImagenes.Add((Properties.Resources.SeleccDeTerrenScc2, 1));
+                //    listaImagenes.Add((Properties.Resources.PrepSemillaScc2, 2));
+                //    listaImagenes.Add((Properties.Resources.AhoyadoScc2, 3));
+                //    listaImagenes.Add((Properties.Resources.TrasplanteScc2, 4));
+                //    break;
+
+                //case 3:
+                //    lblTitulo.Text = "Nivel 3: Cosecha (Difícil)";
+                //    listaImagenes.Add((Properties.Resources.IndMaduScc3, 1));
+                //    listaImagenes.Add((Properties.Resources.TecnCortScc3, 2));
+                //    listaImagenes.Add((Properties.Resources.DeslechScc3, 3));
+                //    listaImagenes.Add((Properties.Resources.LavadTratamScc3, 4));
+                //    listaImagenes.Add((Properties.Resources.ClasifEmpScc3, 5));
+                //    break;
+
+                default:
+                    MessageBox.Show("¡Juego Completado! Eres un experto.");
+                    ProcProductivo procProductivo = new ProcProductivo();
+                    procProductivo.Show();
+                    this.Close();
+                    break;
+            }
+
+            // 3. MEZCLAR Y CREAR 
+            // Mezclamos la lista aleatoriamente para que aparezcan desordenadas
+            var listaDesordenada = listaImagenes.OrderBy(x => Guid.NewGuid()).ToList();
+
+            foreach (var item in listaDesordenada)
+            {
+                PictureBox pb = new PictureBox();
+                pb.Image = item.img;
+                pb.SizeMode = PictureBoxSizeMode.StretchImage;
+                pb.Width = 100;  // Ajusta el tamaño según necesites
+                pb.Height = 100;
+                pb.Tag = item.orden; // ¡IMPORTANTE! Aquí guardamos la respuesta correcta
+                pb.Cursor = Cursors.Hand;
+
+                // Conectamos el evento Click que ya tenías
+                pb.Click += Imagen_Click;
+
+                // Lo agregamos al panel de abajo (Opciones)
+                pnlOpciones.Controls.Add(pb);
+            }
         }
 
-        private void SoltarFicha(object sender, DragEventArgs e)
+        private void Imagen_Click(object sender, EventArgs e)
         {
-            PictureBox ficha = (PictureBox)e.Data.GetData(typeof(PictureBox));
-            Panel panel = (Panel)sender;
+            PictureBox imagen = sender as PictureBox;
+            if (imagen.Parent == pnlOpciones)
+                pnlSecuencia.Controls.Add(imagen);
+            else
+                pnlOpciones.Controls.Add(imagen);
+        }
 
-            string tagFicha = ficha.Tag.ToString();
-            string tagPanel = panel.Tag.ToString();
+        private void btnVerificar_Click(object sender, EventArgs e)
+        {
+            // 1. Validaciones básicas (si está vacío, etc.)
+            if (pnlSecuencia.Controls.Count == 0) return;
 
-            // VALIDACIÓN
-            if (tagFicha == tagPanel)
+            int totalImagenes = pnlSecuencia.Controls.Count + pnlOpciones.Controls.Count;
+            if (pnlSecuencia.Controls.Count != totalImagenes)
             {
-                ficha.Parent = panel;
+                MessageBox.Show("Aún faltan imágenes por ordenar.");
+                return;
+            }
 
-                int centroX = (panel.Width - ficha.Width) / 2;
-                int centroY = (panel.Height - ficha.Height) / 2;
+            // 2. Comprobación del orden
+            int indice = 0;
+            bool esCorrecto = true;
 
-                // 3. Aplicamos la nueva ubicación calculada
-                ficha.Location = new Point(centroX, centroY);
-
-                ficha.Enabled = false;
-                panel.BackColor = Color.LightGreen;
-                ficha.BringToFront(); 
-
-                aciertosEnNivel++; // Sumamos un acierto
-
-                // Verificamos si completó el nivel (3 fichas)
-                if (aciertosEnNivel == 3)
+            foreach (Control control in pnlSecuencia.Controls)
+            {
+                PictureBox imagen = control as PictureBox;
+                // Compara el Tag (orden correcto) con el índice actual + 1
+                if (imagen.Tag.ToString() != (indice + 1).ToString())
                 {
-                    MessageBox.Show("¡Nivel Completado!");
-                    CargarNivel(nivelActual + 1); // Pasamos al siguiente
+                    esCorrecto = false;
+                    break;
                 }
+                indice++;
+            }
+
+            // 3. Resultado
+            if (esCorrecto)
+            {
+                MessageBox.Show("¡Correcto! Has completado la secuencia.");
+
+                // AQUÍ ESTÁ EL TRUCO:
+                btnSiguiente.Visible = true;   // Aparece el botón mágico
+                btnVerificar.Enabled = false;  // Desactivamos verificar para que no le den click de nuevo
+                pnlSecuencia.Enabled = false;  // Bloqueamos el panel para que no muevan las fotos ya ordenadas
             }
             else
             {
-                // ERROR 
-                errores++; // Aumentamos contador
-                lblErroresJgScc.Text = "Errores: " + errores.ToString(); // Actualizamos etiqueta
-
-                MessageBox.Show("¡Incorrecto! Cuidado.");
+                MessageBox.Show("Hay un error en el orden. Inténtalo de nuevo.");
             }
+
         }
 
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+            // 1. Aumentamos el contador
+            nivelActual++;
+
+            // 2. Cargamos el nuevo nivel
+            CargarNivel();
+
+            // 3. RESTABLECEMOS LA INTERFAZ (Muy importante)
+            // Como acabamos de cargar un nivel nuevo, hay que esconder este botón otra vez
+            btnSiguiente.Visible = false;
+
+            // Volvemos a activar el botón de verificar y el panel
+            btnVerificar.Enabled = true;
+            pnlSecuencia.Enabled = true;
+        }
     }
 }
 

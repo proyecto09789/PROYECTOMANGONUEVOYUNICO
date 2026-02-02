@@ -163,6 +163,26 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BtnSiguiente {
+            get {
+                object obj = ResourceManager.GetObject("BtnSiguiente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BtnVerificar {
+            get {
+                object obj = ResourceManager.GetObject("BtnVerificar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2025_12_21_180116 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2025-12-21 180116", resourceCulture);
@@ -376,6 +396,26 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap CosechaMango {
             get {
                 object obj = ResourceManager.GetObject("CosechaMango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CosechaMangoScc1 {
+            get {
+                object obj = ResourceManager.GetObject("CosechaMangoScc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CosechaMangoScc11 {
+            get {
+                object obj = ResourceManager.GetObject("CosechaMangoScc11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -676,6 +716,26 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap FloracionMango {
             get {
                 object obj = ResourceManager.GetObject("FloracionMango", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FloracionMangoScc1 {
+            get {
+                object obj = ResourceManager.GetObject("FloracionMangoScc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FloracionMangoScc11 {
+            get {
+                object obj = ResourceManager.GetObject("FloracionMangoScc11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1306,6 +1366,26 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap SiembraMango1 {
             get {
                 object obj = ResourceManager.GetObject("SiembraMango1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SiembraMangoScc1 {
+            get {
+                object obj = ResourceManager.GetObject("SiembraMangoScc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SiembraMangoScc11 {
+            get {
+                object obj = ResourceManager.GetObject("SiembraMangoScc11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
