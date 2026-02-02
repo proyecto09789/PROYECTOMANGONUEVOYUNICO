@@ -83,6 +83,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AhoyadoScc2 {
+            get {
+                object obj = ResourceManager.GetObject("AhoyadoScc2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ANI_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("ANI-removebg-preview", resourceCulture);
@@ -1223,6 +1233,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PrepSemillaScc2 {
+            get {
+                object obj = ResourceManager.GetObject("PrepSemillaScc2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Proceso_Productivo {
             get {
                 object obj = ResourceManager.GetObject("Proceso Productivo", resourceCulture);
@@ -1276,6 +1296,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap Riego_inicial1 {
             get {
                 object obj = ResourceManager.GetObject("Riego inicial1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SeleccDeTerrenScc2 {
+            get {
+                object obj = ResourceManager.GetObject("SeleccDeTerrenScc2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1564,6 +1594,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap transporte_y_venta {
             get {
                 object obj = ResourceManager.GetObject("transporte y venta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TrasplanteScc2 {
+            get {
+                object obj = ResourceManager.GetObject("TrasplanteScc2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

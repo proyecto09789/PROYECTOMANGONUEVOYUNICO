@@ -803,5 +803,17 @@
   <ItemGroup>
     <None Include="Resources\SiembraMangoScc11.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SeleccDeTerrenScc2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrasplanteScc2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrepSemillaScc2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AhoyadoScc2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

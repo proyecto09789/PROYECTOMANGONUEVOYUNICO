@@ -63,11 +63,11 @@ namespace PROYECTOMANGO
 
                 //case 3:
                 //    lblTitulo.Text = "Nivel 3: Cosecha (Difícil)";
-                //    listaImagenes.Add((Properties.Resources.IndMaduScc3, 1));
-                //    listaImagenes.Add((Properties.Resources.TecnCortScc3, 2));
-                //    listaImagenes.Add((Properties.Resources.DeslechScc3, 3));
-                //    listaImagenes.Add((Properties.Resources.LavadTratamScc3, 4));
-                //    listaImagenes.Add((Properties.Resources.ClasifEmpScc3, 5));
+                //    listaImagenes.Add((Properties.Resources., 1));
+                //    listaImagenes.Add((Properties.Resources., 2));
+                //    listaImagenes.Add((Properties.Resources., 3));
+                //    listaImagenes.Add((Properties.Resources., 4));
+                //    listaImagenes.Add((Properties.Resources., 5));
                 //    break;
 
                 default:

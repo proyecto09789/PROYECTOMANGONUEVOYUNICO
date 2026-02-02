@@ -36,8 +36,8 @@ namespace PROYECTOMANGO
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnVerificar = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.pbImportar = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImportar)).BeginInit();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnVolverJuegSecc
@@ -111,14 +111,19 @@ namespace PROYECTOMANGO
             this.lblTitulo.TabIndex = 4;
             this.lblTitulo.Text = "¡BIENVENIDO!";
             // 
-            // pbImportar
+            // textBox1
             // 
-            this.pbImportar.Image = global::PROYECTOMANGO.Properties.Resources.SiembraMangoScc11;
-            this.pbImportar.Location = new System.Drawing.Point(983, 60);
-            this.pbImportar.Name = "pbImportar";
-            this.pbImportar.Size = new System.Drawing.Size(100, 50);
-            this.pbImportar.TabIndex = 5;
-            this.pbImportar.TabStop = false;
+            this.textBox1.Location = new System.Drawing.Point(-19, -19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 5;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(-19, -19);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.TabIndex = 6;
             // 
             // JuegSeccProcProd
             // 
@@ -127,7 +132,8 @@ namespace PROYECTOMANGO
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1180, 630);
-            this.Controls.Add(this.pbImportar);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.btnSiguiente);
@@ -139,7 +145,6 @@ namespace PROYECTOMANGO
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JuegSeccProcProd";
             this.Load += new System.EventHandler(this.JuegSeccProcProd_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pbImportar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -153,6 +158,7 @@ namespace PROYECTOMANGO
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.PictureBox pbImportar;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
