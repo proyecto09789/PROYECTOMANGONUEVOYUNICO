@@ -43,14 +43,12 @@ namespace PROYECTOBETA001
             this.lbprocesoproductivo = new System.Windows.Forms.Label();
             this.lbcuidatumango = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.fotocuidatumango1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotoprocesoproductivo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotodatocuriso1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.fotousoculinario1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imtra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // fotocuidatumango1
@@ -214,14 +212,6 @@ namespace PROYECTOBETA001
             this.pictureBox1.TabIndex = 41;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(261, 568);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 42;
-            this.pictureBox2.TabStop = false;
-            // 
             // Interfazprinc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -230,7 +220,6 @@ namespace PROYECTOBETA001
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.de_Información_y_Recursos_del__1950_x_1150_px_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1274, 660);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbcuidatumango);
             this.Controls.Add(this.lbprocesoproductivo);
@@ -253,7 +242,6 @@ namespace PROYECTOBETA001
             ((System.ComponentModel.ISupportInitialize)(this.fotousoculinario1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imtra)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -272,6 +260,5 @@ namespace PROYECTOBETA001
         private System.Windows.Forms.Label lbprocesoproductivo;
         private System.Windows.Forms.Label lbcuidatumango;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
