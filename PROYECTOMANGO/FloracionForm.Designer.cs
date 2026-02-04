@@ -211,12 +211,13 @@
             // 
             // lblEtpFloracion
             // 
+            this.lblEtpFloracion.AutoSize = true;
             this.lblEtpFloracion.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.lblEtpFloracion.Font = new System.Drawing.Font("Georgia", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEtpFloracion.ForeColor = System.Drawing.Color.Ivory;
             this.lblEtpFloracion.Location = new System.Drawing.Point(379, 38);
             this.lblEtpFloracion.Name = "lblEtpFloracion";
-            this.lblEtpFloracion.Size = new System.Drawing.Size(459, 52);
+            this.lblEtpFloracion.Size = new System.Drawing.Size(440, 49);
             this.lblEtpFloracion.TabIndex = 4;
             this.lblEtpFloracion.Text = "Etapa de Floración";
             this.lblEtpFloracion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -242,6 +243,7 @@
             this.pnlRefFloracion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTemaFloracion)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

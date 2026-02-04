@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblComoSeJuega2.Text" xml:space="preserve">
+    <value>1. Haz clic en las imágenes del panel inferior para 
+moverlas a la secuencia.
+2. debes colocar las imágenes en el orden correcto.
+3. Si te equivocas, haz clic en una imagen de la 
+secuencia (arriba) para devolverla.
+4. Cuando creas que el orden es correcto,
+presiona el botón Verificar.</value>
+  </data>
 </root>

@@ -30,14 +30,19 @@ namespace PROYECTOMANGO
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JuegSeccProcProd));
             this.btnVolverJuegSecc = new System.Windows.Forms.Button();
             this.pnlSecuencia = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlOpciones = new System.Windows.Forms.FlowLayoutPanel();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnVerificar = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pnlComoSeJuega = new System.Windows.Forms.Panel();
+            this.lblComoSeJuega2 = new System.Windows.Forms.Label();
+            this.lblComoSeJuega = new System.Windows.Forms.Label();
+            this.btnXInstrucc = new System.Windows.Forms.Button();
+            this.btnComoSeJuega = new System.Windows.Forms.Button();
+            this.pnlComoSeJuega.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnVolverJuegSecc
@@ -58,6 +63,8 @@ namespace PROYECTOMANGO
             // pnlSecuencia
             // 
             this.pnlSecuencia.BackColor = System.Drawing.Color.Transparent;
+            this.pnlSecuencia.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FondoPanelProccInterac;
+            this.pnlSecuencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlSecuencia.Location = new System.Drawing.Point(208, 139);
             this.pnlSecuencia.Name = "pnlSecuencia";
             this.pnlSecuencia.Size = new System.Drawing.Size(782, 133);
@@ -111,19 +118,71 @@ namespace PROYECTOMANGO
             this.lblTitulo.TabIndex = 4;
             this.lblTitulo.Text = "¡BIENVENIDO!";
             // 
-            // textBox1
+            // pnlComoSeJuega
             // 
-            this.textBox1.Location = new System.Drawing.Point(-19, -19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
+            this.pnlComoSeJuega.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondoInstruccionesJgProc;
+            this.pnlComoSeJuega.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlComoSeJuega.Controls.Add(this.lblComoSeJuega2);
+            this.pnlComoSeJuega.Controls.Add(this.lblComoSeJuega);
+            this.pnlComoSeJuega.Controls.Add(this.btnXInstrucc);
+            this.pnlComoSeJuega.Location = new System.Drawing.Point(285, 116);
+            this.pnlComoSeJuega.Name = "pnlComoSeJuega";
+            this.pnlComoSeJuega.Size = new System.Drawing.Size(603, 459);
+            this.pnlComoSeJuega.TabIndex = 7;
+            this.pnlComoSeJuega.Visible = false;
             // 
-            // textBox2
+            // lblComoSeJuega2
             // 
-            this.textBox2.Location = new System.Drawing.Point(-19, -19);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 6;
+            this.lblComoSeJuega2.AutoSize = true;
+            this.lblComoSeJuega2.BackColor = System.Drawing.Color.Transparent;
+            this.lblComoSeJuega2.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComoSeJuega2.ForeColor = System.Drawing.Color.White;
+            this.lblComoSeJuega2.Location = new System.Drawing.Point(28, 174);
+            this.lblComoSeJuega2.Name = "lblComoSeJuega2";
+            this.lblComoSeJuega2.Size = new System.Drawing.Size(524, 189);
+            this.lblComoSeJuega2.TabIndex = 2;
+            this.lblComoSeJuega2.Text = resources.GetString("lblComoSeJuega2.Text");
+            // 
+            // lblComoSeJuega
+            // 
+            this.lblComoSeJuega.AutoSize = true;
+            this.lblComoSeJuega.BackColor = System.Drawing.Color.Transparent;
+            this.lblComoSeJuega.Font = new System.Drawing.Font("Georgia", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblComoSeJuega.ForeColor = System.Drawing.Color.White;
+            this.lblComoSeJuega.Location = new System.Drawing.Point(79, 77);
+            this.lblComoSeJuega.Name = "lblComoSeJuega";
+            this.lblComoSeJuega.Size = new System.Drawing.Size(422, 54);
+            this.lblComoSeJuega.TabIndex = 1;
+            this.lblComoSeJuega.Text = "¿Cómo se juega?";
+            // 
+            // btnXInstrucc
+            // 
+            this.btnXInstrucc.BackColor = System.Drawing.Color.Transparent;
+            this.btnXInstrucc.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.btnInstruccJgProcc;
+            this.btnXInstrucc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnXInstrucc.FlatAppearance.BorderSize = 0;
+            this.btnXInstrucc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXInstrucc.Location = new System.Drawing.Point(527, 12);
+            this.btnXInstrucc.Name = "btnXInstrucc";
+            this.btnXInstrucc.Size = new System.Drawing.Size(64, 59);
+            this.btnXInstrucc.TabIndex = 0;
+            this.btnXInstrucc.UseVisualStyleBackColor = false;
+            this.btnXInstrucc.Click += new System.EventHandler(this.btnXInstrucc_Click);
+            // 
+            // btnComoSeJuega
+            // 
+            this.btnComoSeJuega.BackColor = System.Drawing.Color.Transparent;
+            this.btnComoSeJuega.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.btnComoSeJuega;
+            this.btnComoSeJuega.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnComoSeJuega.FlatAppearance.BorderSize = 0;
+            this.btnComoSeJuega.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComoSeJuega.Location = new System.Drawing.Point(1093, 12);
+            this.btnComoSeJuega.Name = "btnComoSeJuega";
+            this.btnComoSeJuega.Size = new System.Drawing.Size(75, 60);
+            this.btnComoSeJuega.TabIndex = 8;
+            this.btnComoSeJuega.UseMnemonic = false;
+            this.btnComoSeJuega.UseVisualStyleBackColor = false;
+            this.btnComoSeJuega.Click += new System.EventHandler(this.btnComoSeJuega_Click);
             // 
             // JuegSeccProcProd
             // 
@@ -132,8 +191,8 @@ namespace PROYECTOMANGO
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1180, 630);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnComoSeJuega);
+            this.Controls.Add(this.pnlComoSeJuega);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnVerificar);
             this.Controls.Add(this.btnSiguiente);
@@ -145,6 +204,8 @@ namespace PROYECTOMANGO
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JuegSeccProcProd";
             this.Load += new System.EventHandler(this.JuegSeccProcProd_Load);
+            this.pnlComoSeJuega.ResumeLayout(false);
+            this.pnlComoSeJuega.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,7 +219,10 @@ namespace PROYECTOMANGO
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Panel pnlComoSeJuega;
+        private System.Windows.Forms.Button btnXInstrucc;
+        private System.Windows.Forms.Button btnComoSeJuega;
+        private System.Windows.Forms.Label lblComoSeJuega2;
+        private System.Windows.Forms.Label lblComoSeJuega;
     }
 }

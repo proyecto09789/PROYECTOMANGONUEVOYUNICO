@@ -869,5 +869,35 @@
   <ItemGroup>
     <None Include="Resources\guiaquiz.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoPanelProccInterac1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoInstruccionesJgProc1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnInstruccJgProcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnComoSeJuega.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClasifEmpaqScc31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeslechScc31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IndicMaduScc3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LavadTratamScc3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TecnCortScc3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnIralJg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

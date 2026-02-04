@@ -183,6 +183,36 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnComoSeJuega {
+            get {
+                object obj = ResourceManager.GetObject("btnComoSeJuega", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnInstruccJgProcc {
+            get {
+                object obj = ResourceManager.GetObject("btnInstruccJgProcc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnIralJg {
+            get {
+                object obj = ResourceManager.GetObject("btnIralJg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnPP_1_ {
             get {
                 object obj = ResourceManager.GetObject("btnPP_1_", resourceCulture);
@@ -286,6 +316,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap Captura_de_pantalla_2026_01_18_224115 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2026-01-18 224115", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ClasifEmpaqScc3 {
+            get {
+                object obj = ResourceManager.GetObject("ClasifEmpaqScc3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -486,6 +526,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap demonn {
             get {
                 object obj = ResourceManager.GetObject("demonn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DeslechScc3 {
+            get {
+                object obj = ResourceManager.GetObject("DeslechScc3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -733,6 +783,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondoInstruccionesJgProc {
+            get {
+                object obj = ResourceManager.GetObject("fondoInstruccionesJgProc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fondointer {
             get {
                 object obj = ResourceManager.GetObject("fondointer", resourceCulture);
@@ -786,6 +846,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap FONDOMASCOTA {
             get {
                 object obj = ResourceManager.GetObject("FONDOMASCOTA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondoPanelProccInterac {
+            get {
+                object obj = ResourceManager.GetObject("FondoPanelProccInterac", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1083,6 +1153,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IndicMaduScc3 {
+            get {
+                object obj = ResourceManager.GetObject("IndicMaduScc3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap INDUCCION_FLORAL {
             get {
                 object obj = ResourceManager.GetObject("INDUCCION FLORAL", resourceCulture);
@@ -1106,6 +1186,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap LAVADO_Y_TRATAMIENTO {
             get {
                 object obj = ResourceManager.GetObject("LAVADO Y TRATAMIENTO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LavadTratamScc3 {
+            get {
+                object obj = ResourceManager.GetObject("LavadTratamScc3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1527,6 +1617,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap SQ3_1_ {
             get {
                 object obj = ResourceManager.GetObject("SQ3(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TecnCortScc3 {
+            get {
+                object obj = ResourceManager.GetObject("TecnCortScc3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

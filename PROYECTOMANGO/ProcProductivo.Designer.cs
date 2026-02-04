@@ -64,10 +64,10 @@
             // lblTituProc
             // 
             this.lblTituProc.AutoSize = true;
-            this.lblTituProc.BackColor = System.Drawing.Color.Transparent;
+            this.lblTituProc.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.lblTituProc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTituProc.Font = new System.Drawing.Font("Georgia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituProc.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.lblTituProc.ForeColor = System.Drawing.Color.Ivory;
             this.lblTituProc.Location = new System.Drawing.Point(115, 69);
             this.lblTituProc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTituProc.Name = "lblTituProc";
@@ -200,14 +200,14 @@
             // btnJuegInteractivoProcProduct
             // 
             this.btnJuegInteractivoProcProduct.BackColor = System.Drawing.Color.Transparent;
-            this.btnJuegInteractivoProcProduct.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.SQ3_1_;
+            this.btnJuegInteractivoProcProduct.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.btnIralJg;
             this.btnJuegInteractivoProcProduct.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnJuegInteractivoProcProduct.FlatAppearance.BorderSize = 0;
             this.btnJuegInteractivoProcProduct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJuegInteractivoProcProduct.ForeColor = System.Drawing.Color.Transparent;
-            this.btnJuegInteractivoProcProduct.Location = new System.Drawing.Point(985, 547);
+            this.btnJuegInteractivoProcProduct.Location = new System.Drawing.Point(1035, 544);
             this.btnJuegInteractivoProcProduct.Name = "btnJuegInteractivoProcProduct";
-            this.btnJuegInteractivoProcProduct.Size = new System.Drawing.Size(194, 83);
+            this.btnJuegInteractivoProcProduct.Size = new System.Drawing.Size(133, 83);
             this.btnJuegInteractivoProcProduct.TabIndex = 11;
             this.btnJuegInteractivoProcProduct.UseVisualStyleBackColor = false;
             this.btnJuegInteractivoProcProduct.Click += new System.EventHandler(this.btnJuegInteractivoProcProduct_Click);
