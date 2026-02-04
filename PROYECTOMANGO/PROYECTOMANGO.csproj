@@ -839,5 +839,14 @@
   <ItemGroup>
     <None Include="Resources\fondoquiz3.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quizinfacil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quizintemerdio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quizindificil.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -17,7 +17,7 @@ namespace PROYECTOBETA001
         }
         private void btnRecetaman_Click(object sender, EventArgs e)
         {
-
+            pnlnivelquiezmay.Location = new Point(1280, 48);
             RECETAMAYK21 ventramang = new RECETAMAYK21();
             ventramang.Show();
             this.Hide();
@@ -54,18 +54,27 @@ namespace PROYECTOBETA001
         {
             
             panelBeneficios.Visible = true;
-     
+            pnlnivelquiezmay.Location = new Point(1280, 48);
+
         }
         private void btnjuegococi_Click(object sender, EventArgs e)
         {
-            Juegomayre1 ventjuegococi = new Juegomayre1();
-            ventjuegococi.Show();
+           pnlnivelquiezmay.Location = new Point(128, 48);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Juegomayre1 ventjueg12omayre1 = new Juegomayre1();
+            ventjueg12omayre1.Show();
             this.Hide();
         }
 
-       
-
-      
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            QUIZ2MEDIO cjbud = new QUIZ2MEDIO();
+            cjbud.Show();
+            this.Hide();
+        }
     }
     
 }

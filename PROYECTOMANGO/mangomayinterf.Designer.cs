@@ -368,7 +368,6 @@
             this.panelBeneficios.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panelBeneficios.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDOINTERFANUEVO;
             this.panelBeneficios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelBeneficios.Controls.Add(this.pnlnivelquiezmay);
             this.panelBeneficios.Controls.Add(this.labjthel16);
             this.panelBeneficios.Controls.Add(this.pictureBjhox13);
             this.panelBeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -387,25 +386,30 @@
             this.pnlnivelquiezmay.Controls.Add(this.Quizfacil);
             this.pnlnivelquiezmay.Controls.Add(this.pictureBox2);
             this.pnlnivelquiezmay.Controls.Add(this.pictureBox1);
-            this.pnlnivelquiezmay.Location = new System.Drawing.Point(0, 0);
+            this.pnlnivelquiezmay.Location = new System.Drawing.Point(1000, 4);
             this.pnlnivelquiezmay.Name = "pnlnivelquiezmay";
             this.pnlnivelquiezmay.Size = new System.Drawing.Size(812, 429);
             this.pnlnivelquiezmay.TabIndex = 3;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(525, 138);
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.quizindificil;
+            this.pictureBox4.Location = new System.Drawing.Point(542, 185);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(169, 154);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(551, 110);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(555, 157);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 16);
+            this.label1.Size = new System.Drawing.Size(121, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "QUIZ DIFÍCIL";
             this.label1.UseWaitCursor = true;
@@ -413,9 +417,11 @@
             // Quizdif
             // 
             this.Quizdif.AutoSize = true;
-            this.Quizdif.Location = new System.Drawing.Point(324, 110);
+            this.Quizdif.BackColor = System.Drawing.Color.Transparent;
+            this.Quizdif.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.Quizdif.Location = new System.Drawing.Point(324, 157);
             this.Quizdif.Name = "Quizdif";
-            this.Quizdif.Size = new System.Drawing.Size(140, 16);
+            this.Quizdif.Size = new System.Drawing.Size(168, 20);
             this.Quizdif.TabIndex = 4;
             this.Quizdif.Text = "QUIZ INTERMEDIO";
             this.Quizdif.UseWaitCursor = true;
@@ -423,27 +429,37 @@
             // Quizfacil
             // 
             this.Quizfacil.AutoSize = true;
-            this.Quizfacil.Location = new System.Drawing.Point(133, 110);
+            this.Quizfacil.BackColor = System.Drawing.Color.Transparent;
+            this.Quizfacil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Quizfacil.Location = new System.Drawing.Point(133, 157);
             this.Quizfacil.Name = "Quizfacil";
-            this.Quizfacil.Size = new System.Drawing.Size(87, 16);
+            this.Quizfacil.Size = new System.Drawing.Size(108, 20);
             this.Quizfacil.TabIndex = 3;
             this.Quizfacil.Text = "QUIZ FACIL";
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(307, 138);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::PROYECTOMANGO.Properties.Resources.quizintemerdio;
+            this.pictureBox2.Location = new System.Drawing.Point(323, 185);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(169, 154);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(100, 138);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::PROYECTOMANGO.Properties.Resources.quizinfacil;
+            this.pictureBox1.Location = new System.Drawing.Point(100, 185);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(169, 154);
+            this.pictureBox1.Size = new System.Drawing.Size(172, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // labjthel16
             // 
@@ -649,7 +665,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1208, 510);
+            this.ClientSize = new System.Drawing.Size(951, 477);
+            this.Controls.Add(this.pnlnivelquiezmay);
             this.Controls.Add(this.panelrecetaGlaseadoMangJengibre);
             this.Controls.Add(this.btnjuegococi);
             this.Controls.Add(this.paneldelusoculinario);
