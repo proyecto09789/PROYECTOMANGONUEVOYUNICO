@@ -743,6 +743,36 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondoQuiz {
+            get {
+                object obj = ResourceManager.GetObject("fondoQuiz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondoQuiz1 {
+            get {
+                object obj = ResourceManager.GetObject("fondoQuiz1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondoquiz3 {
+            get {
+                object obj = ResourceManager.GetObject("fondoquiz3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FONDOUSOCUL {
             get {
                 object obj = ResourceManager.GetObject("FONDOUSOCUL", resourceCulture);
@@ -986,6 +1016,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap LAVADO_Y_TRATAMIENTO {
             get {
                 object obj = ResourceManager.GetObject("LAVADO Y TRATAMIENTO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ListoQUIz2 {
+            get {
+                object obj = ResourceManager.GetObject("ListoQUIz2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1387,6 +1427,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap Titulodatocurioso {
             get {
                 object obj = ResourceManager.GetObject("Titulodatocurioso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tituloQuiz {
+            get {
+                object obj = ResourceManager.GetObject("tituloQuiz", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
