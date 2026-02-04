@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panelfinalmay1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panelmay2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.btnopm8 = new System.Windows.Forms.Button();
@@ -79,10 +82,9 @@
             this.btnopm2 = new System.Windows.Forms.Button();
             this.btnopm1 = new System.Windows.Forms.Button();
             this.labelmay4 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panelfinalmay1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panelmay2.SuspendLayout();
             this.panelcomenzar1.SuspendLayout();
             this.panelmay3.SuspendLayout();
@@ -91,7 +93,6 @@
             this.panelmay9.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelmay1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelfinalmay1
@@ -112,6 +113,34 @@
             this.panelfinalmay1.Name = "panelfinalmay1";
             this.panelfinalmay1.Size = new System.Drawing.Size(981, 544);
             this.panelfinalmay1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Location = new System.Drawing.Point(260, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(38, 10);
+            this.panel2.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(103, 124);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "label6";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(386, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(126, 25);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "GUÍA QUIZ";
             // 
             // panelmay2
             // 
@@ -200,6 +229,7 @@
             this.panelcomenzar1.BackColor = System.Drawing.Color.White;
             this.panelcomenzar1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.ListoQUIz2;
             this.panelcomenzar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelcomenzar1.Controls.Add(this.button2);
             this.panelcomenzar1.Controls.Add(this.button1);
             this.panelcomenzar1.Location = new System.Drawing.Point(40, 95);
             this.panelcomenzar1.Name = "panelcomenzar1";
@@ -620,9 +650,9 @@
             this.labelmay1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelmay1.Location = new System.Drawing.Point(0, 0);
             this.labelmay1.Name = "labelmay1";
-            this.labelmay1.Size = new System.Drawing.Size(989, 78);
+            this.labelmay1.Size = new System.Drawing.Size(1012, 78);
             this.labelmay1.TabIndex = 0;
-            this.labelmay1.Text = "🥭 Quiz Culinario del Mango 🥭";
+            this.labelmay1.Text = "   🥭 Quiz Medio del Mango 🥭   ";
             // 
             // panelmay1
             // 
@@ -695,33 +725,18 @@
             this.labelmay4.Text = "Según la receta de arroz pegajoso, ¿qué se debe hacer con las bolas de arroz ante" +
     "s de freírlas?";
             // 
-            // panel2
+            // button2
             // 
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Location = new System.Drawing.Point(260, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(38, 10);
-            this.panel2.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(386, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 25);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "GUÍA QUIZ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(103, 124);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "label6";
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 51);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // QUIZ2MEDIO
             // 
@@ -736,6 +751,8 @@
             this.Load += new System.EventHandler(this.Juegomayre1_Load);
             this.panelfinalmay1.ResumeLayout(false);
             this.panelfinalmay1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panelmay2.ResumeLayout(false);
             this.panelmay2.PerformLayout();
             this.panelcomenzar1.ResumeLayout(false);
@@ -750,8 +767,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panelmay1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -812,5 +827,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button2;
     }
 }

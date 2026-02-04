@@ -518,5 +518,12 @@ namespace PROYECTOMANGO
             panelcomenzar1.Visible = false;
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            mangomayinterf ventm2s2 = new mangomayinterf();
+            ventm2s2.Show();
+            this.Hide();
+        }
     }
 }

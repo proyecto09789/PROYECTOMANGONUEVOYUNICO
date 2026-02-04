@@ -59,7 +59,7 @@ namespace PROYECTOBETA001
         }
         private void btnjuegococi_Click(object sender, EventArgs e)
         {
-           pnlnivelquiezmay.Location = new Point(128, 48);
+           pnlGuia.Location = new Point(128, 48);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -74,6 +74,24 @@ namespace PROYECTOBETA001
             QUIZ2MEDIO cjbud = new QUIZ2MEDIO();
             cjbud.Show();
             this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Quizdificil1 quizdifi2cil1 = new Quizdificil1();
+            quizdifi2cil1.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Comenzarquiz1_Click(object sender, EventArgs e)
+        {
+            pnlGuia.Location = new Point(1280, 48);
+            pnlnivelquiezmay.Location = new Point(128, 48);
         }
     }
     

@@ -423,6 +423,9 @@
     <EmbeddedResource Include="QUIZ2MEDIO.resx">
       <DependentUpon>QUIZ2MEDIO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Quizdificil1.resx">
+      <DependentUpon>Quizdificil1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RECETAMAYK6.resx">
       <DependentUpon>RECETAMAYK6.cs</DependentUpon>
     </EmbeddedResource>
@@ -862,6 +865,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\quizindificil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guiaquiz.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

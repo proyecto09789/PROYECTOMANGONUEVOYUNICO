@@ -524,5 +524,12 @@ namespace PROYECTOMANGO
             panelcomenzar1.Visible = false;
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            mangomayinterf ve54f = new mangomayinterf();
+            ve54f.Show();
+            this.Hide();
+        }
     }
 }
