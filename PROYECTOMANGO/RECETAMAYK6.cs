@@ -58,5 +58,10 @@ namespace RECETAMAYK34
             gdfs.Show();
             this.Hide();
         }
+
+        private void label45_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

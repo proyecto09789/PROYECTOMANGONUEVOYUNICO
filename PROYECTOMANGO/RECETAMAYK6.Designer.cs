@@ -49,6 +49,7 @@
             this.subtex1p1 = new System.Windows.Forms.Label();
             this.sub1p1 = new System.Windows.Forms.Label();
             this.INSTRUCCIONESRECETA1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbltltuloReceta1 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -69,6 +70,7 @@
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
@@ -90,17 +92,16 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.pnlfonReceta01.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlfonReceta02.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnlfonReceta03.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlfonReceta01
@@ -342,6 +343,17 @@
             this.INSTRUCCIONESRECETA1.TabIndex = 2;
             this.INSTRUCCIONESRECETA1.Text = "INSTRUCCIONES";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::PROYECTOMANGO.Properties.Resources.friedmango1;
+            this.pictureBox1.Location = new System.Drawing.Point(498, 88);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(268, 203);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // lbltltuloReceta1
             // 
             this.lbltltuloReceta1.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -575,6 +587,17 @@
             this.label44.TabIndex = 2;
             this.label44.Text = "INSTRUCCIONES";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.EnSaLADAPICANTE;
+            this.pictureBox4.Location = new System.Drawing.Point(498, 88);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(268, 163);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
+            // 
             // label45
             // 
             this.label45.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -585,6 +608,7 @@
             this.label45.TabIndex = 0;
             this.label45.Text = "ENSALADA PICANTE DE MANGO";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label45.Click += new System.EventHandler(this.label45_Click);
             // 
             // label46
             // 
@@ -609,6 +633,7 @@
             // pnlfonReceta03
             // 
             this.pnlfonReceta03.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pnlfonReceta03.Controls.Add(this.label16);
             this.pnlfonReceta03.Controls.Add(this.label23);
             this.pnlfonReceta03.Controls.Add(this.label1);
             this.pnlfonReceta03.Controls.Add(this.label2);
@@ -821,6 +846,17 @@
             this.label22.TabIndex = 2;
             this.label22.Text = "INSTRUCCIONES";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Image = global::PROYECTOMANGO.Properties.Resources.GLASEADOIMAGEMREC2;
+            this.pictureBox3.Location = new System.Drawing.Point(498, 88);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(268, 203);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
             // label24
             // 
             this.label24.BackColor = System.Drawing.Color.Khaki;
@@ -841,44 +877,21 @@
             this.label25.TabIndex = 22;
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox3
+            // label16
             // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Image = global::PROYECTOMANGO.Properties.Resources.GLASEADOIMAGEMREC2;
-            this.pictureBox3.Location = new System.Drawing.Point(498, 88);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(268, 203);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Image = global::PROYECTOMANGO.Properties.Resources.EnSaLADAPICANTE;
-            this.pictureBox4.Location = new System.Drawing.Point(498, 88);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(268, 163);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::PROYECTOMANGO.Properties.Resources.friedmango1;
-            this.pictureBox1.Location = new System.Drawing.Point(498, 88);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(268, 203);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.label16.BackColor = System.Drawing.Color.Orange;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(81, 63);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(620, 5);
+            this.label16.TabIndex = 23;
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RECETAMAYK21
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(778, 686);
+            this.ClientSize = new System.Drawing.Size(782, 686);
             this.Controls.Add(this.pnlfonReceta02);
             this.Controls.Add(this.pnlfonReceta03);
             this.Controls.Add(this.pnlfonReceta01);
@@ -888,13 +901,13 @@
             this.Text = "Form1";
             this.pnlfonReceta01.ResumeLayout(false);
             this.pnlfonReceta01.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlfonReceta02.ResumeLayout(false);
             this.pnlfonReceta02.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.pnlfonReceta03.ResumeLayout(false);
             this.pnlfonReceta03.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -967,6 +980,7 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label16;
     }
 }
 

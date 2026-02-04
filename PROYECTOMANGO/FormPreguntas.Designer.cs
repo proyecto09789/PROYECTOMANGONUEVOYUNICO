@@ -187,6 +187,7 @@
             this.Margin = new System.Windows.Forms.Padding(8);
             this.MaximizeBox = false;
             this.Name = "FormPreguntas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.FormPreguntas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnResponder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

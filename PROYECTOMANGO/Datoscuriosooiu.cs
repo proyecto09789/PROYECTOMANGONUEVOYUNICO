@@ -103,7 +103,7 @@ namespace PROYECTOBETA001
         {
             InitializeComponent();
 
-            lblDatos.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            lblDatos.Font = new Font("Segoe UI", 13, FontStyle.Bold);
             lblContador.Font = new Font("Segoe UI", 10, FontStyle.Bold); 
             MostrarDato();
         }

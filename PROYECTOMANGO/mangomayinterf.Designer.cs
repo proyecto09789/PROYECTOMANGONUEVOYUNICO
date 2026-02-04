@@ -34,6 +34,8 @@
             this.panelrecetaGlaseadoMangJengibre = new System.Windows.Forms.Panel();
             this.label1ghac = new System.Windows.Forms.Label();
             this.label1nb = new System.Windows.Forms.Label();
+            this.picturemjBox12 = new System.Windows.Forms.PictureBox();
+            this.pimnctureBox11 = new System.Windows.Forms.PictureBox();
             this.labdfel15 = new System.Windows.Forms.Label();
             this.labelrec14 = new System.Windows.Forms.Label();
             this.labelrec13 = new System.Windows.Forms.Label();
@@ -50,11 +52,11 @@
             this.menuinterzaprin01 = new System.Windows.Forms.Button();
             this.btnjuegococi = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.pnlnivelquiezmay = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -62,8 +64,6 @@
             this.Quizfacil = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.picturemjBox12 = new System.Windows.Forms.PictureBox();
-            this.pimnctureBox11 = new System.Windows.Forms.PictureBox();
             this.paneldelusoculinario = new System.Windows.Forms.Panel();
             this.panelBeneficios = new System.Windows.Forms.Panel();
             this.labjthel16 = new System.Windows.Forms.Label();
@@ -87,14 +87,15 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.Comenzarquiz1 = new System.Windows.Forms.Button();
             this.pnlGuia = new System.Windows.Forms.Panel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panelrecetaGlaseadoMangJengibre.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturemjBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pimnctureBox11)).BeginInit();
             this.panel1.SuspendLayout();
             this.pnlnivelquiezmay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturemjBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pimnctureBox11)).BeginInit();
             this.paneldelusoculinario.SuspendLayout();
             this.panelBeneficios.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBjhox13)).BeginInit();
@@ -178,6 +179,24 @@
             this.label1nb.Size = new System.Drawing.Size(69, 16);
             this.label1nb.TabIndex = 15;
             this.label1nb.Text = "Calorias ";
+            // 
+            // picturemjBox12
+            // 
+            this.picturemjBox12.BackColor = System.Drawing.Color.LemonChiffon;
+            this.picturemjBox12.Location = new System.Drawing.Point(0, 81);
+            this.picturemjBox12.Name = "picturemjBox12";
+            this.picturemjBox12.Size = new System.Drawing.Size(948, 18);
+            this.picturemjBox12.TabIndex = 14;
+            this.picturemjBox12.TabStop = false;
+            // 
+            // pimnctureBox11
+            // 
+            this.pimnctureBox11.BackColor = System.Drawing.Color.LemonChiffon;
+            this.pimnctureBox11.Location = new System.Drawing.Point(319, 96);
+            this.pimnctureBox11.Name = "pimnctureBox11";
+            this.pimnctureBox11.Size = new System.Drawing.Size(19, 380);
+            this.pimnctureBox11.TabIndex = 13;
+            this.pimnctureBox11.TabStop = false;
             // 
             // labdfel15
             // 
@@ -344,29 +363,25 @@
             this.panel1.Size = new System.Drawing.Size(811, 431);
             this.panel1.TabIndex = 3;
             // 
-            // label5
+            // label9
             // 
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(59, 106);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(196, 211);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "🔹 Nivel FÁCIL\r\n\r\n(Otra funcionalidad – NO recetas)\r\n\r\nObserva la información mos" +
-    "trada\r\n\r\nResponde de forma directa\r\n\r\nNo analices procesos ni ingredientes\r\n\r\n";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(244, 341);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(338, 74);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "⚠️ Regla de Oro\r\n\r\n👉 No uses conocimiento externo.\r\n👉 Si no aparece en la image" +
+    "n, no es válido";
             // 
-            // label6
+            // label8
             // 
-            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(298, 106);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(196, 211);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "🔸 Nivel INTERMEDIO (Recetas)\r\n\r\nIdentifica la receta mencionada\r\n\r\nRevisa ingred" +
-    "ientes y cantidades\r\n\r\nLee los pasos con atención\r\n\r\nUsa solo lo que aparece en " +
-    "la receta ";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(173, 28);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(523, 31);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "📘 GUÍA PARA RESPONDER EL QUIZ";
             // 
             // label7
             // 
@@ -380,25 +395,29 @@
     " es necesario\r\n\r\nFíjate en tiempos, técnicas y palabras clave\r\n(antes de, despué" +
     "s de, opcional, mínimo)";
             // 
-            // label8
+            // label6
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(173, 28);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(523, 31);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "📘 GUÍA PARA RESPONDER EL QUIZ";
+            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(298, 106);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(196, 211);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "🔸 Nivel INTERMEDIO (Recetas)\r\n\r\nIdentifica la receta mencionada\r\n\r\nRevisa ingred" +
+    "ientes y cantidades\r\n\r\nLee los pasos con atención\r\n\r\nUsa solo lo que aparece en " +
+    "la receta ";
             // 
-            // label9
+            // label5
             // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(244, 341);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(338, 74);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "⚠️ Regla de Oro\r\n\r\n👉 No uses conocimiento externo.\r\n👉 Si no aparece en la image" +
-    "n, no es válido";
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(59, 106);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(196, 211);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "🔹 Nivel FÁCIL\r\n\r\n(Otra funcionalidad – NO recetas)\r\n\r\nObserva la información mos" +
+    "trada\r\n\r\nResponde de forma directa\r\n\r\nNo analices procesos ni ingredientes\r\n\r\n";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pnlnivelquiezmay
             // 
@@ -485,24 +504,6 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // picturemjBox12
-            // 
-            this.picturemjBox12.BackColor = System.Drawing.Color.LemonChiffon;
-            this.picturemjBox12.Location = new System.Drawing.Point(0, 81);
-            this.picturemjBox12.Name = "picturemjBox12";
-            this.picturemjBox12.Size = new System.Drawing.Size(948, 18);
-            this.picturemjBox12.TabIndex = 14;
-            this.picturemjBox12.TabStop = false;
-            // 
-            // pimnctureBox11
-            // 
-            this.pimnctureBox11.BackColor = System.Drawing.Color.LemonChiffon;
-            this.pimnctureBox11.Location = new System.Drawing.Point(319, 96);
-            this.pimnctureBox11.Name = "pimnctureBox11";
-            this.pimnctureBox11.Size = new System.Drawing.Size(19, 380);
-            this.pimnctureBox11.TabIndex = 13;
-            this.pimnctureBox11.TabStop = false;
             // 
             // paneldelusoculinario
             // 
@@ -763,11 +764,26 @@
             this.pnlGuia.Size = new System.Drawing.Size(810, 429);
             this.pnlGuia.TabIndex = 5;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.linkLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel1.Location = new System.Drawing.Point(128, 9);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(138, 15);
+            this.linkLabel1.TabIndex = 11;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Clic aquí para más recetas ";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // mangomayinterf
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(952, 487);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pnlGuia);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlnivelquiezmay);
@@ -787,6 +803,8 @@
             this.Load += new System.EventHandler(this.mangomayinterf_Load);
             this.panelrecetaGlaseadoMangJengibre.ResumeLayout(false);
             this.panelrecetaGlaseadoMangJengibre.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picturemjBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pimnctureBox11)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnlnivelquiezmay.ResumeLayout(false);
@@ -794,8 +812,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturemjBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pimnctureBox11)).EndInit();
             this.paneldelusoculinario.ResumeLayout(false);
             this.paneldelusoculinario.PerformLayout();
             this.panelBeneficios.ResumeLayout(false);
@@ -812,6 +828,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.pnlGuia.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -874,5 +891,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel pnlGuia;
         private System.Windows.Forms.Button Comenzarquiz1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

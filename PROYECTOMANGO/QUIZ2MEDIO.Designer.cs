@@ -40,6 +40,7 @@
             this.btnopm5 = new System.Windows.Forms.Button();
             this.labelmay6 = new System.Windows.Forms.Label();
             this.panelcomenzar1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panelmay3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -82,7 +83,6 @@
             this.btnopm2 = new System.Windows.Forms.Button();
             this.btnopm1 = new System.Windows.Forms.Button();
             this.labelmay4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.panelfinalmay1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panelmay2.SuspendLayout();
@@ -235,6 +235,19 @@
             this.panelcomenzar1.Name = "panelcomenzar1";
             this.panelcomenzar1.Size = new System.Drawing.Size(903, 432);
             this.panelcomenzar1.TabIndex = 5;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 51);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -724,19 +737,6 @@
             this.labelmay4.TabIndex = 0;
             this.labelmay4.Text = "Según la receta de arroz pegajoso, ¿qué se debe hacer con las bolas de arroz ante" +
     "s de freírlas?";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 51);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // QUIZ2MEDIO
             // 

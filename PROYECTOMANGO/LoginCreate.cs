@@ -12,11 +12,11 @@ namespace PROYECTOBETA001
 {
     public partial class LoginForm : Form
     {
-        // sirbe para conectar con la base de datos
+        // Esto de aquí sirbe para conectar con la base de datos
         MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=");
-        // sirve para ejecutar consultas
+        // Aquí se ejecuta las consultas
         MySqlCommand command;
-        // sirve para leer los datos de la base de datos
+        // Esto sirve para leer los datos de la base de datos
         MySqlDataReader mdr;
 
         public LoginForm()
@@ -26,7 +26,7 @@ namespace PROYECTOBETA001
 
         private async Task btnLogin_Click(object sender, EventArgs e)
         {
-            // Verifica si los campos de usuario y contraseña están vacíos
+            // Esto se encarga de verifica si los campos de usuario y contraseña están vacíos
             if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text))
             {
                 MessageBox.Show("Please input Username and Password", "Error");
@@ -38,14 +38,14 @@ namespace PROYECTOBETA001
                 connection.Open();
                 // Consulta para verificar las credenciales del usuario
                 string selectQuery = "SELECT * FROM loginform.userinfo WHERE Username = '" + txtUsername.Text + "' AND Password = '" + txtPassword.Text + "';";
-                // Ejecuta la consulta, y selectionQuery es la consulta que se va a ejecutar
+                // Esta linea se encarga de jecutar la consulta, y tambien selectionQuery es la consulta que se va a ejecutar
                 command = new MySqlCommand(selectQuery, connection);
                 // Lee los datos devueltos por la consulta y En este caso, mdr contendrá los resultados de la consulta
                 mdr = command.ExecuteReader();
                 // Si se encuentra un registro que coincide con las credenciales proporcionadas
                 if (mdr.Read())
                 {
-                    // Actualiza la fecha y hora del último inicio de sesión del usuario
+                    // con esto se actualiza la fecha y hora del último inicio de sesión del usuario
                     string MyConnection2 = "datasource=localhost;port=3306;username=root;password=";
                     // Consulta para actualizar el campo LastLogin en la base de datos
                     string Query = "update loginform.userinfo set LastLogin='" + dateTimePicker1.Value + "' where Username='" + this.txtUsername.Text + "';";
@@ -57,7 +57,7 @@ namespace PROYECTOBETA001
                     MySqlCommand MyCommand2 = new MySqlCommand(Query, MyConn2);
                     // Ejecuta la consulta de actualización. MyReader2 contendrá los resultados de la consulta
                     MySqlDataReader MyReader2;
-                    // Abre la conexión
+                    // Esto abre la conexión
                     MyConn2.Open();
                     // Ejecuta el comando
                     MyReader2 = MyCommand2.ExecuteReader();
@@ -115,7 +115,7 @@ namespace PROYECTOBETA001
         {
 
             /*-------------------------------------------------------------------Esto es para rendondear los botones------------------------------------------------------------------------------*/
-            /* Desabilitado por ahora
+            /* Desabilitado por ahora, si quieren rendondear sus botones, copien este código y péguenlo en su formulario
             //Botón de crear cuenta
             btnCreate.FlatStyle = FlatStyle.Flat;
             btnCreate.FlatAppearance.BorderSize = 0;
@@ -140,7 +140,7 @@ namespace PROYECTOBETA001
             /*________________________________________________________________________________________________________________________________________________________________*/
 
         }
-        
+
 
         private async void btnLogin1_Click(object sender, EventArgs e)
         {

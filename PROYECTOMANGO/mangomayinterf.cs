@@ -1,6 +1,7 @@
 ﻿using PROYECTOMANGO;
 using RECETAMAYK34;
 using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -92,6 +93,15 @@ namespace PROYECTOBETA001
         {
             pnlGuia.Location = new Point(1280, 48);
             pnlnivelquiezmay.Location = new Point(128, 48);
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://www.mango.org/es/recetas-y-platos-de-mango/",
+                UseShellExecute = true
+            });
         }
     }
     

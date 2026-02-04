@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInstrucciones1));
             this.PnlNiveles = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.BtnHard = new System.Windows.Forms.Button();
             this.BtnInter = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.BtnEasy = new System.Windows.Forms.Button();
             this.PnlLista = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,16 +54,6 @@
             this.PnlNiveles.Name = "PnlNiveles";
             this.PnlNiveles.Size = new System.Drawing.Size(252, 483);
             this.PnlNiveles.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(2, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 76);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Selecione un nivel\r\n   de dificultad";
             // 
             // BtnHard
             // 
@@ -92,6 +82,16 @@
             this.BtnInter.TabIndex = 2;
             this.BtnInter.UseVisualStyleBackColor = false;
             this.BtnInter.Click += new System.EventHandler(this.BtnInter_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(2, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(247, 76);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Selecione un nivel\r\n   de dificultad";
             // 
             // BtnEasy
             // 
@@ -149,6 +149,7 @@
             this.Controls.Add(this.PnlLista);
             this.Controls.Add(this.PnlNiveles);
             this.Name = "FormInstrucciones1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormInstrucciones1";
             this.Load += new System.EventHandler(this.FormInstrucciones1_Load);
             this.PnlNiveles.ResumeLayout(false);
