@@ -123,4 +123,8 @@ A través de un juego interactivo, el usuario aprenderá de forma didáctica las
 reforzando el conocimiento mediante la correcta organización de cada fase del proceso.
 </value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>El mango debe transportarse a temperaturas controladas, generalmente entre 10 y 13 °C, para evitar que madure demasiado rápido y se deteriore antes de llegar al mercado?
+Un manejo adecuado durante el transporte y la venta puede prolongar su vida útil, conservar su sabor y reducir pérdidas económicas para los productores y comerciantes.</value>
+  </data>
 </root>

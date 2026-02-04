@@ -143,6 +143,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Boton_de_Volver_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Boton_de_Volver-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Boton_de_Volver11 {
             get {
                 object obj = ResourceManager.GetObject("Boton de Volver11", resourceCulture);
@@ -453,6 +463,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap demonn {
+            get {
+                object obj = ResourceManager.GetObject("demonn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dfg {
             get {
                 object obj = ResourceManager.GetObject("dfg", resourceCulture);
@@ -663,6 +683,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FONDO_B {
+            get {
+                object obj = ResourceManager.GetObject("FONDO.B", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FONDO_INTERFAZ {
             get {
                 object obj = ResourceManager.GetObject("FONDO INTERFAZ", resourceCulture);
@@ -823,6 +853,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gd {
+            get {
+                object obj = ResourceManager.GetObject("gd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gemini_Generated_Image_booz9dbooz9dbooz {
             get {
                 object obj = ResourceManager.GetObject("Gemini_Generated_Image_booz9dbooz9dbooz", resourceCulture);
@@ -863,6 +903,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hardd {
+            get {
+                object obj = ResourceManager.GetObject("hardd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hechar_nutr {
             get {
                 object obj = ResourceManager.GetObject("hechar nutr", resourceCulture);
@@ -886,6 +936,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap Hecharpronutri {
             get {
                 object obj = ResourceManager.GetObject("Hecharpronutri", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("images-removebg-preview1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

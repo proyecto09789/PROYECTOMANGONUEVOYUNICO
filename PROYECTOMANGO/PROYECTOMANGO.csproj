@@ -183,6 +183,12 @@
     <Compile Include="FloracionForm.Designer.cs">
       <DependentUpon>FloracionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormInstrucciones1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInstrucciones1.Designer.cs">
+      <DependentUpon>FormInstrucciones1.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPreguntas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -355,6 +361,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FloracionForm.resx">
       <DependentUpon>FloracionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInstrucciones1.resx">
+      <DependentUpon>FormInstrucciones1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPreguntas.resx">
       <DependentUpon>FormPreguntas.cs</DependentUpon>

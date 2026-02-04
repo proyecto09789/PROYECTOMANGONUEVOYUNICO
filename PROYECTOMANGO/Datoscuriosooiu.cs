@@ -102,9 +102,9 @@ namespace PROYECTOBETA001
         public Datoscuriosooi()
         {
             InitializeComponent();
-            // Tamaño de letra = 10
+
             lblDatos.Font = new Font("Segoe UI", 10, FontStyle.Bold);
-            lblContador.Font = new Font("Segoe UI", 10, FontStyle.Bold); // opcional
+            lblContador.Font = new Font("Segoe UI", 10, FontStyle.Bold); 
             MostrarDato();
         }
         void MostrarDato()
@@ -127,8 +127,8 @@ namespace PROYECTOBETA001
             }
             else
             {
-                FormPreguntas fp = new FormPreguntas();
-                fp.Show();
+                FormInstrucciones1 fi = new FormInstrucciones1();
+                fi.Show();
                 this.Close();
             }
             }
@@ -171,6 +171,11 @@ namespace PROYECTOBETA001
                 FileName = "https://www.mango.org/mango-facts/",
                 UseShellExecute = true
             });
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

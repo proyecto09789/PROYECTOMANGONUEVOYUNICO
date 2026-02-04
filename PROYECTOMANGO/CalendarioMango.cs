@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PROYECTOBETA001;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,8 +35,35 @@ namespace PROYECTOMANGO
 
         private void button1_Click(object sender, EventArgs e)
         {
+          
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
             frmMangoTransporte transporte1 = new frmMangoTransporte();
             transporte1.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Interfazprinc pi = new Interfazprinc();
+            pi.Show();
             this.Hide();
         }
     }

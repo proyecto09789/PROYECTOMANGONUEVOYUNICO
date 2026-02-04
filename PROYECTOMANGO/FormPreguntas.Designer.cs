@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblPreguntas = new System.Windows.Forms.Label();
             this.lblContador = new System.Windows.Forms.Label();
             this.labelTitulo = new System.Windows.Forms.Label();
@@ -36,6 +37,8 @@
             this.rbOpcion1 = new System.Windows.Forms.RadioButton();
             this.rbOpcion2 = new System.Windows.Forms.RadioButton();
             this.rbOpcion3 = new System.Windows.Forms.RadioButton();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblTiempo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnResponder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +52,7 @@
             this.lblPreguntas.Location = new System.Drawing.Point(4, 131);
             this.lblPreguntas.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.lblPreguntas.Name = "lblPreguntas";
-            this.lblPreguntas.Size = new System.Drawing.Size(104, 41);
+            this.lblPreguntas.Size = new System.Drawing.Size(84, 35);
             this.lblPreguntas.TabIndex = 0;
             this.lblPreguntas.Text = "label1";
             // 
@@ -62,7 +65,7 @@
             this.lblContador.ForeColor = System.Drawing.Color.Black;
             this.lblContador.Location = new System.Drawing.Point(71, 450);
             this.lblContador.Name = "lblContador";
-            this.lblContador.Size = new System.Drawing.Size(106, 43);
+            this.lblContador.Size = new System.Drawing.Size(86, 37);
             this.lblContador.TabIndex = 1;
             this.lblContador.Text = "label1";
             // 
@@ -110,7 +113,7 @@
             this.rbOpcion1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.rbOpcion1.Location = new System.Drawing.Point(24, 315);
             this.rbOpcion1.Name = "rbOpcion1";
-            this.rbOpcion1.Size = new System.Drawing.Size(225, 45);
+            this.rbOpcion1.Size = new System.Drawing.Size(182, 39);
             this.rbOpcion1.TabIndex = 3;
             this.rbOpcion1.TabStop = true;
             this.rbOpcion1.Text = "radioButton1";
@@ -125,7 +128,7 @@
             this.rbOpcion2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.rbOpcion2.Location = new System.Drawing.Point(24, 264);
             this.rbOpcion2.Name = "rbOpcion2";
-            this.rbOpcion2.Size = new System.Drawing.Size(225, 45);
+            this.rbOpcion2.Size = new System.Drawing.Size(182, 39);
             this.rbOpcion2.TabIndex = 4;
             this.rbOpcion2.TabStop = true;
             this.rbOpcion2.Text = "radioButton2";
@@ -140,19 +143,39 @@
             this.rbOpcion3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.rbOpcion3.Location = new System.Drawing.Point(24, 213);
             this.rbOpcion3.Name = "rbOpcion3";
-            this.rbOpcion3.Size = new System.Drawing.Size(225, 45);
+            this.rbOpcion3.Size = new System.Drawing.Size(182, 39);
             this.rbOpcion3.TabIndex = 5;
             this.rbOpcion3.TabStop = true;
             this.rbOpcion3.Text = "radioButton3";
             this.rbOpcion3.UseVisualStyleBackColor = false;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // lblTiempo
+            // 
+            this.lblTiempo.AutoSize = true;
+            this.lblTiempo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTiempo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblTiempo.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempo.ForeColor = System.Drawing.Color.Black;
+            this.lblTiempo.Location = new System.Drawing.Point(344, 341);
+            this.lblTiempo.Name = "lblTiempo";
+            this.lblTiempo.Size = new System.Drawing.Size(86, 37);
+            this.lblTiempo.TabIndex = 9;
+            this.lblTiempo.Text = "label1";
+            // 
             // FormPreguntas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(18F, 42F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(717, 511);
+            this.Controls.Add(this.lblTiempo);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.rbOpcion1);
             this.Controls.Add(this.rbOpcion2);
             this.Controls.Add(this.rbOpcion3);
@@ -160,7 +183,6 @@
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.lblContador);
             this.Controls.Add(this.lblPreguntas);
-            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8);
             this.MaximizeBox = false;
@@ -183,5 +205,7 @@
         private System.Windows.Forms.RadioButton rbOpcion1;
         private System.Windows.Forms.RadioButton rbOpcion2;
         private System.Windows.Forms.RadioButton rbOpcion3;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblTiempo;
     }
 }

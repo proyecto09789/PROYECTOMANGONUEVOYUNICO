@@ -267,9 +267,19 @@ namespace PROYECTOMANGO
 
         private void Men1u_Click(object sender, EventArgs e)
         {
-           Interfazprinc int455az = new Interfazprinc();
-              int455az.Show();
-              this.Hide();
+          
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Interfazprinc int455az = new Interfazprinc();
+            int455az.Show();
+            this.Hide();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

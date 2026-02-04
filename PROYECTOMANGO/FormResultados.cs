@@ -15,11 +15,13 @@ namespace PROYECTOMANGO
         {
             InitializeComponent();
 
-            lblPuntaje.Text = $"Puntaje final: {puntos} / {preguntas.Length}";
+            lblPuntaje.Text = $"Puntaje final: {puntos} / {resultados.Length}";
+
 
             lstResultados.Items.Clear();
 
-            for (int i = 0; i < preguntas.Length; i++)
+            for (int i = 0; i < resultados.Length; i++)
+
             {
                 string estado = resultados[i] ? "✔ Correcta" : "❌ Incorrecta";
                 string respuestaCorrecta = opciones[i, respuestasCorrectas[i]];

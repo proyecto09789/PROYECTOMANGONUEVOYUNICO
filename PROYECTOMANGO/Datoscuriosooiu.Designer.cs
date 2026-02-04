@@ -37,10 +37,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // bntAnterio
@@ -77,7 +75,7 @@
             this.lblContador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
             this.lblContador.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContador.ForeColor = System.Drawing.Color.White;
-            this.lblContador.Location = new System.Drawing.Point(504, 2);
+            this.lblContador.Location = new System.Drawing.Point(496, 1);
             this.lblContador.Name = "lblContador";
             this.lblContador.Size = new System.Drawing.Size(79, 33);
             this.lblContador.TabIndex = 5;
@@ -117,7 +115,7 @@
             this.panel1.Location = new System.Drawing.Point(92, 37);
             this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(442, 224);
+            this.panel1.Size = new System.Drawing.Size(436, 224);
             this.panel1.TabIndex = 9;
             // 
             // label1
@@ -148,15 +146,7 @@
             this.label2.Size = new System.Drawing.Size(618, 84);
             this.label2.TabIndex = 11;
             this.label2.Text = resources.GetString("label2.Text");
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PROYECTOMANGO.Properties.Resources.botnconf;
-            this.pictureBox2.Location = new System.Drawing.Point(482, 161);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Datoscuriosooi
             // 
@@ -165,7 +155,6 @@
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(615, 442);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -180,7 +169,6 @@
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,6 +183,5 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

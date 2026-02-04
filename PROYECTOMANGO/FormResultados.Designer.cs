@@ -41,7 +41,7 @@
             this.lblPuntaje.ForeColor = System.Drawing.Color.Black;
             this.lblPuntaje.Location = new System.Drawing.Point(154, 9);
             this.lblPuntaje.Name = "lblPuntaje";
-            this.lblPuntaje.Size = new System.Drawing.Size(129, 51);
+            this.lblPuntaje.Size = new System.Drawing.Size(104, 41);
             this.lblPuntaje.TabIndex = 0;
             this.lblPuntaje.Text = "label1";
             // 
@@ -50,10 +50,10 @@
             this.lstResultados.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(213)))), ((int)(((byte)(104)))));
             this.lstResultados.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstResultados.FormattingEnabled = true;
-            this.lstResultados.ItemHeight = 36;
+            this.lstResultados.ItemHeight = 30;
             this.lstResultados.Location = new System.Drawing.Point(12, 61);
             this.lstResultados.Name = "lstResultados";
-            this.lstResultados.Size = new System.Drawing.Size(629, 328);
+            this.lstResultados.Size = new System.Drawing.Size(629, 304);
             this.lstResultados.TabIndex = 1;
             // 
             // btnFin
@@ -73,7 +73,7 @@
             // 
             // FormResultados
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
