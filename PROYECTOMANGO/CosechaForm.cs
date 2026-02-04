@@ -68,5 +68,16 @@ namespace PROYECTOMANGO
                     break;
             }
         }
+
+        private void btnRefCosecha_Click(object sender, EventArgs e)
+        {
+            pnlRefCosecha.Visible = true;
+            pnlRefCosecha.BringToFront();
+        }
+
+        private void btnRefPnlCosech_Click(object sender, EventArgs e)
+        {
+            pnlRefCosecha.Visible = false;
+        }
     }
 }

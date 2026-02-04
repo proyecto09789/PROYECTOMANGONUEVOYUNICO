@@ -293,6 +293,12 @@
     <Compile Include="QUIZ2MEDIO.Designer.cs">
       <DependentUpon>QUIZ2MEDIO.cs</DependentUpon>
     </Compile>
+    <Compile Include="Quizdificil1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quizdificil1.Designer.cs">
+      <DependentUpon>Quizdificil1.cs</DependentUpon>
+    </Compile>
     <Compile Include="RECETAMAYK6.cs">
       <SubType>Form</SubType>
     </Compile>

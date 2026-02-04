@@ -64,5 +64,16 @@ namespace PROYECTOMANGO
             }
 
         }
+
+        private void btnRefFloracion_Click(object sender, EventArgs e)
+        {
+            pnlRefFloracion.Visible = true;
+            pnlRefFloracion.BringToFront();
+        }
+
+        private void btnRefPnlFlora_Click(object sender, EventArgs e)
+        {
+            pnlRefFloracion.Visible = false;
+        }
     }
 }

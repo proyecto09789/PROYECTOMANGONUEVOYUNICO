@@ -59,13 +59,29 @@ namespace PROYECTOMANGO
                 case "El Ahoyado":
                     CargarFromulario(new Ahoyado());
                     break;
-                case "El Trasplante":
+                case "El Transplante":
                     CargarFromulario(new ElTrasplante());
                     break;
                 case "Riego Inicial":
                     CargarFromulario(new RiegoInicial());
                     break;
             }
+        }
+
+        private void SiembraForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRefSiembra_Click(object sender, EventArgs e)
+        {
+            pnlRefSiembra.Visible = true;
+            pnlRefSiembra.BringToFront();
+        }
+
+        private void btnRefPnlSiembra_Click(object sender, EventArgs e)
+        {
+            pnlRefSiembra.Visible = false;
         }
     }
 }

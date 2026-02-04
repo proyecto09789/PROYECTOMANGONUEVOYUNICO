@@ -28,14 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FloracionForm));
             this.btnVolverFloracion = new System.Windows.Forms.Button();
             this.pnlInfFloracion = new System.Windows.Forms.Panel();
+            this.pnlRefFloracion = new System.Windows.Forms.Panel();
+            this.btnRefPnlFlora = new System.Windows.Forms.Button();
+            this.linklblFlora1 = new System.Windows.Forms.LinkLabel();
+            this.lblRefFlora2 = new System.Windows.Forms.Label();
+            this.lblRefFlora1 = new System.Windows.Forms.Label();
+            this.lblTituRefFlora = new System.Windows.Forms.Label();
+            this.btnRefFloracion = new System.Windows.Forms.Button();
             this.AbrirFormPnlFloracion = new System.Windows.Forms.Panel();
             this.lblSeleccionTemaFloracion = new System.Windows.Forms.Label();
             this.cmbTemasFloracion = new System.Windows.Forms.ComboBox();
             this.pbTemaFloracion = new System.Windows.Forms.PictureBox();
             this.lblEtpFloracion = new System.Windows.Forms.Label();
             this.pnlInfFloracion.SuspendLayout();
+            this.pnlRefFloracion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTemaFloracion)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +65,11 @@
             // 
             // pnlInfFloracion
             // 
-            this.pnlInfFloracion.BackColor = System.Drawing.Color.OldLace;
+            this.pnlInfFloracion.BackColor = System.Drawing.Color.Transparent;
+            this.pnlInfFloracion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlInfFloracion.BackgroundImage")));
+            this.pnlInfFloracion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlInfFloracion.Controls.Add(this.pnlRefFloracion);
+            this.pnlInfFloracion.Controls.Add(this.btnRefFloracion);
             this.pnlInfFloracion.Controls.Add(this.AbrirFormPnlFloracion);
             this.pnlInfFloracion.Controls.Add(this.lblSeleccionTemaFloracion);
             this.pnlInfFloracion.Controls.Add(this.cmbTemasFloracion);
@@ -66,6 +79,89 @@
             this.pnlInfFloracion.Name = "pnlInfFloracion";
             this.pnlInfFloracion.Size = new System.Drawing.Size(888, 512);
             this.pnlInfFloracion.TabIndex = 1;
+            // 
+            // pnlRefFloracion
+            // 
+            this.pnlRefFloracion.BackColor = System.Drawing.Color.White;
+            this.pnlRefFloracion.Controls.Add(this.btnRefPnlFlora);
+            this.pnlRefFloracion.Controls.Add(this.linklblFlora1);
+            this.pnlRefFloracion.Controls.Add(this.lblRefFlora2);
+            this.pnlRefFloracion.Controls.Add(this.lblRefFlora1);
+            this.pnlRefFloracion.Controls.Add(this.lblTituRefFlora);
+            this.pnlRefFloracion.Location = new System.Drawing.Point(247, 82);
+            this.pnlRefFloracion.Name = "pnlRefFloracion";
+            this.pnlRefFloracion.Size = new System.Drawing.Size(417, 350);
+            this.pnlRefFloracion.TabIndex = 0;
+            this.pnlRefFloracion.Visible = false;
+            // 
+            // btnRefPnlFlora
+            // 
+            this.btnRefPnlFlora.BackColor = System.Drawing.Color.Transparent;
+            this.btnRefPnlFlora.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.BotnXRef;
+            this.btnRefPnlFlora.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRefPnlFlora.FlatAppearance.BorderSize = 0;
+            this.btnRefPnlFlora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefPnlFlora.Location = new System.Drawing.Point(356, 4);
+            this.btnRefPnlFlora.Name = "btnRefPnlFlora";
+            this.btnRefPnlFlora.Size = new System.Drawing.Size(58, 54);
+            this.btnRefPnlFlora.TabIndex = 4;
+            this.btnRefPnlFlora.UseVisualStyleBackColor = false;
+            this.btnRefPnlFlora.Click += new System.EventHandler(this.btnRefPnlFlora_Click);
+            // 
+            // linklblFlora1
+            // 
+            this.linklblFlora1.AutoSize = true;
+            this.linklblFlora1.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linklblFlora1.Location = new System.Drawing.Point(50, 136);
+            this.linklblFlora1.Name = "linklblFlora1";
+            this.linklblFlora1.Size = new System.Drawing.Size(337, 20);
+            this.linklblFlora1.TabIndex = 3;
+            this.linklblFlora1.TabStop = true;
+            this.linklblFlora1.Text = "https://doi.org/10.38124/ijisrt/25may2178";
+            // 
+            // lblRefFlora2
+            // 
+            this.lblRefFlora2.AutoSize = true;
+            this.lblRefFlora2.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRefFlora2.Location = new System.Drawing.Point(8, 185);
+            this.lblRefFlora2.Name = "lblRefFlora2";
+            this.lblRefFlora2.Size = new System.Drawing.Size(392, 120);
+            this.lblRefFlora2.TabIndex = 2;
+            this.lblRefFlora2.Text = "Autores: Juan Mora Montero,\r\n Jimmy Gamboa Porras, Ricardo Elizondo Murillo.\r\nAño" +
+    ": 2002\r\nDocumento: Guía para el cultivo del mango\r\nISBN: 9968-877-01-8\r\n\r\n";
+            // 
+            // lblRefFlora1
+            // 
+            this.lblRefFlora1.AutoSize = true;
+            this.lblRefFlora1.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRefFlora1.Location = new System.Drawing.Point(50, 56);
+            this.lblRefFlora1.Name = "lblRefFlora1";
+            this.lblRefFlora1.Size = new System.Drawing.Size(289, 80);
+            this.lblRefFlora1.TabIndex = 1;
+            this.lblRefFlora1.Text = "Autor: C.Navamani\r\nAño: 2025\r\nDocumento: The Majesty of Mangoes\r\nLink:";
+            // 
+            // lblTituRefFlora
+            // 
+            this.lblTituRefFlora.AutoSize = true;
+            this.lblTituRefFlora.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituRefFlora.Location = new System.Drawing.Point(113, 11);
+            this.lblTituRefFlora.Name = "lblTituRefFlora";
+            this.lblTituRefFlora.Size = new System.Drawing.Size(185, 32);
+            this.lblTituRefFlora.TabIndex = 0;
+            this.lblTituRefFlora.Text = "Referencias";
+            // 
+            // btnRefFloracion
+            // 
+            this.btnRefFloracion.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.BotonRef;
+            this.btnRefFloracion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRefFloracion.FlatAppearance.BorderSize = 0;
+            this.btnRefFloracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRefFloracion.Location = new System.Drawing.Point(793, 3);
+            this.btnRefFloracion.Name = "btnRefFloracion";
+            this.btnRefFloracion.Size = new System.Drawing.Size(92, 74);
+            this.btnRefFloracion.TabIndex = 7;
+            this.btnRefFloracion.UseVisualStyleBackColor = true;
+            this.btnRefFloracion.Click += new System.EventHandler(this.btnRefFloracion_Click);
             // 
             // AbrirFormPnlFloracion
             // 
@@ -142,6 +238,8 @@
             this.Text = "FloracionForm";
             this.pnlInfFloracion.ResumeLayout(false);
             this.pnlInfFloracion.PerformLayout();
+            this.pnlRefFloracion.ResumeLayout(false);
+            this.pnlRefFloracion.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTemaFloracion)).EndInit();
             this.ResumeLayout(false);
 
@@ -156,5 +254,12 @@
         private System.Windows.Forms.ComboBox cmbTemasFloracion;
         private System.Windows.Forms.Label lblSeleccionTemaFloracion;
         private System.Windows.Forms.Panel AbrirFormPnlFloracion;
+        private System.Windows.Forms.Button btnRefFloracion;
+        private System.Windows.Forms.Panel pnlRefFloracion;
+        private System.Windows.Forms.Label lblTituRefFlora;
+        private System.Windows.Forms.Label lblRefFlora2;
+        private System.Windows.Forms.Label lblRefFlora1;
+        private System.Windows.Forms.LinkLabel linklblFlora1;
+        private System.Windows.Forms.Button btnRefPnlFlora;
     }
 }

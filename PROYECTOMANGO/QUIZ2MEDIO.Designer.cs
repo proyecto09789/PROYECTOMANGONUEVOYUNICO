@@ -36,6 +36,8 @@
             this.btnopm6 = new System.Windows.Forms.Button();
             this.btnopm5 = new System.Windows.Forms.Button();
             this.labelmay6 = new System.Windows.Forms.Label();
+            this.panelcomenzar1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelmay3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.btnopm12 = new System.Windows.Forms.Button();
@@ -57,6 +59,13 @@
             this.btnopm14 = new System.Windows.Forms.Button();
             this.btnopm13 = new System.Windows.Forms.Button();
             this.labelmay8 = new System.Windows.Forms.Label();
+            this.panelmay9 = new System.Windows.Forms.Panel();
+            this.REGRESARME23 = new System.Windows.Forms.Label();
+            this.JUGARDNUEV0 = new System.Windows.Forms.Label();
+            this.lblNivel = new System.Windows.Forms.Label();
+            this.repuestacorrctmay1 = new System.Windows.Forms.Label();
+            this.labelmay10 = new System.Windows.Forms.Label();
+            this.lblResultadoFinal1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelcorrect2 = new System.Windows.Forms.Label();
             this.labelpuntuación = new System.Windows.Forms.Label();
@@ -70,29 +79,25 @@
             this.btnopm2 = new System.Windows.Forms.Button();
             this.btnopm1 = new System.Windows.Forms.Button();
             this.labelmay4 = new System.Windows.Forms.Label();
-            this.panelcomenzar1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panelmay9 = new System.Windows.Forms.Panel();
-            this.REGRESARME23 = new System.Windows.Forms.Label();
-            this.JUGARDNUEV0 = new System.Windows.Forms.Label();
-            this.lblNivel = new System.Windows.Forms.Label();
-            this.repuestacorrctmay1 = new System.Windows.Forms.Label();
-            this.labelmay10 = new System.Windows.Forms.Label();
-            this.lblResultadoFinal1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panelfinalmay1.SuspendLayout();
             this.panelmay2.SuspendLayout();
+            this.panelcomenzar1.SuspendLayout();
             this.panelmay3.SuspendLayout();
             this.panelmay5.SuspendLayout();
             this.panelmay4.SuspendLayout();
+            this.panelmay9.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelmay1.SuspendLayout();
-            this.panelcomenzar1.SuspendLayout();
-            this.panelmay9.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelfinalmay1
             // 
             this.panelfinalmay1.BackColor = System.Drawing.Color.Wheat;
+            this.panelfinalmay1.Controls.Add(this.panel2);
             this.panelfinalmay1.Controls.Add(this.panelmay2);
             this.panelfinalmay1.Controls.Add(this.panelcomenzar1);
             this.panelfinalmay1.Controls.Add(this.panelmay3);
@@ -189,6 +194,30 @@
             this.labelmay6.TabIndex = 0;
             this.labelmay6.Text = "En la preparación del vinagre de mango, ¿cuánto tiempo se recomienda\r\n           " +
     "dejar reposar la mezcla para obtener un sabor más intenso?";
+            // 
+            // panelcomenzar1
+            // 
+            this.panelcomenzar1.BackColor = System.Drawing.Color.White;
+            this.panelcomenzar1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.ListoQUIz2;
+            this.panelcomenzar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelcomenzar1.Controls.Add(this.button1);
+            this.panelcomenzar1.Location = new System.Drawing.Point(40, 95);
+            this.panelcomenzar1.Name = "panelcomenzar1";
+            this.panelcomenzar1.Size = new System.Drawing.Size(903, 432);
+            this.panelcomenzar1.TabIndex = 5;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(340, 303);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(201, 54);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Comenzar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panelmay3
             // 
@@ -435,6 +464,91 @@
             this.labelmay8.Text = "¿Cuál es la principal diferencia entre la preparación de la salsa de mango y el m" +
     "ango que va dentro del arroz?";
             // 
+            // panelmay9
+            // 
+            this.panelmay9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelmay9.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FINALTEST;
+            this.panelmay9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelmay9.Controls.Add(this.REGRESARME23);
+            this.panelmay9.Controls.Add(this.JUGARDNUEV0);
+            this.panelmay9.Controls.Add(this.lblNivel);
+            this.panelmay9.Controls.Add(this.repuestacorrctmay1);
+            this.panelmay9.Controls.Add(this.labelmay10);
+            this.panelmay9.Controls.Add(this.lblResultadoFinal1);
+            this.panelmay9.Location = new System.Drawing.Point(1147, 30);
+            this.panelmay9.Margin = new System.Windows.Forms.Padding(2);
+            this.panelmay9.Name = "panelmay9";
+            this.panelmay9.Size = new System.Drawing.Size(909, 432);
+            this.panelmay9.TabIndex = 3;
+            this.panelmay9.Visible = false;
+            this.panelmay9.Paint += new System.Windows.Forms.PaintEventHandler(this.panelmay9_Paint);
+            // 
+            // REGRESARME23
+            // 
+            this.REGRESARME23.BackColor = System.Drawing.Color.Transparent;
+            this.REGRESARME23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.REGRESARME23.Location = new System.Drawing.Point(363, 340);
+            this.REGRESARME23.Name = "REGRESARME23";
+            this.REGRESARME23.Size = new System.Drawing.Size(198, 42);
+            this.REGRESARME23.TabIndex = 8;
+            this.REGRESARME23.Click += new System.EventHandler(this.REGRESARME23_Click);
+            // 
+            // JUGARDNUEV0
+            // 
+            this.JUGARDNUEV0.BackColor = System.Drawing.Color.Transparent;
+            this.JUGARDNUEV0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.JUGARDNUEV0.Location = new System.Drawing.Point(363, 261);
+            this.JUGARDNUEV0.Name = "JUGARDNUEV0";
+            this.JUGARDNUEV0.Size = new System.Drawing.Size(198, 54);
+            this.JUGARDNUEV0.TabIndex = 7;
+            this.JUGARDNUEV0.Click += new System.EventHandler(this.JUGARDNUEV0_Click);
+            // 
+            // lblNivel
+            // 
+            this.lblNivel.BackColor = System.Drawing.Color.Transparent;
+            this.lblNivel.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
+            this.lblNivel.ForeColor = System.Drawing.Color.DarkGreen;
+            this.lblNivel.Location = new System.Drawing.Point(232, 212);
+            this.lblNivel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNivel.Name = "lblNivel";
+            this.lblNivel.Size = new System.Drawing.Size(444, 49);
+            this.lblNivel.TabIndex = 1;
+            this.lblNivel.Text = "Nivel";
+            this.lblNivel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // repuestacorrctmay1
+            // 
+            this.repuestacorrctmay1.AutoSize = true;
+            this.repuestacorrctmay1.BackColor = System.Drawing.Color.Transparent;
+            this.repuestacorrctmay1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.repuestacorrctmay1.Location = new System.Drawing.Point(526, 190);
+            this.repuestacorrctmay1.Name = "repuestacorrctmay1";
+            this.repuestacorrctmay1.Size = new System.Drawing.Size(21, 22);
+            this.repuestacorrctmay1.TabIndex = 6;
+            this.repuestacorrctmay1.Text = "0";
+            // 
+            // labelmay10
+            // 
+            this.labelmay10.AutoSize = true;
+            this.labelmay10.BackColor = System.Drawing.Color.Transparent;
+            this.labelmay10.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelmay10.Location = new System.Drawing.Point(334, 190);
+            this.labelmay10.Name = "labelmay10";
+            this.labelmay10.Size = new System.Drawing.Size(242, 22);
+            this.labelmay10.TabIndex = 5;
+            this.labelmay10.Text = "Respuesta correcta      / 5";
+            // 
+            // lblResultadoFinal1
+            // 
+            this.lblResultadoFinal1.AutoSize = true;
+            this.lblResultadoFinal1.BackColor = System.Drawing.Color.Transparent;
+            this.lblResultadoFinal1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoFinal1.Location = new System.Drawing.Point(334, 104);
+            this.lblResultadoFinal1.Name = "lblResultadoFinal1";
+            this.lblResultadoFinal1.Size = new System.Drawing.Size(65, 22);
+            this.lblResultadoFinal1.TabIndex = 4;
+            this.lblResultadoFinal1.Text = "label5";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -581,114 +695,33 @@
             this.labelmay4.Text = "Según la receta de arroz pegajoso, ¿qué se debe hacer con las bolas de arroz ante" +
     "s de freírlas?";
             // 
-            // panelcomenzar1
+            // panel2
             // 
-            this.panelcomenzar1.BackColor = System.Drawing.Color.White;
-            this.panelcomenzar1.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.ListoQUIz2;
-            this.panelcomenzar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelcomenzar1.Controls.Add(this.button1);
-            this.panelcomenzar1.Location = new System.Drawing.Point(40, 95);
-            this.panelcomenzar1.Name = "panelcomenzar1";
-            this.panelcomenzar1.Size = new System.Drawing.Size(903, 432);
-            this.panelcomenzar1.TabIndex = 5;
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Location = new System.Drawing.Point(260, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(38, 10);
+            this.panel2.TabIndex = 1;
             // 
-            // button1
+            // label5
             // 
-            this.button1.BackColor = System.Drawing.Color.Orange;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(340, 303);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(201, 54);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Comenzar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(386, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(126, 25);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "GUÍA QUIZ";
             // 
-            // panelmay9
+            // label6
             // 
-            this.panelmay9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panelmay9.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FINALTEST;
-            this.panelmay9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelmay9.Controls.Add(this.REGRESARME23);
-            this.panelmay9.Controls.Add(this.JUGARDNUEV0);
-            this.panelmay9.Controls.Add(this.lblNivel);
-            this.panelmay9.Controls.Add(this.repuestacorrctmay1);
-            this.panelmay9.Controls.Add(this.labelmay10);
-            this.panelmay9.Controls.Add(this.lblResultadoFinal1);
-            this.panelmay9.Location = new System.Drawing.Point(1147, 30);
-            this.panelmay9.Margin = new System.Windows.Forms.Padding(2);
-            this.panelmay9.Name = "panelmay9";
-            this.panelmay9.Size = new System.Drawing.Size(909, 432);
-            this.panelmay9.TabIndex = 3;
-            this.panelmay9.Visible = false;
-            this.panelmay9.Paint += new System.Windows.Forms.PaintEventHandler(this.panelmay9_Paint);
-            // 
-            // REGRESARME23
-            // 
-            this.REGRESARME23.BackColor = System.Drawing.Color.Transparent;
-            this.REGRESARME23.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.REGRESARME23.Location = new System.Drawing.Point(363, 340);
-            this.REGRESARME23.Name = "REGRESARME23";
-            this.REGRESARME23.Size = new System.Drawing.Size(198, 42);
-            this.REGRESARME23.TabIndex = 8;
-            this.REGRESARME23.Click += new System.EventHandler(this.REGRESARME23_Click);
-            // 
-            // JUGARDNUEV0
-            // 
-            this.JUGARDNUEV0.BackColor = System.Drawing.Color.Transparent;
-            this.JUGARDNUEV0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.JUGARDNUEV0.Location = new System.Drawing.Point(363, 261);
-            this.JUGARDNUEV0.Name = "JUGARDNUEV0";
-            this.JUGARDNUEV0.Size = new System.Drawing.Size(198, 54);
-            this.JUGARDNUEV0.TabIndex = 7;
-            this.JUGARDNUEV0.Click += new System.EventHandler(this.JUGARDNUEV0_Click);
-            // 
-            // lblNivel
-            // 
-            this.lblNivel.BackColor = System.Drawing.Color.Transparent;
-            this.lblNivel.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.lblNivel.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lblNivel.Location = new System.Drawing.Point(232, 212);
-            this.lblNivel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNivel.Name = "lblNivel";
-            this.lblNivel.Size = new System.Drawing.Size(444, 49);
-            this.lblNivel.TabIndex = 1;
-            this.lblNivel.Text = "Nivel";
-            this.lblNivel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // repuestacorrctmay1
-            // 
-            this.repuestacorrctmay1.AutoSize = true;
-            this.repuestacorrctmay1.BackColor = System.Drawing.Color.Transparent;
-            this.repuestacorrctmay1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.repuestacorrctmay1.Location = new System.Drawing.Point(526, 190);
-            this.repuestacorrctmay1.Name = "repuestacorrctmay1";
-            this.repuestacorrctmay1.Size = new System.Drawing.Size(21, 22);
-            this.repuestacorrctmay1.TabIndex = 6;
-            this.repuestacorrctmay1.Text = "0";
-            // 
-            // labelmay10
-            // 
-            this.labelmay10.AutoSize = true;
-            this.labelmay10.BackColor = System.Drawing.Color.Transparent;
-            this.labelmay10.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelmay10.Location = new System.Drawing.Point(334, 190);
-            this.labelmay10.Name = "labelmay10";
-            this.labelmay10.Size = new System.Drawing.Size(242, 22);
-            this.labelmay10.TabIndex = 5;
-            this.labelmay10.Text = "Respuesta correcta      / 5";
-            // 
-            // lblResultadoFinal1
-            // 
-            this.lblResultadoFinal1.AutoSize = true;
-            this.lblResultadoFinal1.BackColor = System.Drawing.Color.Transparent;
-            this.lblResultadoFinal1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultadoFinal1.Location = new System.Drawing.Point(334, 104);
-            this.lblResultadoFinal1.Name = "lblResultadoFinal1";
-            this.lblResultadoFinal1.Size = new System.Drawing.Size(65, 22);
-            this.lblResultadoFinal1.TabIndex = 4;
-            this.lblResultadoFinal1.Text = "label5";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(103, 124);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "label6";
             // 
             // QUIZ2MEDIO
             // 
@@ -705,18 +738,20 @@
             this.panelfinalmay1.PerformLayout();
             this.panelmay2.ResumeLayout(false);
             this.panelmay2.PerformLayout();
+            this.panelcomenzar1.ResumeLayout(false);
             this.panelmay3.ResumeLayout(false);
             this.panelmay3.PerformLayout();
             this.panelmay5.ResumeLayout(false);
             this.panelmay5.PerformLayout();
             this.panelmay4.ResumeLayout(false);
             this.panelmay4.PerformLayout();
+            this.panelmay9.ResumeLayout(false);
+            this.panelmay9.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panelmay1.ResumeLayout(false);
-            this.panelcomenzar1.ResumeLayout(false);
-            this.panelmay9.ResumeLayout(false);
-            this.panelmay9.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -774,5 +809,8 @@
         private System.Windows.Forms.Label REGRESARME23;
         private System.Windows.Forms.Panel panelcomenzar1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

@@ -113,6 +113,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BotnXRef {
+            get {
+                object obj = ResourceManager.GetObject("BotnXRef", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boton {
             get {
                 object obj = ResourceManager.GetObject("boton", resourceCulture);
@@ -156,6 +166,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap Boton_de_Volver11 {
             get {
                 object obj = ResourceManager.GetObject("Boton de Volver11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotonRef {
+            get {
+                object obj = ResourceManager.GetObject("BotonRef", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
