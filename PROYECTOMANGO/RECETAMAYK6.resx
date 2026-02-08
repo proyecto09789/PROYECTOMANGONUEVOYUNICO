@@ -117,6 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label37.Text" xml:space="preserve">
+    <value> Mangos verdes (inmaduros): pelados, cortados en cuartos con el hueso, luego se quita el hueso con los dedos y se cortan en "lanzas" de 1/2 pulgada de grosor y ligeramente curvas.
+1½ tazas de agua
+1 taza azúcar
+4 cucharadita semillas de mostaza amarilla
+4 cucharada granos de pimienta negra
+4 cucharada sal kosher
+2½ taza Vinagre blanco destilado
+4 dientes de ajo - pelados
+4 cucharadita semillas de apio picadas</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>Vierta salmuera de vinagre caliente en cada tarro Mason, llene el tarro de manera que todas las puntas de mango verticales queden cubiertas con la salmuera. Atornille las tapas de los tarros de albañil, golpee ligeramente los tarros para liberar las burbujas de aire y coloque los tarros de albañil en el refrigerador y déjelos reposar durante 1 semana; luego abra el tarro y disfrute de un pan de mango verde &amp; ¡Pepinillo de mantequilla!</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>Agregue las puntas de mango verde en posición vertical y divida entre los 4 tarros con las manos limpias. Desea llenar completamente el frasco, así que empaque bien las lanzas que están allí. Luego deslice en cada frasco: un diente de ajo, 1 cucharadita. de cada especia y 1 cda. de granos de pimienta negra en la parte superior de cada tarro Mason.</value>
+  </data>
   <data name="subtex1p7.Text" xml:space="preserve">
     <value>- Enrolla cada bola de arroz en harina de arroz y fríea hasta que quede crujiente, dorada y bien caliente. Rocía ligeramente cada bola de arroz frito con un poco de la nata de coco restante y sírvela con la salsa para mojar mango.</value>
   </data>
@@ -152,5 +169,30 @@ Salsa Picante (opcional)
 2 dientes de ajo
 2 cucharadas de jengibre rallado
 1 jamón precocido según las instrucciones del paquete)</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>1 libra de queso manchego rallado
+1 cucharadita de sal, pimienta, condimento de ajo
+8 pimientos, con corazón
+16 rodajas de bacon en rodajas
+1 libra de queso crema, ablandado
+1/2 taza de corteza de cerdo picada (opcional)
+1 Mango Cortado
+2 cucharadas de condimento barbacoa</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>24 oz de frijoles negros sazonados (con sesonado de tacos)
+2 tazas de nata agria
+2 tazas de lechuga desmenuzada
+1,5 tazas de mezcla de mango / aceitunas / tomate
+Guacamole de mango de 2 tazas
+1 taza de salsa de mango
+2 tazas de queso rallado</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>3. Unta el guacamole de mango sobre las judías, luego la nata agria sobre el guacamole.
+4. Unta la salsa de mango sobre la nata agria en una capa fina.
+5Cubre la mezcla con la lechuga rallada y encima con el queso rallado.
+6Cubre toda la salsa con la mezcla de mango, aceituna y tomate y sirve.</value>
   </data>
 </root>

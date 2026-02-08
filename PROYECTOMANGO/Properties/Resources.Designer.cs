@@ -1223,6 +1223,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LUMPIDEMANGO {
+            get {
+                object obj = ResourceManager.GetObject("LUMPIDEMANGO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mango {
             get {
                 object obj = ResourceManager.GetObject("mango", resourceCulture);
@@ -1286,6 +1296,26 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap mangoFondo1 {
             get {
                 object obj = ResourceManager.GetObject("mangoFondo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MangoLayerDip {
+            get {
+                object obj = ResourceManager.GetObject("MangoLayerDip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MangoManchegoPeppers {
+            get {
+                object obj = ResourceManager.GetObject("MangoManchegoPeppers", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1396,6 +1426,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap quizintemerdio {
             get {
                 object obj = ResourceManager.GetObject("quizintemerdio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap recetafond {
+            get {
+                object obj = ResourceManager.GetObject("recetafond", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

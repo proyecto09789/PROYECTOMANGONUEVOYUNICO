@@ -93,7 +93,6 @@
             this.lblDatos.Size = new System.Drawing.Size(691, 201);
             this.lblDatos.TabIndex = 7;
             this.lblDatos.Text = "label1";
-            this.lblDatos.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 

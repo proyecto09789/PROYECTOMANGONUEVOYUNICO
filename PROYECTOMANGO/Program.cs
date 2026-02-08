@@ -18,7 +18,7 @@ namespace PROYECTOMANGO
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Esta linea sirve para mostrar el primero formulario al momento de ejecutar, en este caso el formulario de logi
-            Application.Run(new LoginForm());
+            Application.Run(new Interfazprinc());
 
         }
     }

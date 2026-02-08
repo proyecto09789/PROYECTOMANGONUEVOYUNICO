@@ -142,20 +142,6 @@ namespace PROYECTOBETA001
             }
         }
 
-        private void btnRegresar_Click(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void LinkFuentes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-           
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {

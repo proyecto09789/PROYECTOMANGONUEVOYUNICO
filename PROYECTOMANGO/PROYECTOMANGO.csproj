@@ -501,16 +501,7 @@
     <None Include="Resources\1766684932931.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cuad1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\cuad2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\descarga.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mangoFondo.jpeg" />
@@ -582,9 +573,6 @@
     <None Include="Resources\Coffee Please %283%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Coffee Please %284%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Coffee Please %285%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -594,9 +582,6 @@
     <None Include="Resources\Coffee Please %287%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Coffee Please %288%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Coffee Please %289%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -604,24 +589,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SiembraMango1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %284%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %285%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %286%29.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %287%29.png" />
@@ -642,16 +609,7 @@
     <None Include="Resources\Cuieda tu mango.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\de Información y Recursos del.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\de Información y Recursos del %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\de Información y Recursos del %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sistema Integral de Información y Recursos del Mango %28SIIREM%29 Cultivo y Cosecha %281%291.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FONDO INTERFAZ.png" />
@@ -901,6 +859,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FondoPnlInstrucc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LUMPIDEMANGO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MangoManchegoPeppers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MangoLayerDip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recetafond.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
