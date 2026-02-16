@@ -75,5 +75,10 @@ namespace PROYECTOMANGO
         {
             pnlRefFloracion.Visible = false;
         }
+
+        private void btnCerrarFlora_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

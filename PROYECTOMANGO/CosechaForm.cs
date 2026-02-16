@@ -79,5 +79,10 @@ namespace PROYECTOMANGO
         {
             pnlRefCosecha.Visible = false;
         }
+
+        private void btnCerrarCose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

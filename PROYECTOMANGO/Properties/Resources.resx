@@ -154,8 +154,11 @@
   <data name="SQ3(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SQ3(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Proceso Productivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Proceso Productivo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BtnSiguientemg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnSiguientemg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dfg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dfg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EnSaLADAPICANTE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EnSaLADAPICANTE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,6 +232,9 @@
   <data name="FondoPnlInstrucc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoPnlInstrucc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Gemini_Generated_Image_bxnn55bxnn55bxnn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gemini_Generated_Image_bxnn55bxnn55bxnn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DeslechScc3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DeslechScc31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -253,8 +259,8 @@
   <data name="regeta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\regeta2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dfg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dfg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SelccDifJgPrcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelccDifJgPrcc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Preparacion de la semilla1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Preparacion de la semilla1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -319,6 +325,9 @@
   <data name="fondobttt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondobttt1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Proceso Productivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Proceso Productivo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Gemini_Generated_Image_ug0szfug0szfug0s" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_ug0szfug0szfug0s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -328,14 +337,17 @@
   <data name="Captura de pantalla 2026-01-18 224014" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla 2026-01-18 224014.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnInstruccJgProcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnInstruccJgProcc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BtnXPnlCmJg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnXPnlCmJg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FONDOMASCOTA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FONDOMASCOTA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="quizindificil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\quizindificil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CicloImgMg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CicloImgMg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee Please (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -364,8 +376,8 @@
   <data name="Coffee Please (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee Please (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gemini_Generated_Image_bxnn55bxnn55bxnn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gemini_Generated_Image_bxnn55bxnn55bxnn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BtnFacilJgPrcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnFacilJgPrcc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FONDO INTERFAZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FONDO INTERFAZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -430,6 +442,12 @@
   <data name="FloracionMangoScc11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FloracionMangoScc11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BtnVerificarmg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnVerificarmg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ttlBienvenidoJgScc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ttlBienvenidoJgScc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PANTALLADECARGA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PANTALLADECARGA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -469,8 +487,14 @@
   <data name="echarnutri2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\echarnutri2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BtnMedioJgPrcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnMedioJgPrcc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LAVADO Y TRATAMIENTO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LAVADO Y TRATAMIENTO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnDificilJgPrcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnDificilJgPrcc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura de pantalla 2026-01-18 223846" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla 2026-01-18 223846.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -550,6 +574,9 @@
   <data name="INCONOPROCESOPRODUCTIVO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\INCONOPROCESOPRODUCTIVO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btnInstruccJgProcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnInstruccJgProcc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ClasifEmpaqScc3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ClasifEmpaqScc31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -561,6 +588,9 @@
   </data>
   <data name="ENFERMEDADES" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENFERMEDADES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recetafond" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recetafond.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ANI-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ANI-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -598,6 +628,9 @@
   <data name="fondoInstruccionesJgProc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondoInstruccionesJgProc1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ComoSeJuegaJgPrcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComoSeJuegaJgPrcc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SQ1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SQ1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -612,6 +645,9 @@
   </data>
   <data name="TECNICA DE CORTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TECNICA DE CORTE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FondoPnlJgScc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoPnlJgScc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CosechaMango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CosechaMango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -643,7 +679,7 @@
   <data name="Gemini_Generated_Image_booz9dbooz9dbooz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gemini_Generated_Image_booz9dbooz9dbooz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="recetafond" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\recetafond.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BtnCerrarProc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnCerrarProc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

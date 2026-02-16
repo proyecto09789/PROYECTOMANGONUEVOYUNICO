@@ -13,80 +13,112 @@ namespace PROYECTOMANGO
 {
     public partial class JuegSeccProcProd : Form
     {
-        int nivelActual = 1; // Controla en qué nivel estamos
-        public JuegSeccProcProd()
+        private List<NivelDatos> listaNivelesJuego;
+        private int indiceNivelActual = 0;         
+        private int tiempoRestante;                 
+        private int contadorErrores = 0;            
+
+        public JuegSeccProcProd(int dificultad)
         {
             InitializeComponent();
+            ConfigurarNiveles(dificultad);
+            CargarNivelActual();
         }
 
-        private void JuegSeccProcProd_Load(object sender, EventArgs e)
+        private void ConfigurarNiveles(int dificultad)
         {
-            // Al abrir el juego, cargamos el nivel 1
-            CargarNivel();
+            listaNivelesJuego = new List<NivelDatos>();
+
+            if (dificultad == 1) 
+            {
+                var imgs1 = new List<(Image, int)> {
+                    (Properties.Resources.SiembraMangoScc11, 1),
+                    (Properties.Resources.FloracionMangoScc11, 2),
+                    (Properties.Resources.CosechaMangoScc11, 3)
+                };
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs1, TiempoLimite = 20, Titulo = "Fácil - Etapa 1" });
+
+                var imgs2 = new List<(Image, int)> {
+                    (Properties.Resources.TecnCortScc3, 1),
+                    (Properties.Resources.LavadTratamScc3, 2),
+                    (Properties.Resources.ClasifEmpaqScc3, 3)
+                };
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs2, TiempoLimite = 15, Titulo = "Fácil - Etapa 2" });
+
+                // ETAPA 3
+                var imgs3 = new List<(Image, int)> {
+                    (Properties.Resources.SeleccDeTerrenScc2, 1),
+                    (Properties.Resources.PrepSemillaScc2, 2),
+                    (Properties.Resources.AhoyadoScc2, 3)
+                };
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs3, TiempoLimite = 10, Titulo = "Fácil - Etapa 3" });
+            }
+            else if (dificultad == 2) 
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    var imgs = new List<(Image, int)> {
+                        (Properties.Resources.SeleccDeTerrenScc2, 1),
+                        (Properties.Resources.PrepSemillaScc2, 2),
+                        (Properties.Resources.AhoyadoScc2, 3)
+                    };
+                    listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs, TiempoLimite = 40, Titulo = $"Medio - Etapa {i + 1}" });
+                }
+            }
+            else if (dificultad == 3) 
+            {
+                for (int i = 0; i < 8; i++)
+                {
+                    var imgs = new List<(Image, int)> {
+                        (Properties.Resources.IndicMaduScc3, 1),
+                        (Properties.Resources.TecnCortScc3, 2),
+                        (Properties.Resources.DeslechScc3, 3),
+                        (Properties.Resources.LavadTratamScc3, 4)
+                    };
+                    listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs, TiempoLimite = 25, Titulo = $"Difícil - Etapa {i + 1}" });
+                }
+            }
         }
 
-        private void btnVolverJuegSecc_Click(object sender, EventArgs e)
+        private void CargarNivelActual()
         {
-            ProcProductivo procProductivo = new ProcProductivo();
-            procProductivo.Show();
-            this.Hide();
-        }
+            contadorErrores = 0;
+            if (lblErrores != null) 
+            {
+                lblErrores.Text = "Errores: 0";
+                lblErrores.ForeColor = Color.Black;
+            }
 
-        private void CargarNivel()
-        {
-            // Limpia los paneles de cualquier nivel anterior
             pnlSecuencia.Controls.Clear();
             pnlOpciones.Controls.Clear();
 
-            // (Imagen, NumeroDeOrden)
-            var listaImagenes = new List<(Image img, int orden)>();
+            btnSiguiente.Visible = false;
+            btnVerificar.Enabled = true;
+            pnlSecuencia.Enabled = true;
 
-            switch (nivelActual)
-            {
-                case 1:
-                    lblTitulo.Text = "Nivel 1: Fácil";
-                    listaImagenes.Add((Properties.Resources.SiembraMangoScc11, 1));
-                    listaImagenes.Add((Properties.Resources.FloracionMangoScc11, 2));
-                    listaImagenes.Add((Properties.Resources.CosechaMangoScc11, 3));
-                    break;
+            if (listaNivelesJuego.Count == 0) return; 
+            NivelDatos datos = listaNivelesJuego[indiceNivelActual];
 
-                case 2:
-                    lblTitulo.Text = "Nivel 2: Medio";
-                    listaImagenes.Add((Properties.Resources.SeleccDeTerrenScc2, 1));
-                    listaImagenes.Add((Properties.Resources.PrepSemillaScc2, 2));
-                    listaImagenes.Add((Properties.Resources.AhoyadoScc2, 3));
-                    listaImagenes.Add((Properties.Resources.TrasplanteScc2, 4));
-                    break;
+            lblTitulo.Text = datos.Titulo;
+            tiempoRestante = datos.TiempoLimite;
+            lblTiempo.Text = $"Tiempo: {tiempoRestante}s";
 
-                case 3:
-                    lblTitulo.Text = "Nivel 3: Difícil";
-                    listaImagenes.Add((Properties.Resources.IndicMaduScc3, 1));
-                    listaImagenes.Add((Properties.Resources.TecnCortScc3, 2));
-                    listaImagenes.Add((Properties.Resources.DeslechScc3, 3));
-                    listaImagenes.Add((Properties.Resources.LavadTratamScc3, 4));
-                    listaImagenes.Add((Properties.Resources.ClasifEmpaqScc3, 5));
-                    break;
+            tmrNivel.Interval = 1000;
+            tmrNivel.Stop();
+            tmrNivel.Start();
 
-                default:
-                    MessageBox.Show("¡Juego Completado! Eres un experto.");
-                    ProcProductivo procProductivo = new ProcProductivo();
-                    procProductivo.Show();
-                    this.Close();
-                    break;
-            }
-
-            // Mezcla la lista aleatoriamente para que aparezcan desordenadas
-            var listaDesordenada = listaImagenes.OrderBy(x => Guid.NewGuid()).ToList();
+            var listaDesordenada = datos.Imagenes.OrderBy(x => Guid.NewGuid()).ToList();
 
             foreach (var item in listaDesordenada)
             {
                 PictureBox pb = new PictureBox();
                 pb.Image = item.img;
                 pb.SizeMode = PictureBoxSizeMode.StretchImage;
-                pb.Width = 100;  
+                pb.Width = 100;
                 pb.Height = 100;
-                pb.Tag = item.orden; //guarda la respuesta correcta
+                pb.Tag = item.orden; 
                 pb.Cursor = Cursors.Hand;
+                pb.Padding = new Padding(0);
                 pb.Click += Imagen_Click;
                 pnlOpciones.Controls.Add(pb);
             }
@@ -95,71 +127,116 @@ namespace PROYECTOMANGO
         private void Imagen_Click(object sender, EventArgs e)
         {
             PictureBox imagen = sender as PictureBox;
+
             if (imagen.Parent == pnlOpciones)
                 pnlSecuencia.Controls.Add(imagen);
             else
                 pnlOpciones.Controls.Add(imagen);
+
+            imagen.BackColor = Color.Transparent;
+            imagen.Padding = new Padding(0);
         }
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
             if (pnlSecuencia.Controls.Count == 0) return;
 
-            int totalImagenes = pnlSecuencia.Controls.Count + pnlOpciones.Controls.Count;
-            if (pnlSecuencia.Controls.Count != totalImagenes)
+            NivelDatos datos = listaNivelesJuego[indiceNivelActual];
+
+            if (pnlSecuencia.Controls.Count != datos.Imagenes.Count)
             {
-                MessageBox.Show("Aún faltan imágenes por ordenar.");
+                MessageBox.Show("¡Completa la secuencia primero!");
                 return;
             }
 
-            // Comprobación del orden
             int indice = 0;
-            bool esCorrecto = true;
+            bool todoCorrecto = true;
 
             foreach (Control control in pnlSecuencia.Controls)
             {
                 PictureBox imagen = control as PictureBox;
+
                 if (imagen.Tag.ToString() != (indice + 1).ToString())
                 {
-                    esCorrecto = false;
-                    break;
+                    todoCorrecto = false;
+                    imagen.BackColor = Color.Red;
+                    imagen.Padding = new Padding(3); 
+                }
+                else
+                {
+                    imagen.BackColor = Color.Transparent;
+                    imagen.Padding = new Padding(0);
                 }
                 indice++;
             }
-
-            if (esCorrecto)
+            if (todoCorrecto)
             {
-                MessageBox.Show("¡Correcto! Has completado la secuencia.");
+                tmrNivel.Stop();
 
-                btnSiguiente.Visible = true;  
-                btnVerificar.Enabled = false;  // Desactiva verificar para que no le den click de nuevo
-                pnlSecuencia.Enabled = false;  // Bloquea el panel para que no muevan las fotos ya ordenadas
+                int tiempoTomado = datos.TiempoLimite - tiempoRestante;
+
+                string mensaje = $"¡Nivel Completado!\n\n" +
+                                 $"⏱ Tiempo usado: {tiempoTomado} segundos\n" +
+                                 $"❌ Errores cometidos: {contadorErrores}";
+
+                MessageBox.Show(mensaje, "Eres un crack");
+
+                btnSiguiente.Visible = true;
+                btnVerificar.Enabled = false;
+                pnlSecuencia.Enabled = false; 
             }
             else
             {
-                MessageBox.Show("Hay un error en el orden. Inténtalo de nuevo.");
-            }
+                contadorErrores++; 
+                lblErrores.Text = $"Errores: {contadorErrores}";
+                lblErrores.ForeColor = Color.Red; 
 
+                MessageBox.Show("Hay fichas mal puestas (las marcadas en rojo). ¡Corrige rápido!", "Error");
+            }
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            nivelActual++;
-            CargarNivel();
-            btnSiguiente.Visible = false;
-            btnVerificar.Enabled = true;
-            pnlSecuencia.Enabled = true;
+            if (indiceNivelActual < listaNivelesJuego.Count - 1)
+            {
+                indiceNivelActual++; 
+                CargarNivelActual(); 
+            }
+            else
+            {
+                MessageBox.Show("¡Te pasaste el juego completo!");
+                SeleccNvlPrcc menu = new SeleccNvlPrcc();
+                menu.Show();
+                this.Close();
+            }
         }
 
-        private void btnXInstrucc_Click(object sender, EventArgs e)
+        private void tmrNivel_Tick(object sender, EventArgs e)
         {
-           pnlComoSeJuega.Visible = false; 
+            tiempoRestante--;
+            lblTiempo.Text = $"Tiempo: {tiempoRestante}s";
+
+            if (tiempoRestante <= 0)
+            {
+                tmrNivel.Stop();
+                MessageBox.Show("¡Se te acabó el tiempo! Intenta de nuevo.", "Game Over");
+                CargarNivelActual();
+            }
         }
 
-        private void btnComoSeJuega_Click(object sender, EventArgs e)
+        private void btnVolverJuegSecc_Click(object sender, EventArgs e)
         {
-            pnlComoSeJuega.Visible = true;
-            pnlComoSeJuega.BringToFront();
+            tmrNivel.Stop();
+            SeleccNvlPrcc seleccion = new SeleccNvlPrcc();
+            seleccion.Show();
+            this.Close();
+        }
+
+        public class NivelDatos
+        {
+            public List<(Image img, int orden)> Imagenes { get; set; }
+            public int TiempoLimite { get; set; }
+            public string Titulo { get; set; }
         }
     }
 }

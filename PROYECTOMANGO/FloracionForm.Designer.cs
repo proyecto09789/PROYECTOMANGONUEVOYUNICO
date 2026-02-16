@@ -43,6 +43,7 @@
             this.cmbTemasFloracion = new System.Windows.Forms.ComboBox();
             this.pbTemaFloracion = new System.Windows.Forms.PictureBox();
             this.lblEtpFloracion = new System.Windows.Forms.Label();
+            this.btnCerrarFlora = new System.Windows.Forms.Button();
             this.pnlInfFloracion.SuspendLayout();
             this.pnlRefFloracion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTemaFloracion)).BeginInit();
@@ -112,7 +113,7 @@
             // 
             this.linklblFlora1.AutoSize = true;
             this.linklblFlora1.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linklblFlora1.Location = new System.Drawing.Point(50, 136);
+            this.linklblFlora1.Location = new System.Drawing.Point(27, 136);
             this.linklblFlora1.Name = "linklblFlora1";
             this.linklblFlora1.Size = new System.Drawing.Size(337, 20);
             this.linklblFlora1.TabIndex = 3;
@@ -123,7 +124,7 @@
             // 
             this.lblRefFlora2.AutoSize = true;
             this.lblRefFlora2.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRefFlora2.Location = new System.Drawing.Point(8, 185);
+            this.lblRefFlora2.Location = new System.Drawing.Point(13, 191);
             this.lblRefFlora2.Name = "lblRefFlora2";
             this.lblRefFlora2.Size = new System.Drawing.Size(392, 120);
             this.lblRefFlora2.TabIndex = 2;
@@ -134,7 +135,7 @@
             // 
             this.lblRefFlora1.AutoSize = true;
             this.lblRefFlora1.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRefFlora1.Location = new System.Drawing.Point(50, 56);
+            this.lblRefFlora1.Location = new System.Drawing.Point(27, 56);
             this.lblRefFlora1.Name = "lblRefFlora1";
             this.lblRefFlora1.Size = new System.Drawing.Size(289, 80);
             this.lblRefFlora1.TabIndex = 1;
@@ -165,6 +166,8 @@
             // 
             // AbrirFormPnlFloracion
             // 
+            this.AbrirFormPnlFloracion.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.CicloImgMg;
+            this.AbrirFormPnlFloracion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.AbrirFormPnlFloracion.Location = new System.Drawing.Point(247, 82);
             this.AbrirFormPnlFloracion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.AbrirFormPnlFloracion.Name = "AbrirFormPnlFloracion";
@@ -222,6 +225,20 @@
             this.lblEtpFloracion.Text = "Etapa de Floración";
             this.lblEtpFloracion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnCerrarFlora
+            // 
+            this.btnCerrarFlora.BackColor = System.Drawing.Color.Transparent;
+            this.btnCerrarFlora.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.BtnCerrarProc;
+            this.btnCerrarFlora.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCerrarFlora.FlatAppearance.BorderSize = 0;
+            this.btnCerrarFlora.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarFlora.Location = new System.Drawing.Point(1086, 12);
+            this.btnCerrarFlora.Name = "btnCerrarFlora";
+            this.btnCerrarFlora.Size = new System.Drawing.Size(82, 75);
+            this.btnCerrarFlora.TabIndex = 5;
+            this.btnCerrarFlora.UseVisualStyleBackColor = false;
+            this.btnCerrarFlora.Click += new System.EventHandler(this.btnCerrarFlora_Click);
+            // 
             // FloracionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -229,6 +246,7 @@
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1180, 630);
+            this.Controls.Add(this.btnCerrarFlora);
             this.Controls.Add(this.lblEtpFloracion);
             this.Controls.Add(this.pnlInfFloracion);
             this.Controls.Add(this.btnVolverFloracion);
@@ -263,5 +281,6 @@
         private System.Windows.Forms.Label lblRefFlora1;
         private System.Windows.Forms.LinkLabel linklblFlora1;
         private System.Windows.Forms.Button btnRefPnlFlora;
+        private System.Windows.Forms.Button btnCerrarFlora;
     }
 }

@@ -40,6 +40,7 @@
             this.pBoxFloracion = new System.Windows.Forms.PictureBox();
             this.pBoxSiembra = new System.Windows.Forms.PictureBox();
             this.btnJuegInteractivoProcProduct = new System.Windows.Forms.Button();
+            this.btnCerrarPrcMang = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxCosecha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxFloracion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxSiembra)).BeginInit();
@@ -68,7 +69,7 @@
             this.lblTituProc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTituProc.Font = new System.Drawing.Font("Georgia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituProc.ForeColor = System.Drawing.Color.Ivory;
-            this.lblTituProc.Location = new System.Drawing.Point(115, 69);
+            this.lblTituProc.Location = new System.Drawing.Point(133, 79);
             this.lblTituProc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTituProc.Name = "lblTituProc";
             this.lblTituProc.Size = new System.Drawing.Size(968, 69);
@@ -212,6 +213,20 @@
             this.btnJuegInteractivoProcProduct.UseVisualStyleBackColor = false;
             this.btnJuegInteractivoProcProduct.Click += new System.EventHandler(this.btnJuegInteractivoProcProduct_Click);
             // 
+            // btnCerrarPrcMang
+            // 
+            this.btnCerrarPrcMang.BackColor = System.Drawing.Color.Transparent;
+            this.btnCerrarPrcMang.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.BtnCerrarProc;
+            this.btnCerrarPrcMang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCerrarPrcMang.FlatAppearance.BorderSize = 0;
+            this.btnCerrarPrcMang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarPrcMang.Location = new System.Drawing.Point(1086, 12);
+            this.btnCerrarPrcMang.Name = "btnCerrarPrcMang";
+            this.btnCerrarPrcMang.Size = new System.Drawing.Size(82, 75);
+            this.btnCerrarPrcMang.TabIndex = 12;
+            this.btnCerrarPrcMang.UseVisualStyleBackColor = false;
+            this.btnCerrarPrcMang.Click += new System.EventHandler(this.btnCerrarPrcMang_Click);
+            // 
             // ProcProductivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -221,6 +236,7 @@
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1180, 630);
+            this.Controls.Add(this.btnCerrarPrcMang);
             this.Controls.Add(this.btnJuegInteractivoProcProduct);
             this.Controls.Add(this.lblCosechaT);
             this.Controls.Add(this.lblFloracionT);
@@ -263,5 +279,6 @@
         private System.Windows.Forms.Label lblFloracionT;
         private System.Windows.Forms.Label lblCosechaT;
         private System.Windows.Forms.Button btnJuegInteractivoProcProduct;
+        private System.Windows.Forms.Button btnCerrarPrcMang;
     }
 }

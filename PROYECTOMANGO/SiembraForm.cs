@@ -83,5 +83,10 @@ namespace PROYECTOMANGO
         {
             pnlRefSiembra.Visible = false;
         }
+
+        private void btnCerrarSiembra_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

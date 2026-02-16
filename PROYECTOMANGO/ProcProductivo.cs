@@ -80,9 +80,14 @@ namespace PROYECTOBETA001
 
         private void btnJuegInteractivoProcProduct_Click(object sender, EventArgs e)
         {
-            JuegSeccProcProd juegSeccProcProd = new JuegSeccProcProd(); 
-            juegSeccProcProd.Show();
+            SeleccNvlPrcc seleccionNivel = new SeleccNvlPrcc();
+            seleccionNivel.Show();
             this.Hide();
+        }
+
+        private void btnCerrarPrcMang_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

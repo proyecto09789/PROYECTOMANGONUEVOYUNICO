@@ -183,9 +183,39 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BtnCerrarProc {
+            get {
+                object obj = ResourceManager.GetObject("BtnCerrarProc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnComoSeJuega {
             get {
                 object obj = ResourceManager.GetObject("btnComoSeJuega", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BtnDificilJgPrcc {
+            get {
+                object obj = ResourceManager.GetObject("BtnDificilJgPrcc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BtnFacilJgPrcc {
+            get {
+                object obj = ResourceManager.GetObject("BtnFacilJgPrcc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +236,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap btnIralJg {
             get {
                 object obj = ResourceManager.GetObject("btnIralJg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BtnMedioJgPrcc {
+            get {
+                object obj = ResourceManager.GetObject("BtnMedioJgPrcc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +283,39 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BtnSiguientemg {
+            get {
+                object obj = ResourceManager.GetObject("BtnSiguientemg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BtnVerificar {
             get {
                 object obj = ResourceManager.GetObject("BtnVerificar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BtnVerificarmg {
+            get {
+                object obj = ResourceManager.GetObject("BtnVerificarmg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BtnXPnlCmJg {
+            get {
+                object obj = ResourceManager.GetObject("BtnXPnlCmJg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -316,6 +386,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap Captura_de_pantalla_2026_01_18_224115 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2026-01-18 224115", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CicloImgMg {
+            get {
+                object obj = ResourceManager.GetObject("CicloImgMg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,6 +486,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap COMENZARTEST {
             get {
                 object obj = ResourceManager.GetObject("COMENZARTEST", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ComoSeJuegaJgPrcc {
+            get {
+                object obj = ResourceManager.GetObject("ComoSeJuegaJgPrcc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -866,6 +956,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap FondoPnlInstrucc {
             get {
                 object obj = ResourceManager.GetObject("FondoPnlInstrucc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondoPnlJgScc {
+            get {
+                object obj = ResourceManager.GetObject("FondoPnlJgScc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1493,6 +1593,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SelccDifJgPrcc {
+            get {
+                object obj = ResourceManager.GetObject("SelccDifJgPrcc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SeleccDeTerrenScc2 {
             get {
                 object obj = ResourceManager.GetObject("SeleccDeTerrenScc2", resourceCulture);
@@ -1737,6 +1847,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap TrasplanteScc2 {
             get {
                 object obj = ResourceManager.GetObject("TrasplanteScc2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ttlBienvenidoJgScc {
+            get {
+                object obj = ResourceManager.GetObject("ttlBienvenidoJgScc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

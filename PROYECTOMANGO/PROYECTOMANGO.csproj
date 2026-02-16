@@ -323,6 +323,12 @@
     <Compile Include="SeleccDeTerren.Designer.cs">
       <DependentUpon>SeleccDeTerren.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeleccNvlPrcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccNvlPrcc.Designer.cs">
+      <DependentUpon>SeleccNvlPrcc.cs</DependentUpon>
+    </Compile>
     <Compile Include="SiembraForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -437,6 +443,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeleccDeTerren.resx">
       <DependentUpon>SeleccDeTerren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleccNvlPrcc.resx">
+      <DependentUpon>SeleccNvlPrcc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SiembraForm.resx">
       <DependentUpon>SiembraForm.cs</DependentUpon>
@@ -871,6 +880,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\recetafond.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelccDifJgPrcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnFacilJgPrcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnMedioJgPrcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnDificilJgPrcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoPnlJgScc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnVerificarmg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnSiguientemg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ttlBienvenidoJgScc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComoSeJuegaJgPrcc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnXPnlCmJg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CicloImgMg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnCerrarProc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

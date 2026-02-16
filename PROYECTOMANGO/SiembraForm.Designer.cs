@@ -43,6 +43,7 @@
             this.lblSelecciontema = new System.Windows.Forms.Label();
             this.cmbTemas = new System.Windows.Forms.ComboBox();
             this.lblEtpSiembra = new System.Windows.Forms.Label();
+            this.btnCerrarSiembra = new System.Windows.Forms.Button();
             this.pnlSiembra.SuspendLayout();
             this.pnlRefSiembra.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagenTema)).BeginInit();
@@ -165,6 +166,8 @@
             // 
             // AbrirFormPnlSiembra
             // 
+            this.AbrirFormPnlSiembra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.CicloImgMg;
+            this.AbrirFormPnlSiembra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.AbrirFormPnlSiembra.Location = new System.Drawing.Point(247, 83);
             this.AbrirFormPnlSiembra.Name = "AbrirFormPnlSiembra";
             this.AbrirFormPnlSiembra.Size = new System.Drawing.Size(620, 409);
@@ -218,6 +221,20 @@
             this.lblEtpSiembra.TabIndex = 0;
             this.lblEtpSiembra.Text = "Etapa de Siembra";
             // 
+            // btnCerrarSiembra
+            // 
+            this.btnCerrarSiembra.BackColor = System.Drawing.Color.Transparent;
+            this.btnCerrarSiembra.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.BtnCerrarProc;
+            this.btnCerrarSiembra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCerrarSiembra.FlatAppearance.BorderSize = 0;
+            this.btnCerrarSiembra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarSiembra.Location = new System.Drawing.Point(1066, 12);
+            this.btnCerrarSiembra.Name = "btnCerrarSiembra";
+            this.btnCerrarSiembra.Size = new System.Drawing.Size(82, 75);
+            this.btnCerrarSiembra.TabIndex = 2;
+            this.btnCerrarSiembra.UseVisualStyleBackColor = false;
+            this.btnCerrarSiembra.Click += new System.EventHandler(this.btnCerrarSiembra_Click);
+            // 
             // SiembraForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -225,6 +242,7 @@
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondsiem123;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1160, 630);
+            this.Controls.Add(this.btnCerrarSiembra);
             this.Controls.Add(this.lblEtpSiembra);
             this.Controls.Add(this.pnlSiembra);
             this.Controls.Add(this.btnVolverSiembra);
@@ -261,5 +279,6 @@
         private System.Windows.Forms.Label lblTitRefSiemb;
         private System.Windows.Forms.Label lblRefSiembra2;
         private System.Windows.Forms.Button btnRefPnlSiembra;
+        private System.Windows.Forms.Button btnCerrarSiembra;
     }
 }
