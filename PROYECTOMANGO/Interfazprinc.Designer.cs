@@ -30,6 +30,7 @@ namespace PROYECTOBETA001
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Interfazprinc));
             this.fotocuidatumango1 = new System.Windows.Forms.PictureBox();
             this.fotoprocesoproductivo = new System.Windows.Forms.PictureBox();
             this.fotodatocuriso1 = new System.Windows.Forms.PictureBox();
@@ -57,10 +58,11 @@ namespace PROYECTOBETA001
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.fotocuidatumango1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.fotocuidatumango1.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_224115;
-            this.fotocuidatumango1.Location = new System.Drawing.Point(1016, 267);
+            this.fotocuidatumango1.Image = ((System.Drawing.Image)(resources.GetObject("fotocuidatumango1.Image")));
+            this.fotocuidatumango1.Location = new System.Drawing.Point(1355, 329);
+            this.fotocuidatumango1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fotocuidatumango1.Name = "fotocuidatumango1";
-            this.fotocuidatumango1.Size = new System.Drawing.Size(224, 275);
+            this.fotocuidatumango1.Size = new System.Drawing.Size(299, 338);
             this.fotocuidatumango1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotocuidatumango1.TabIndex = 21;
             this.fotocuidatumango1.TabStop = false;
@@ -73,9 +75,10 @@ namespace PROYECTOBETA001
             | System.Windows.Forms.AnchorStyles.Right)));
             this.fotoprocesoproductivo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.fotoprocesoproductivo.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_224014;
-            this.fotoprocesoproductivo.Location = new System.Drawing.Point(770, 267);
+            this.fotoprocesoproductivo.Location = new System.Drawing.Point(1027, 329);
+            this.fotoprocesoproductivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fotoprocesoproductivo.Name = "fotoprocesoproductivo";
-            this.fotoprocesoproductivo.Size = new System.Drawing.Size(224, 275);
+            this.fotoprocesoproductivo.Size = new System.Drawing.Size(299, 338);
             this.fotoprocesoproductivo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotoprocesoproductivo.TabIndex = 20;
             this.fotoprocesoproductivo.TabStop = false;
@@ -88,9 +91,10 @@ namespace PROYECTOBETA001
             | System.Windows.Forms.AnchorStyles.Right)));
             this.fotodatocuriso1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.fotodatocuriso1.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_223617;
-            this.fotodatocuriso1.Location = new System.Drawing.Point(37, 267);
+            this.fotodatocuriso1.Location = new System.Drawing.Point(49, 329);
+            this.fotodatocuriso1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fotodatocuriso1.Name = "fotodatocuriso1";
-            this.fotodatocuriso1.Size = new System.Drawing.Size(224, 275);
+            this.fotodatocuriso1.Size = new System.Drawing.Size(299, 338);
             this.fotodatocuriso1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotodatocuriso1.TabIndex = 19;
             this.fotodatocuriso1.TabStop = false;
@@ -103,9 +107,10 @@ namespace PROYECTOBETA001
             | System.Windows.Forms.AnchorStyles.Right)));
             this.fotousoculinario1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.fotousoculinario1.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_223926;
-            this.fotousoculinario1.Location = new System.Drawing.Point(526, 267);
+            this.fotousoculinario1.Location = new System.Drawing.Point(701, 329);
+            this.fotousoculinario1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fotousoculinario1.Name = "fotousoculinario1";
-            this.fotousoculinario1.Size = new System.Drawing.Size(224, 275);
+            this.fotousoculinario1.Size = new System.Drawing.Size(299, 338);
             this.fotousoculinario1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.fotousoculinario1.TabIndex = 18;
             this.fotousoculinario1.TabStop = false;
@@ -118,9 +123,10 @@ namespace PROYECTOBETA001
             | System.Windows.Forms.AnchorStyles.Right)));
             this.imtra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.imtra.Image = global::PROYECTOMANGO.Properties.Resources.Captura_de_pantalla_2026_01_18_223846;
-            this.imtra.Location = new System.Drawing.Point(280, 267);
+            this.imtra.Location = new System.Drawing.Point(373, 329);
+            this.imtra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.imtra.Name = "imtra";
-            this.imtra.Size = new System.Drawing.Size(224, 275);
+            this.imtra.Size = new System.Drawing.Size(299, 338);
             this.imtra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imtra.TabIndex = 17;
             this.imtra.TabStop = false;
@@ -128,18 +134,20 @@ namespace PROYECTOBETA001
             // 
             // progressVidaMascota
             // 
-            this.progressVidaMascota.Location = new System.Drawing.Point(1016, 32);
+            this.progressVidaMascota.Location = new System.Drawing.Point(1355, 39);
+            this.progressVidaMascota.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.progressVidaMascota.Name = "progressVidaMascota";
-            this.progressVidaMascota.Size = new System.Drawing.Size(224, 20);
+            this.progressVidaMascota.Size = new System.Drawing.Size(299, 25);
             this.progressVidaMascota.TabIndex = 33;
             this.progressVidaMascota.Value = 100;
             // 
             // lblVidaMascota
             // 
             this.lblVidaMascota.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
-            this.lblVidaMascota.Location = new System.Drawing.Point(1016, 9);
+            this.lblVidaMascota.Location = new System.Drawing.Point(1355, 11);
+            this.lblVidaMascota.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVidaMascota.Name = "lblVidaMascota";
-            this.lblVidaMascota.Size = new System.Drawing.Size(224, 20);
+            this.lblVidaMascota.Size = new System.Drawing.Size(299, 25);
             this.lblVidaMascota.TabIndex = 34;
             this.lblVidaMascota.Text = "Vida de tu Mangito: 100";
             this.lblVidaMascota.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -148,9 +156,10 @@ namespace PROYECTOBETA001
             // 
             this.lbdatoscurioso.BackColor = System.Drawing.Color.Khaki;
             this.lbdatoscurioso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbdatoscurioso.Location = new System.Drawing.Point(37, 209);
+            this.lbdatoscurioso.Location = new System.Drawing.Point(49, 257);
+            this.lbdatoscurioso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbdatoscurioso.Name = "lbdatoscurioso";
-            this.lbdatoscurioso.Size = new System.Drawing.Size(224, 73);
+            this.lbdatoscurioso.Size = new System.Drawing.Size(299, 90);
             this.lbdatoscurioso.TabIndex = 36;
             this.lbdatoscurioso.Text = "Datos Curioso";
             this.lbdatoscurioso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -160,9 +169,10 @@ namespace PROYECTOBETA001
             // 
             this.label1.BackColor = System.Drawing.Color.Khaki;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(280, 209);
+            this.label1.Location = new System.Drawing.Point(373, 257);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(224, 73);
+            this.label1.Size = new System.Drawing.Size(299, 90);
             this.label1.TabIndex = 37;
             this.label1.Text = "Transporte y Venta";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -172,9 +182,10 @@ namespace PROYECTOBETA001
             // 
             this.lbusoculinarioybeneficios.BackColor = System.Drawing.Color.Khaki;
             this.lbusoculinarioybeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbusoculinarioybeneficios.Location = new System.Drawing.Point(526, 209);
+            this.lbusoculinarioybeneficios.Location = new System.Drawing.Point(701, 257);
+            this.lbusoculinarioybeneficios.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbusoculinarioybeneficios.Name = "lbusoculinarioybeneficios";
-            this.lbusoculinarioybeneficios.Size = new System.Drawing.Size(224, 73);
+            this.lbusoculinarioybeneficios.Size = new System.Drawing.Size(299, 90);
             this.lbusoculinarioybeneficios.TabIndex = 38;
             this.lbusoculinarioybeneficios.Text = "Usos Culinarios y Beneficios";
             this.lbusoculinarioybeneficios.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -184,9 +195,10 @@ namespace PROYECTOBETA001
             // 
             this.lbprocesoproductivo.BackColor = System.Drawing.Color.Khaki;
             this.lbprocesoproductivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbprocesoproductivo.Location = new System.Drawing.Point(770, 209);
+            this.lbprocesoproductivo.Location = new System.Drawing.Point(1027, 257);
+            this.lbprocesoproductivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbprocesoproductivo.Name = "lbprocesoproductivo";
-            this.lbprocesoproductivo.Size = new System.Drawing.Size(224, 73);
+            this.lbprocesoproductivo.Size = new System.Drawing.Size(299, 90);
             this.lbprocesoproductivo.TabIndex = 39;
             this.lbprocesoproductivo.Text = "Proceso Productivo";
             this.lbprocesoproductivo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -196,9 +208,10 @@ namespace PROYECTOBETA001
             // 
             this.lbcuidatumango.BackColor = System.Drawing.Color.Khaki;
             this.lbcuidatumango.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbcuidatumango.Location = new System.Drawing.Point(1016, 209);
+            this.lbcuidatumango.Location = new System.Drawing.Point(1355, 257);
+            this.lbcuidatumango.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbcuidatumango.Name = "lbcuidatumango";
-            this.lbcuidatumango.Size = new System.Drawing.Size(224, 73);
+            this.lbcuidatumango.Size = new System.Drawing.Size(299, 90);
             this.lbcuidatumango.TabIndex = 40;
             this.lbcuidatumango.Text = "Cuida tu mango";
             this.lbcuidatumango.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -206,20 +219,21 @@ namespace PROYECTOBETA001
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(-23, -46);
+            this.pictureBox1.Location = new System.Drawing.Point(-31, -57);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 62);
             this.pictureBox1.TabIndex = 41;
             this.pictureBox1.TabStop = false;
             // 
             // Interfazprinc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LemonChiffon;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.de_Información_y_Recursos_del__1950_x_1150_px_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1274, 660);
+            this.ClientSize = new System.Drawing.Size(1699, 812);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbcuidatumango);
             this.Controls.Add(this.lbprocesoproductivo);
@@ -233,6 +247,9 @@ namespace PROYECTOBETA001
             this.Controls.Add(this.imtra);
             this.Controls.Add(this.progressVidaMascota);
             this.Controls.Add(this.lblVidaMascota);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Interfazprinc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Interfazprinc";

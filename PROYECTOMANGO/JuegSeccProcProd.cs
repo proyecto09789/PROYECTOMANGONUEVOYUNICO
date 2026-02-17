@@ -55,28 +55,64 @@ namespace PROYECTOMANGO
             }
             else if (dificultad == 2) 
             {
-                for (int i = 0; i < 5; i++)
-                {
-                    var imgs = new List<(Image, int)> {
-                        (Properties.Resources.SeleccDeTerrenScc2, 1),
-                        (Properties.Resources.PrepSemillaScc2, 2),
-                        (Properties.Resources.AhoyadoScc2, 3)
+                var imgs = new List<(Image, int)> {
+                        (Properties.Resources.img1MedioEt1, 1),
+                        (Properties.Resources.img2MedioEt1, 2),
+                        (Properties.Resources.img3MedioEt1, 3),
+                        (Properties.Resources.img4MedioEt11, 4),
+                        (Properties.Resources.img5MedioEt11, 5)
                     };
-                    listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs, TiempoLimite = 40, Titulo = $"Medio - Etapa {i + 1}" });
-                }
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs, TiempoLimite = 25, Titulo = $"Medio - Etapa 1" });
+
+                var imgs2 = new List<(Image, int)> {
+                        (Properties.Resources.img1MedioEt2, 1),
+                        (Properties.Resources.img2MedioEt2, 2),
+                        (Properties.Resources.img3MedioEt2, 3),
+                        (Properties.Resources.img4MedioEt22, 4),
+                        (Properties.Resources.img5MedioEt22, 5)
+                };
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs2, TiempoLimite = 20, Titulo = $"Medio - Etapa 2" });
+
+                var imgs3 = new List<(Image, int)> {
+                        (Properties.Resources.img1MedioEt3, 1),
+                        (Properties.Resources.img2MedioEt3, 2),
+                        (Properties.Resources.img3MedioEt3, 3),
+                        (Properties.Resources.img4MedioEt3, 4),
+                        (Properties.Resources.img5MedioEt3, 5)
+                };
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs3, TiempoLimite = 15, Titulo = $"Medio - Etapa 3" });
             }
             else if (dificultad == 3) 
             {
-                for (int i = 0; i < 8; i++)
-                {
-                    var imgs = new List<(Image, int)> {
-                        (Properties.Resources.IndicMaduScc3, 1),
-                        (Properties.Resources.TecnCortScc3, 2),
-                        (Properties.Resources.DeslechScc3, 3),
-                        (Properties.Resources.LavadTratamScc3, 4)
+                var imgs = new List<(Image, int)> {
+                        (Properties.Resources.img1DificilEt1, 1),
+                        (Properties.Resources.img2DificilEt1, 2),
+                        (Properties.Resources.img3DificilEt1, 3),
+                        (Properties.Resources.img4DificilEt1, 4),
+                        (Properties.Resources.img5DificilEt1, 5),
+                        (Properties.Resources.img6DificilEt1, 6),
                     };
-                    listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs, TiempoLimite = 25, Titulo = $"Difícil - Etapa {i + 1}" });
-                }
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs, TiempoLimite = 20, Titulo = $"Difícil - Etapa 1" });
+
+                var imgs2 = new List<(Image, int)> {
+                        (Properties.Resources.img1DificilEt2, 1),
+                        (Properties.Resources.img2DificilEt2, 2),
+                        (Properties.Resources.img3DificilEt2, 3),
+                        (Properties.Resources.img4DificilEt2, 4),
+                        (Properties.Resources.img5DificilEt2, 5),
+                        (Properties.Resources.img6DificilEt2, 6)
+                };
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs2, TiempoLimite = 15, Titulo = $"Difícil - Etapa 2" });
+
+                var imgs3 = new List<(Image, int)> {
+                        (Properties.Resources.img1DificilEt3, 1),
+                        (Properties.Resources.img2DificilEt3, 2),
+                        (Properties.Resources.img3DificilEt3, 3),
+                        (Properties.Resources.img4DificilEt3, 4),
+                        (Properties.Resources.img5DificilEt3, 5),
+                        (Properties.Resources.img6DificilEt3, 6)
+                };
+                listaNivelesJuego.Add(new NivelDatos { Imagenes = imgs3, TiempoLimite = 10, Titulo = $"Difícil - Etapa 3" });
             }
         }
 
@@ -204,7 +240,7 @@ namespace PROYECTOMANGO
             }
             else
             {
-                MessageBox.Show("¡Te pasaste el juego completo!");
+                MessageBox.Show("¡Te pasaste el nivel completo!");
                 SeleccNvlPrcc menu = new SeleccNvlPrcc();
                 menu.Show();
                 this.Close();
@@ -237,6 +273,11 @@ namespace PROYECTOMANGO
             public List<(Image img, int orden)> Imagenes { get; set; }
             public int TiempoLimite { get; set; }
             public string Titulo { get; set; }
+        }
+
+        private void btnCerrarJgScc_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

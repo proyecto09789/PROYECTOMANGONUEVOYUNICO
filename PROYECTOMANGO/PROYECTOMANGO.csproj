@@ -917,5 +917,104 @@
   <ItemGroup>
     <None Include="Resources\BtnCerrarProc.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3MedioEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2MedioEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1MedioEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3MedioEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2MedioEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1MedioEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5MedioEt22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4MedioEt22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5MedioEt11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4MedioEt11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3DificilEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2DificilEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1DificilEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6DificilEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5DificilEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4DificilEt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3DificilEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2DificilEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1DificilEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6DificilEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5DificilEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4DificilEt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6DificilEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5DificilEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4DificilEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3DificilEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2DificilEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1DificilEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5MedioEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4MedioEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3MedioEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2MedioEt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1MedioEt3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
