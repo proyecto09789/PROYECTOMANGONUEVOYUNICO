@@ -34,11 +34,12 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnLogin1 = new System.Windows.Forms.Button();
             this.relleno0 = new System.Windows.Forms.Label();
-            this.relleno3 = new System.Windows.Forms.Label();
             this.relleno2 = new System.Windows.Forms.Label();
             this.relleno1 = new System.Windows.Forms.Label();
             this.fonNombre = new System.Windows.Forms.PictureBox();
             this.IINIEXITO = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fonNombre)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,25 +48,28 @@
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtUsername.BackColor = System.Drawing.Color.AntiqueWhite;
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(459, 314);
+            this.txtUsername.Location = new System.Drawing.Point(425, 287);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(455, 26);
+            this.txtUsername.Size = new System.Drawing.Size(512, 26);
             this.txtUsername.TabIndex = 1;
+            this.txtUsername.Text = "  maykel";
             // 
             // txtPassword
             // 
             this.txtPassword.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtPassword.BackColor = System.Drawing.SystemColors.Window;
+            this.txtPassword.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(459, 429);
+            this.txtPassword.Location = new System.Drawing.Point(425, 386);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(455, 26);
+            this.txtPassword.Size = new System.Drawing.Size(512, 26);
             this.txtPassword.TabIndex = 1;
+            this.txtPassword.Text = "  1234";
             // 
             // btnCreate
             // 
@@ -75,9 +79,9 @@
             this.btnCreate.BackColor = System.Drawing.Color.Transparent;
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreate.Location = new System.Drawing.Point(685, 499);
+            this.btnCreate.Location = new System.Drawing.Point(674, 460);
             this.btnCreate.Name = "btnCreate";
-            this.btnCreate.Size = new System.Drawing.Size(236, 103);
+            this.btnCreate.Size = new System.Drawing.Size(313, 103);
             this.btnCreate.TabIndex = 3;
             this.btnCreate.Text = "Registrar Usuario";
             this.btnCreate.UseVisualStyleBackColor = false;
@@ -106,9 +110,9 @@
             this.btnLogin1.BackColor = System.Drawing.Color.Transparent;
             this.btnLogin1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin1.Location = new System.Drawing.Point(434, 500);
+            this.btnLogin1.Location = new System.Drawing.Point(379, 460);
             this.btnLogin1.Name = "btnLogin1";
-            this.btnLogin1.Size = new System.Drawing.Size(226, 102);
+            this.btnLogin1.Size = new System.Drawing.Size(280, 102);
             this.btnLogin1.TabIndex = 2;
             this.btnLogin1.Text = "Iniciar Sesión";
             this.btnLogin1.UseVisualStyleBackColor = false;
@@ -118,27 +122,17 @@
             // 
             this.relleno0.AutoSize = true;
             this.relleno0.BackColor = System.Drawing.Color.Transparent;
-            this.relleno0.Location = new System.Drawing.Point(650, 500);
+            this.relleno0.Location = new System.Drawing.Point(629, 471);
             this.relleno0.Name = "relleno0";
             this.relleno0.Size = new System.Drawing.Size(67, 117);
             this.relleno0.TabIndex = 5;
             this.relleno0.Text = "                    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n.";
             // 
-            // relleno3
-            // 
-            this.relleno3.AutoSize = true;
-            this.relleno3.BackColor = System.Drawing.Color.Transparent;
-            this.relleno3.Location = new System.Drawing.Point(431, 500);
-            this.relleno3.Name = "relleno3";
-            this.relleno3.Size = new System.Drawing.Size(16, 143);
-            this.relleno3.TabIndex = 6;
-            this.relleno3.Text = "   \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n.";
-            // 
             // relleno2
             // 
             this.relleno2.AutoSize = true;
             this.relleno2.BackColor = System.Drawing.Color.Transparent;
-            this.relleno2.Location = new System.Drawing.Point(431, 588);
+            this.relleno2.Location = new System.Drawing.Point(422, 565);
             this.relleno2.Name = "relleno2";
             this.relleno2.Size = new System.Drawing.Size(490, 26);
             this.relleno2.TabIndex = 7;
@@ -150,7 +144,7 @@
             // 
             this.relleno1.AutoSize = true;
             this.relleno1.BackColor = System.Drawing.Color.Transparent;
-            this.relleno1.Location = new System.Drawing.Point(422, 483);
+            this.relleno1.Location = new System.Drawing.Point(422, 460);
             this.relleno1.Name = "relleno1";
             this.relleno1.Size = new System.Drawing.Size(511, 26);
             this.relleno1.TabIndex = 8;
@@ -161,7 +155,7 @@
             // fonNombre
             // 
             this.fonNombre.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fonNombre.Image = global::PROYECTOMANGO.Properties.Resources.PANTALLADECARGA;
+            this.fonNombre.Image = global::PROYECTOMANGO.Properties.Resources.PANTALLADECARGAREMAX;
             this.fonNombre.Location = new System.Drawing.Point(0, 0);
             this.fonNombre.Name = "fonNombre";
             this.fonNombre.Size = new System.Drawing.Size(1370, 749);
@@ -183,19 +177,40 @@
             this.IINIEXITO.Text = "INICIO DE SISIÓN EXITOSO";
             this.IINIEXITO.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(332, 460);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 117);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "                    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n.";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(972, 460);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 117);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "                    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n.";
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDOINTERFAACTUALIZADO;
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondologinremax1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.fonNombre);
             this.Controls.Add(this.IINIEXITO);
             this.Controls.Add(this.relleno1);
             this.Controls.Add(this.relleno2);
-            this.Controls.Add(this.relleno3);
             this.Controls.Add(this.relleno0);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.btnLogin1);
@@ -220,11 +235,12 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnLogin1;
         private System.Windows.Forms.Label relleno0;
-        private System.Windows.Forms.Label relleno3;
         private System.Windows.Forms.Label relleno2;
         private System.Windows.Forms.Label relleno1;
         private System.Windows.Forms.PictureBox fonNombre;
         private System.Windows.Forms.Label IINIEXITO;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

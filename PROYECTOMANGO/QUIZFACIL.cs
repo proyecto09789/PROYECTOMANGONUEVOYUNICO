@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,23 +14,23 @@ using PROYECTOBETA001;
 
 namespace PROYECTOMANGO
 {
-    public partial class QUIZ2MEDIO : Form
+    public partial class QUIZFACIL : Form
     {
         private int puntuacion = 0;
         private int preguntaActual = 0;
         private int respuestasCorrectas = 0;
-        
+
         // Timer para el contador regresivo
         private Timer temporizador;
         private int tiempoRestante = 7;
-        private const int TIEMPO_INICIAL = 14;
+        private const int TIEMPO_INICIAL = 20;
 
         // SoundPlayers para los sonidos
         private SoundPlayer sonidoTicTac;
         private SoundPlayer sonidoCorrecto;
         private SoundPlayer sonidoIncorrecto;
 
-        public QUIZ2MEDIO()
+        public QUIZFACIL()
         {
             InitializeComponent();
             InicializarTemporizador();
@@ -50,7 +50,7 @@ namespace PROYECTOMANGO
             {
                 // Cargar sonidos desde Resources
                 // Asegúrate de agregar los archivos .wav en Properties -> Resources
-                
+
                 // Para el sonido de tic-tac (cuando quedan 10 segundos)
                 if (Properties.Resources.tictac != null)
                 {
@@ -72,7 +72,7 @@ namespace PROYECTOMANGO
             catch (Exception ex)
             {
                 // Si hay error al cargar sonidos, continuar sin ellos
-                MessageBox.Show("Error al cargar sonidos: " + ex.Message, "Advertencia", 
+                MessageBox.Show("Error al cargar sonidos: " + ex.Message, "Advertencia",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
@@ -89,15 +89,11 @@ namespace PROYECTOMANGO
             panelmay3.Visible = false;
             panelmay4.Visible = false;
             panelmay5.Visible = false;
-            panelmay6.Visible = false;
-            panelmay7.Visible = false;
-            panelmay8.Visible = false;
-            panelmay9.Visible = false;
-            panelmay10.Visible = false;
+
 
             panelmay09.Visible = false;
             panelcomenzar1.Visible = true;
-            
+
             lblnumpre.Text = $"{preguntaActual + 1}";
         }
 
@@ -106,26 +102,22 @@ namespace PROYECTOMANGO
             puntuacion = 0;
             preguntaActual = 0;
             respuestasCorrectas = 0;
-            
+
             labelpuntuación.Text = "Puntuación: 0";
             lblnumpre.Text = "1";
             labelcorrect2.Text = "";
 
             panelcomenzar1.Visible = false;
             panelmay09.Visible = false;
-            
+
             panelmay1.Location = new Point(38, 98);
             panelmay1.Visible = true;
             panelmay2.Visible = false;
             panelmay3.Visible = false;
             panelmay4.Visible = false;
             panelmay5.Visible = false;
-            panelmay6.Visible = false;
-            panelmay7.Visible = false;
-            panelmay8.Visible = false;
-            panelmay9.Visible = false;
-            panelmay10.Visible = false;
-            
+
+
             ResetearColoresBotones();
             IniciarTemporizador();
         }
@@ -186,8 +178,8 @@ namespace PROYECTOMANGO
                     Console.Beep(800, 100);
                 }
             }
-            catch (Exception) 
-            { 
+            catch (Exception)
+            {
                 // Ignorar errores de reproducción
             }
         }
@@ -208,8 +200,8 @@ namespace PROYECTOMANGO
                     Console.Beep(784, 200);  // Sol
                 }
             }
-            catch (Exception) 
-            { 
+            catch (Exception)
+            {
                 // Ignorar errores de reproducción
             }
         }
@@ -229,8 +221,8 @@ namespace PROYECTOMANGO
                     Console.Beep(300, 300);
                 }
             }
-            catch (Exception) 
-            { 
+            catch (Exception)
+            {
                 // Ignorar errores de reproducción
             }
         }
@@ -238,7 +230,7 @@ namespace PROYECTOMANGO
         private async Task TiempoAgotado()
         {
             DesactivarBotonesPreguntaActual();
-            
+
             labelcorrect2.Text = "¡Tiempo agotado! ⏰";
             labelcorrect2.ForeColor = Color.Orange;
 
@@ -248,8 +240,8 @@ namespace PROYECTOMANGO
             labelcorrect2.Text = "";
 
             preguntaActual++;
-            
-            if (preguntaActual < 10)
+
+            if (preguntaActual < 5)
             {
                 MostrarSiguientePregunta();
             }
@@ -293,36 +285,7 @@ namespace PROYECTOMANGO
                     btnopm19.Enabled = false;
                     btnopm20.Enabled = false;
                     break;
-                case 5:
-                    btnopm21.Enabled = false;
-                    btnopm22.Enabled = false;
-                    btnopm23.Enabled = false;
-                    btnopm24.Enabled = false;
-                    break;
-                case 6:
-                    btnopm25.Enabled = false;
-                    btnopm26.Enabled = false;
-                    btnopm27.Enabled = false;
-                    btnopm28.Enabled = false;
-                    break;
-                case 7:
-                    btnopm29.Enabled = false;
-                    btnopm30.Enabled = false;
-                    btnopm31.Enabled = false;
-                    btnopm32.Enabled = false;
-                    break;
-                case 8:
-                    btnopm33.Enabled = false;
-                    btnopm34.Enabled = false;
-                    btnopm35.Enabled = false;
-                    btnopm36.Enabled = false;
-                    break;
-                case 9:
-                    btnopm37.Enabled = false;
-                    btnopm38.Enabled = false;
-                    btnopm39.Enabled = false;
-                    btnopm40.Enabled = false;
-                    break;
+
 
             }
         }
@@ -352,7 +315,7 @@ namespace PROYECTOMANGO
                     btnopm1.BackColor = Color.LightGreen;
                     break;
                 case 1:
-                    btnopm6.BackColor = Color.LightGreen;
+                    btnopm7.BackColor = Color.LightGreen;
                     break;
                 case 2:
                     btnopm10.BackColor = Color.LightGreen;
@@ -361,23 +324,9 @@ namespace PROYECTOMANGO
                     btnopm14.BackColor = Color.LightGreen;
                     break;
                 case 4:
-                    btnopm17.BackColor = Color.LightGreen;
+                    btnopm18.BackColor = Color.LightGreen;
                     break;
-                case 5:
-                    btnopm24.BackColor = Color.LightGreen;
-                    break;
-                case 6:
-                    btnopm27.BackColor = Color.LightGreen;
-                    break;
-                case 7:
-                    btnopm29.BackColor = Color.LightGreen;
-                    break;
-                case 8:
-                    btnopm34.BackColor = Color.LightGreen;
-                    break;
-                case 9: 
-                    btnopm39.BackColor = Color.LightGreen;
-                    break;
+
             }
         }
 
@@ -404,26 +353,7 @@ namespace PROYECTOMANGO
             btnopm18.BackColor = Color.PeachPuff;
             btnopm19.BackColor = Color.PeachPuff;
             btnopm20.BackColor = Color.PeachPuff;
-            btnopm21.BackColor = Color.PeachPuff;
-            btnopm22.BackColor = Color.PeachPuff;
-            btnopm23.BackColor = Color.PeachPuff;
-            btnopm24.BackColor = Color.PeachPuff;
-            btnopm25.BackColor = Color.PeachPuff;
-            btnopm26.BackColor = Color.PeachPuff;
-            btnopm27.BackColor = Color.PeachPuff;
-            btnopm28.BackColor = Color.PeachPuff;
-            btnopm29.BackColor = Color.PeachPuff;
-            btnopm30.BackColor = Color.PeachPuff;
-            btnopm31.BackColor = Color.PeachPuff;
-            btnopm32.BackColor = Color.PeachPuff;
-            btnopm33.BackColor = Color.PeachPuff;
-            btnopm34.BackColor = Color.PeachPuff;
-            btnopm35.BackColor = Color.PeachPuff;
-            btnopm36.BackColor = Color.PeachPuff;
-            btnopm37.BackColor = Color.PeachPuff;
-            btnopm38.BackColor = Color.PeachPuff;
-            btnopm39.BackColor = Color.PeachPuff;
-            btnopm40.BackColor = Color.PeachPuff;
+
 
             // Habilitar todos los botones
             btnopm1.Enabled = true;
@@ -446,26 +376,7 @@ namespace PROYECTOMANGO
             btnopm18.Enabled = true;
             btnopm19.Enabled = true;
             btnopm20.Enabled = true;
-            btnopm21.Enabled = true;
-            btnopm22.Enabled = true;
-            btnopm23.Enabled = true;
-            btnopm24.Enabled = true;
-            btnopm25.Enabled = true;
-            btnopm26.Enabled = true;
-            btnopm27.Enabled = true;
-            btnopm28.Enabled = true;
-            btnopm29.Enabled = true;
-            btnopm30.Enabled = true;
-            btnopm31.Enabled = true;
-            btnopm32.Enabled = true;
-            btnopm33.Enabled = true;
-            btnopm34.Enabled = true;
-            btnopm35.Enabled = true;
-            btnopm36.Enabled = true;
-            btnopm37.Enabled = true;
-            btnopm38.Enabled = true;
-            btnopm39.Enabled = true;
-            btnopm40.Enabled = true;
+
 
         }
 
@@ -476,11 +387,7 @@ namespace PROYECTOMANGO
             panelmay3.Visible = false;
             panelmay4.Visible = false;
             panelmay5.Visible = false;
-            panelmay6.Visible = false;
-            panelmay7.Visible = false;
-            panelmay8.Visible = false;
-            panelmay9.Visible = false;
-            panelmay10.Visible = false;
+
 
             switch (preguntaActual)
             {
@@ -500,26 +407,7 @@ namespace PROYECTOMANGO
                     panelmay5.Location = new Point(38, 98);
                     panelmay5.Visible = true;
                     break;
-                case 5:
-                    panelmay6.Location = new Point(38, 98);
-                    panelmay6.Visible = true;
-                    break;
-                case 6:
-                    panelmay7.Location = new Point(38, 98);
-                    panelmay7.Visible = true;
-                    break;
-                case 7:
-                    panelmay8.Location = new Point(38, 98);
-                    panelmay8.Visible = true;
-                    break;
-                case 8:
-                    panelmay9.Location = new Point(38, 98);
-                    panelmay9.Visible = true;
-                    break;
-                case 9:
-                    panelmay10.Location = new Point(38, 98);
-                    panelmay10.Visible = true;
-                    break;
+
             }
 
             lblnumpre.Text = $"{preguntaActual + 1}";
@@ -535,11 +423,7 @@ namespace PROYECTOMANGO
             panelmay3.Visible = false;
             panelmay4.Visible = false;
             panelmay5.Visible = false;
-            panelmay6.Visible = false;
-            panelmay7.Visible = false;
-            panelmay8.Visible = false;
-            panelmay9.Visible = false;
-            panelmay10.Visible = false;
+
 
             panelmay09.Location = new Point(38, 98);
             panelmay09.Visible = true;
@@ -552,7 +436,7 @@ namespace PROYECTOMANGO
 
             if (esCorrecto)
             {
-                puntuacion += 10;
+                puntuacion += 20;
                 respuestasCorrectas++;
                 labelcorrect2.Text = "¡Correcto! 🥭";
                 labelcorrect2.ForeColor = Color.Green;
@@ -574,7 +458,7 @@ namespace PROYECTOMANGO
             await Task.Delay(2000);
             labelcorrect2.Text = "";
 
-            if (preguntaActual < 10)
+            if (preguntaActual < 5)
             {
                 MostrarSiguientePregunta();
             }
@@ -608,22 +492,22 @@ namespace PROYECTOMANGO
         // ============ PREGUNTA 2 ============
         private async void btnopm5_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(false, btnopm5, btnopm6);
+            await ProcesarRespuesta(false, btnopm5, btnopm7);
         }
 
         private async void btnopm6_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(true, btnopm6, btnopm6);
+            await ProcesarRespuesta(false, btnopm6, btnopm7);
         }
 
         private async void btnopm7_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(false, btnopm7, btnopm6);
+            await ProcesarRespuesta(true, btnopm7, btnopm7);
         }
 
         private async void btnopm8_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(false, btnopm8, btnopm6);
+            await ProcesarRespuesta(false, btnopm8, btnopm7);
         }
 
         // ============ PREGUNTA 3 ============
@@ -671,108 +555,24 @@ namespace PROYECTOMANGO
         // ============ PREGUNTA 5 ============
         private async void btnopm17_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(true, btnopm17, btnopm17);
+            await ProcesarRespuesta(false, btnopm17, btnopm18);
         }
 
         private async void btnopm18_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(false, btnopm18, btnopm17);
+            await ProcesarRespuesta(true, btnopm18, btnopm18);
         }
 
         private async void btnopm19_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(false, btnopm19, btnopm17);
+            await ProcesarRespuesta(false, btnopm19, btnopm18);
         }
 
         private async void btnopm20_Click(object sender, EventArgs e)
         {
-            await ProcesarRespuesta(false, btnopm20, btnopm17);
+            await ProcesarRespuesta(false, btnopm20, btnopm18);
         }
-        // ============ PREGUNTA 6 ============
-        private async void btnopm21_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm21, btnopm24);
-        }   
-        private async void btnopm22_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm22, btnopm24);
-        }
-        private async void btnopm23_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm23, btnopm24);
-        }
-        private async void btnopm24_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(true, btnopm24, btnopm24);
-        }
-        // ============ PREGUNTA 7 ============
-        private async void btnopm25_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm25, btnopm27);
-        }
-        private async void btnopm26_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm26, btnopm27);
-        }
-        private async void btnopm27_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(true, btnopm27, btnopm27);
-        }
-        private async void btnopm28_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm28, btnopm27);
-        }
-        // ============ PREGUNTA 8 ============
-        private async void btnopm29_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(true, btnopm29, btnopm29);
-        }
-        private async void btnopm30_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm30, btnopm29);
-        }
-        private async void btnopm31_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm31, btnopm29);
-        }
-        private async void btnopm32_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm32, btnopm29);
-        }
-        // ============ PREGUNTA 9 ============
-        private async void btnopm33_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm33, btnopm34);
-        }
-        private async void btnopm34_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(true, btnopm34, btnopm34);
-        }
-        private async void btnopm35_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm35, btnopm34);
-        }
-        private async void btnopm36_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm36, btnopm34);
-        }
-        // ============ PREGUNTA 10 ============
-        private async void btnopm37_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm37, btnopm39);
-        }
-        private async void btnopm38_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm38, btnopm39);
-        }
-        private async void btnopm39_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(true, btnopm39, btnopm39);
-        }
-        private async void btnopm40_Click(object sender, EventArgs e)
-        {
-            await ProcesarRespuesta(false, btnopm40, btnopm39);
-        }
+
 
 
 
@@ -793,23 +593,23 @@ namespace PROYECTOMANGO
         {
             IniciarQuiz();
         }
-        
+
         private void button2_Click(object sender, EventArgs e)
         {
             temporizador?.Stop();
-            mangomayinterf ve54f = new mangomayinterf ();
+            mangomayinterf ve54f = new mangomayinterf();
             ve54f.Show();
             this.Hide();
              
         }
-       
+
 
         private void JUGARDNUEV0_Click(object sender, EventArgs e)
         {
             ResetearColoresBotones();
             IniciarQuiz();
         }
-        
+
         private void REGRESARME23_Click(object sender, EventArgs e)
         {
             temporizador?.Stop();
@@ -823,31 +623,16 @@ namespace PROYECTOMANGO
         {
             temporizador?.Stop();
             temporizador?.Dispose();
-            
+
             // Liberar recursos de sonidos
             sonidoTicTac?.Dispose();
             sonidoCorrecto?.Dispose();
             sonidoIncorrecto?.Dispose();
-            
+
             base.OnFormClosing(e);
         }
 
-        private void labelmay1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelmay5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblnumpre_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelcomenzar1_Paint(object sender, PaintEventArgs e)
+        private void panelfinalmay1_Paint(object sender, PaintEventArgs e)
         {
 
         }

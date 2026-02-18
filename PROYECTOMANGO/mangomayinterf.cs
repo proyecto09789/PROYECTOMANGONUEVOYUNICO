@@ -1,4 +1,5 @@
-﻿using PROYECTOMANGO;
+﻿using MangoApp;
+using PROYECTOMANGO;
 using RECETAMAYK34;
 using System;
 using System.Diagnostics;
@@ -54,18 +55,21 @@ namespace PROYECTOBETA001
         private void btnbenefsal_Click(object sender, EventArgs e)
         {
             
-            panelBeneficios.Visible = true;
-            pnlnivelquiezmay.Location = new Point(1280, 48);
+            Benefimango01 ventbenef = new Benefimango01();
+            ventbenef.Show();
+            this.Hide();
 
         }
         private void btnjuegococi_Click(object sender, EventArgs e)
         {
            pnlGuia.Location = new Point(128, 48);
+            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Juegomayre1 ventjueg12omayre1 = new Juegomayre1();
+            QUIZFACIL ventjueg12omayre1 = new QUIZFACIL();
             ventjueg12omayre1.Show();
             this.Hide();
         }
@@ -79,7 +83,7 @@ namespace PROYECTOBETA001
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            Quizdificil1 quizdifi2cil1 = new Quizdificil1();
+            QUIZDIFICIL quizdifi2cil1 = new QUIZDIFICIL();
             quizdifi2cil1.Show();
             this.Hide();
         }
@@ -102,6 +106,21 @@ namespace PROYECTOBETA001
                 FileName = "https://www.mango.org/es/recetas-y-platos-de-mango/",
                 UseShellExecute = true
             });
+        }
+
+        private void pictmjtdureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picth5ureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
     

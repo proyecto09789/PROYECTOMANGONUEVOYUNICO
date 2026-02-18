@@ -123,6 +123,12 @@
     <Compile Include="Ahoyado.Designer.cs">
       <DependentUpon>Ahoyado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Benefimango01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Benefimango01.Designer.cs">
+      <DependentUpon>Benefimango01.cs</DependentUpon>
+    </Compile>
     <Compile Include="CalendarioMango.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -226,12 +232,6 @@
     <Compile Include="Interfazprinc.Designer.cs">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Juegomayre1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Juegomayre1.Designer.cs">
-      <DependentUpon>Juegomayre1.cs</DependentUpon>
-    </Compile>
     <Compile Include="JuegSeccProcProd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -293,11 +293,17 @@
     <Compile Include="QUIZ2MEDIO.Designer.cs">
       <DependentUpon>QUIZ2MEDIO.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quizdificil1.cs">
+    <Compile Include="QUIZDIFICIL.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Quizdificil1.Designer.cs">
-      <DependentUpon>Quizdificil1.cs</DependentUpon>
+    <Compile Include="QUIZDIFICIL.Designer.cs">
+      <DependentUpon>QUIZDIFICIL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZFACIL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZFACIL.Designer.cs">
+      <DependentUpon>QUIZFACIL.cs</DependentUpon>
     </Compile>
     <Compile Include="RECETAMAYK6.cs">
       <SubType>Form</SubType>
@@ -343,6 +349,9 @@
     </Compile>
     <EmbeddedResource Include="Ahoyado.resx">
       <DependentUpon>Ahoyado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Benefimango01.resx">
+      <DependentUpon>Benefimango01.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CalendarioMango.resx">
       <DependentUpon>CalendarioMango.cs</DependentUpon>
@@ -395,9 +404,6 @@
     <EmbeddedResource Include="Interfazprinc.resx">
       <DependentUpon>Interfazprinc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Juegomayre1.resx">
-      <DependentUpon>Juegomayre1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="JuegSeccProcProd.resx">
       <DependentUpon>JuegSeccProcProd.cs</DependentUpon>
     </EmbeddedResource>
@@ -429,8 +435,11 @@
     <EmbeddedResource Include="QUIZ2MEDIO.resx">
       <DependentUpon>QUIZ2MEDIO.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Quizdificil1.resx">
-      <DependentUpon>Quizdificil1.cs</DependentUpon>
+    <EmbeddedResource Include="QUIZDIFICIL.resx">
+      <DependentUpon>QUIZDIFICIL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZFACIL.resx">
+      <DependentUpon>QUIZFACIL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RECETAMAYK6.resx">
       <DependentUpon>RECETAMAYK6.cs</DependentUpon>

@@ -57,6 +57,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pnlGuia = new System.Windows.Forms.Panel();
+            this.Comenzarquiz1 = new System.Windows.Forms.Button();
             this.pnlnivelquiezmay = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -65,9 +68,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.paneldelusoculinario = new System.Windows.Forms.Panel();
-            this.panelBeneficios = new System.Windows.Forms.Panel();
-            this.labjthel16 = new System.Windows.Forms.Label();
-            this.pictureBjhox13 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -84,21 +84,16 @@
             this.picturmmeBox4 = new System.Windows.Forms.PictureBox();
             this.picth5ureBox1 = new System.Windows.Forms.PictureBox();
             this.pictmjtdureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.Comenzarquiz1 = new System.Windows.Forms.Button();
-            this.pnlGuia = new System.Windows.Forms.Panel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panelrecetaGlaseadoMangJengibre.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturemjBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pimnctureBox11)).BeginInit();
             this.panel1.SuspendLayout();
+            this.pnlGuia.SuspendLayout();
             this.pnlnivelquiezmay.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.paneldelusoculinario.SuspendLayout();
-            this.panelBeneficios.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBjhox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -108,17 +103,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.picturmmeBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picth5ureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictmjtdureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.pnlGuia.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnbenefsal
             // 
-            this.btnbenefsal.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnbenefsal.BackColor = System.Drawing.Color.Transparent;
             this.btnbenefsal.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnbenefsal.Location = new System.Drawing.Point(1, 207);
+            this.btnbenefsal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnbenefsal.Location = new System.Drawing.Point(1, 183);
             this.btnbenefsal.Name = "btnbenefsal";
-            this.btnbenefsal.Size = new System.Drawing.Size(120, 49);
+            this.btnbenefsal.Size = new System.Drawing.Size(120, 73);
             this.btnbenefsal.TabIndex = 5;
             this.btnbenefsal.Text = "Beneficios";
             this.btnbenefsal.UseVisualStyleBackColor = false;
@@ -126,11 +120,12 @@
             // 
             // btnRecetaman
             // 
-            this.btnRecetaman.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnRecetaman.BackColor = System.Drawing.Color.Transparent;
             this.btnRecetaman.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRecetaman.Location = new System.Drawing.Point(1, 152);
+            this.btnRecetaman.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecetaman.Location = new System.Drawing.Point(1, 95);
             this.btnRecetaman.Name = "btnRecetaman";
-            this.btnRecetaman.Size = new System.Drawing.Size(120, 49);
+            this.btnRecetaman.Size = new System.Drawing.Size(120, 73);
             this.btnRecetaman.TabIndex = 6;
             this.btnRecetaman.Text = "Uso culinario";
             this.btnRecetaman.UseVisualStyleBackColor = false;
@@ -330,22 +325,25 @@
             // 
             // menuinterzaprin01
             // 
-            this.menuinterzaprin01.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.menuinterzaprin01.BackColor = System.Drawing.Color.Transparent;
+            this.menuinterzaprin01.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.Boton_de_Volver11;
+            this.menuinterzaprin01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.menuinterzaprin01.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.menuinterzaprin01.Location = new System.Drawing.Point(1, 4);
             this.menuinterzaprin01.Name = "menuinterzaprin01";
-            this.menuinterzaprin01.Size = new System.Drawing.Size(106, 23);
+            this.menuinterzaprin01.Size = new System.Drawing.Size(120, 65);
             this.menuinterzaprin01.TabIndex = 9;
-            this.menuinterzaprin01.Text = "MENU";
             this.menuinterzaprin01.UseVisualStyleBackColor = false;
             this.menuinterzaprin01.Click += new System.EventHandler(this.menuinterzaprin01_Click);
             // 
             // btnjuegococi
             // 
-            this.btnjuegococi.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnjuegococi.BackColor = System.Drawing.Color.Transparent;
             this.btnjuegococi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnjuegococi.Location = new System.Drawing.Point(1, 262);
+            this.btnjuegococi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnjuegococi.Location = new System.Drawing.Point(1, 264);
             this.btnjuegococi.Name = "btnjuegococi";
-            this.btnjuegococi.Size = new System.Drawing.Size(120, 46);
+            this.btnjuegococi.Size = new System.Drawing.Size(120, 73);
             this.btnjuegococi.TabIndex = 10;
             this.btnjuegococi.Text = "Quiz";
             this.btnjuegococi.UseVisualStyleBackColor = false;
@@ -419,6 +417,43 @@
     "trada\r\n\r\nResponde de forma directa\r\n\r\nNo analices procesos ni ingredientes\r\n\r\n";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.linkLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel1.Location = new System.Drawing.Point(150, 4);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(138, 15);
+            this.linkLabel1.TabIndex = 11;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Clic aquí para más recetas ";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // pnlGuia
+            // 
+            this.pnlGuia.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.guiaquiz;
+            this.pnlGuia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlGuia.Controls.Add(this.Comenzarquiz1);
+            this.pnlGuia.Location = new System.Drawing.Point(1021, 59);
+            this.pnlGuia.Name = "pnlGuia";
+            this.pnlGuia.Size = new System.Drawing.Size(810, 429);
+            this.pnlGuia.TabIndex = 5;
+            // 
+            // Comenzarquiz1
+            // 
+            this.Comenzarquiz1.BackColor = System.Drawing.Color.Cornsilk;
+            this.Comenzarquiz1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Comenzarquiz1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Comenzarquiz1.Location = new System.Drawing.Point(682, 381);
+            this.Comenzarquiz1.Name = "Comenzarquiz1";
+            this.Comenzarquiz1.Size = new System.Drawing.Size(125, 44);
+            this.Comenzarquiz1.TabIndex = 4;
+            this.Comenzarquiz1.Text = "Comenzar";
+            this.Comenzarquiz1.UseVisualStyleBackColor = false;
+            this.Comenzarquiz1.Click += new System.EventHandler(this.Comenzarquiz1_Click);
+            // 
             // pnlnivelquiezmay
             // 
             this.pnlnivelquiezmay.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fondoquiz3;
@@ -429,7 +464,7 @@
             this.pnlnivelquiezmay.Controls.Add(this.Quizfacil);
             this.pnlnivelquiezmay.Controls.Add(this.pictureBox2);
             this.pnlnivelquiezmay.Controls.Add(this.pictureBox1);
-            this.pnlnivelquiezmay.Location = new System.Drawing.Point(1000, 377);
+            this.pnlnivelquiezmay.Location = new System.Drawing.Point(975, 95);
             this.pnlnivelquiezmay.Name = "pnlnivelquiezmay";
             this.pnlnivelquiezmay.Size = new System.Drawing.Size(812, 429);
             this.pnlnivelquiezmay.TabIndex = 3;
@@ -509,7 +544,6 @@
             // 
             this.paneldelusoculinario.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDOUSOCUL;
             this.paneldelusoculinario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.paneldelusoculinario.Controls.Add(this.panelBeneficios);
             this.paneldelusoculinario.Controls.Add(this.label4);
             this.paneldelusoculinario.Controls.Add(this.label3);
             this.paneldelusoculinario.Controls.Add(this.label2);
@@ -523,46 +557,10 @@
             this.paneldelusoculinario.Controls.Add(this.verresetGlaseMan);
             this.paneldelusoculinario.Controls.Add(this.pictureBox5);
             this.paneldelusoculinario.Controls.Add(this.pictureBox6);
-            this.paneldelusoculinario.Location = new System.Drawing.Point(128, 48);
+            this.paneldelusoculinario.Location = new System.Drawing.Point(1021, 33);
             this.paneldelusoculinario.Name = "paneldelusoculinario";
             this.paneldelusoculinario.Size = new System.Drawing.Size(810, 429);
             this.paneldelusoculinario.TabIndex = 7;
-            // 
-            // panelBeneficios
-            // 
-            this.panelBeneficios.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panelBeneficios.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.FONDOINTERFANUEVO;
-            this.panelBeneficios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelBeneficios.Controls.Add(this.labjthel16);
-            this.panelBeneficios.Controls.Add(this.pictureBjhox13);
-            this.panelBeneficios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panelBeneficios.Location = new System.Drawing.Point(0, 0);
-            this.panelBeneficios.Name = "panelBeneficios";
-            this.panelBeneficios.Size = new System.Drawing.Size(812, 428);
-            this.panelBeneficios.TabIndex = 15;
-            // 
-            // labjthel16
-            // 
-            this.labjthel16.BackColor = System.Drawing.Color.Transparent;
-            this.labjthel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labjthel16.Location = new System.Drawing.Point(462, 148);
-            this.labjthel16.Name = "labjthel16";
-            this.labjthel16.Size = new System.Drawing.Size(249, 191);
-            this.labjthel16.TabIndex = 2;
-            this.labjthel16.Text = "- Rico en vitamina C y A\r\n\r\n- Buena fuente de antioxidantes\r\n\r\n- Refuerza el sist" +
-    "ema inmunológico\r\n\r\n- Favorece la digestión\r\n\r\n- Promueve la salud ocular";
-            // 
-            // pictureBjhox13
-            // 
-            this.pictureBjhox13.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.dfg;
-            this.pictureBjhox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBjhox13.Image = global::PROYECTOMANGO.Properties.Resources.MSGOINCONOBENEFIINTER;
-            this.pictureBjhox13.Location = new System.Drawing.Point(88, 134);
-            this.pictureBjhox13.Name = "pictureBjhox13";
-            this.pictureBjhox13.Size = new System.Drawing.Size(282, 214);
-            this.pictureBjhox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBjhox13.TabIndex = 1;
-            this.pictureBjhox13.TabStop = false;
             // 
             // label4
             // 
@@ -705,9 +703,10 @@
             // 
             // picturmmeBox4
             // 
+            this.picturmmeBox4.BackColor = System.Drawing.Color.Transparent;
             this.picturmmeBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picturmmeBox4.Image = global::PROYECTOMANGO.Properties.Resources.mango;
-            this.picturmmeBox4.Location = new System.Drawing.Point(12, 48);
+            this.picturmmeBox4.Location = new System.Drawing.Point(12, 343);
             this.picturmmeBox4.Name = "picturmmeBox4";
             this.picturmmeBox4.Size = new System.Drawing.Size(95, 79);
             this.picturmmeBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -716,73 +715,33 @@
             // 
             // picth5ureBox1
             // 
-            this.picth5ureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.picth5ureBox1.Location = new System.Drawing.Point(1, 33);
+            this.picth5ureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.picth5ureBox1.Location = new System.Drawing.Point(1, 88);
             this.picth5ureBox1.Name = "picth5ureBox1";
-            this.picth5ureBox1.Size = new System.Drawing.Size(120, 444);
+            this.picth5ureBox1.Size = new System.Drawing.Size(120, 348);
             this.picth5ureBox1.TabIndex = 2;
             this.picth5ureBox1.TabStop = false;
+            this.picth5ureBox1.Click += new System.EventHandler(this.picth5ureBox1_Click);
             // 
             // pictmjtdureBox2
             // 
-            this.pictmjtdureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictmjtdureBox2.Location = new System.Drawing.Point(113, 33);
+            this.pictmjtdureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictmjtdureBox2.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.intebienusoiz_;
+            this.pictmjtdureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictmjtdureBox2.Location = new System.Drawing.Point(150, 88);
             this.pictmjtdureBox2.Name = "pictmjtdureBox2";
-            this.pictmjtdureBox2.Size = new System.Drawing.Size(839, 444);
+            this.pictmjtdureBox2.Size = new System.Drawing.Size(698, 348);
             this.pictmjtdureBox2.TabIndex = 1;
             this.pictmjtdureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pictureBox3.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(951, 41);
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            // 
-            // Comenzarquiz1
-            // 
-            this.Comenzarquiz1.BackColor = System.Drawing.Color.Cornsilk;
-            this.Comenzarquiz1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Comenzarquiz1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Comenzarquiz1.Location = new System.Drawing.Point(682, 381);
-            this.Comenzarquiz1.Name = "Comenzarquiz1";
-            this.Comenzarquiz1.Size = new System.Drawing.Size(125, 44);
-            this.Comenzarquiz1.TabIndex = 4;
-            this.Comenzarquiz1.Text = "Comenzar";
-            this.Comenzarquiz1.UseVisualStyleBackColor = false;
-            this.Comenzarquiz1.Click += new System.EventHandler(this.Comenzarquiz1_Click);
-            // 
-            // pnlGuia
-            // 
-            this.pnlGuia.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.guiaquiz;
-            this.pnlGuia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pnlGuia.Controls.Add(this.Comenzarquiz1);
-            this.pnlGuia.Location = new System.Drawing.Point(1021, 59);
-            this.pnlGuia.Name = "pnlGuia";
-            this.pnlGuia.Size = new System.Drawing.Size(810, 429);
-            this.pnlGuia.TabIndex = 5;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.linkLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(128, 9);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(138, 15);
-            this.linkLabel1.TabIndex = 11;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Clic aquí para más recetas ";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.pictmjtdureBox2.Click += new System.EventHandler(this.pictmjtdureBox2_Click);
             // 
             // mangomayinterf
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 487);
+            this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.fonusoculi;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(954, 487);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pnlGuia);
             this.Controls.Add(this.panel1);
@@ -796,7 +755,6 @@
             this.Controls.Add(this.picth5ureBox1);
             this.Controls.Add(this.pictmjtdureBox2);
             this.Controls.Add(this.menuinterzaprin01);
-            this.Controls.Add(this.pictureBox3);
             this.Name = "mangomayinterf";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "mangomayinterf";
@@ -807,6 +765,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pimnctureBox11)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.pnlGuia.ResumeLayout(false);
             this.pnlnivelquiezmay.ResumeLayout(false);
             this.pnlnivelquiezmay.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -814,8 +773,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.paneldelusoculinario.ResumeLayout(false);
             this.paneldelusoculinario.PerformLayout();
-            this.panelBeneficios.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBjhox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -825,8 +782,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picturmmeBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picth5ureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictmjtdureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.pnlGuia.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -835,7 +790,6 @@
         #endregion
         private System.Windows.Forms.PictureBox pictmjtdureBox2;
         private System.Windows.Forms.PictureBox picth5ureBox1;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox picturmmeBox4;
         private System.Windows.Forms.Button btnbenefsal;
         private System.Windows.Forms.Button btnRecetaman;
@@ -868,9 +822,6 @@
         private System.Windows.Forms.Label labelrec11;
         private System.Windows.Forms.Label labelrec10;
         private System.Windows.Forms.Button menuinterzaprin01;
-        private System.Windows.Forms.Panel panelBeneficios;
-        private System.Windows.Forms.PictureBox pictureBjhox13;
-        private System.Windows.Forms.Label labjthel16;
         private System.Windows.Forms.Button btnjuegococi;
         private System.Windows.Forms.PictureBox picturemjBox12;
         private System.Windows.Forms.PictureBox pimnctureBox11;

@@ -501,6 +501,15 @@ namespace PROYECTOMANGO.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream correcto {
+            get {
+                return ResourceManager.GetStream("correcto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap cosecha {
@@ -913,6 +922,16 @@ namespace PROYECTOMANGO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondologinremax1 {
+            get {
+                object obj = ResourceManager.GetObject("fondologinremax1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FONDOLONGI {
             get {
                 object obj = ResourceManager.GetObject("FONDOLONGI", resourceCulture);
@@ -1026,6 +1045,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap fondsiem123 {
             get {
                 object obj = ResourceManager.GetObject("fondsiem123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fonusoculi {
+            get {
+                object obj = ResourceManager.GetObject("fonusoculi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1581,6 +1610,15 @@ namespace PROYECTOMANGO.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream incorrecto {
+            get {
+                return ResourceManager.GetStream("incorrecto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap INDICES_DE_MADUREZ {
@@ -1606,6 +1644,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap INDUCCION_FLORAL {
             get {
                 object obj = ResourceManager.GetObject("INDUCCION FLORAL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap intebienusoiz_ {
+            get {
+                object obj = ResourceManager.GetObject("intebienusoiz.", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1766,6 +1814,16 @@ namespace PROYECTOMANGO.Properties {
         internal static System.Drawing.Bitmap PANTALLADECARGA {
             get {
                 object obj = ResourceManager.GetObject("PANTALLADECARGA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PANTALLADECARGAREMAX {
+            get {
+                object obj = ResourceManager.GetObject("PANTALLADECARGAREMAX", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2128,6 +2186,15 @@ namespace PROYECTOMANGO.Properties {
             get {
                 object obj = ResourceManager.GetObject("TECNICA DE CORTE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream tictac {
+            get {
+                return ResourceManager.GetStream("tictac", resourceCulture);
             }
         }
         
