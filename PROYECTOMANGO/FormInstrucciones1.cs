@@ -26,21 +26,44 @@ namespace PROYECTOMANGO
         {
             FormPreguntas fp = new FormPreguntas(1);
             fp.Show();
-            this.Hide();
+
+            cerrandoPorCodigo = true;
+            this.Close();
         }
 
         private void BtnInter_Click(object sender, EventArgs e)
         {
             FormPreguntas fp = new FormPreguntas(2);
             fp.Show();
-            this.Hide();
+
+            cerrandoPorCodigo = true;
+            this.Close(); ;
         }
 
         private void BtnHard_Click(object sender, EventArgs e)
         {
             FormPreguntas fp = new FormPreguntas(3);
             fp.Show();
-            this.Hide();
+
+            cerrandoPorCodigo = true;
+            this.Close();
+        }
+
+        bool cerrandoPorCodigo = false;
+        private void FormInstrucciones1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!cerrandoPorCodigo && e.CloseReason == CloseReason.UserClosing)
+            {
+                DialogResult resultado = MessageBox.Show(
+                    "¿Seguro que quieres cerrar?",
+                    "Confirmar salida",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                );
+
+                if (resultado == DialogResult.No)
+                    e.Cancel = true;
+            }
         }
     }
 }

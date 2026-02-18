@@ -39,6 +39,7 @@
             this.rbOpcion3 = new System.Windows.Forms.RadioButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblTiempo = new System.Windows.Forms.Label();
+            this.rbOpcion4 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.btnResponder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -98,7 +99,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::PROYECTOMANGO.Properties.Resources.ANI_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(462, 219);
+            this.pictureBox1.Location = new System.Drawing.Point(436, 227);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(283, 298);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -167,6 +168,21 @@
             this.lblTiempo.TabIndex = 9;
             this.lblTiempo.Text = "label1";
             // 
+            // rbOpcion4
+            // 
+            this.rbOpcion4.AutoSize = true;
+            this.rbOpcion4.BackColor = System.Drawing.Color.Gainsboro;
+            this.rbOpcion4.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbOpcion4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.rbOpcion4.Location = new System.Drawing.Point(24, 374);
+            this.rbOpcion4.Name = "rbOpcion4";
+            this.rbOpcion4.Size = new System.Drawing.Size(182, 39);
+            this.rbOpcion4.TabIndex = 10;
+            this.rbOpcion4.TabStop = true;
+            this.rbOpcion4.Text = "radioButton4";
+            this.rbOpcion4.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rbOpcion4.UseVisualStyleBackColor = false;
+            // 
             // FormPreguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 33F);
@@ -174,6 +190,7 @@
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(717, 511);
+            this.Controls.Add(this.rbOpcion4);
             this.Controls.Add(this.lblTiempo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.rbOpcion1);
@@ -188,6 +205,7 @@
             this.MaximizeBox = false;
             this.Name = "FormPreguntas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormPreguntas_FormClosing);
             this.Load += new System.EventHandler(this.FormPreguntas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnResponder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -208,5 +226,6 @@
         private System.Windows.Forms.RadioButton rbOpcion3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblTiempo;
+        private System.Windows.Forms.RadioButton rbOpcion4;
     }
 }

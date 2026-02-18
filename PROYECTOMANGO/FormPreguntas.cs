@@ -8,6 +8,7 @@
     using System.Text;
     using System.Threading.Tasks;
     using System.Windows.Forms;
+using static PROYECTOMANGO.FormPreguntas;
 
     namespace PROYECTOMANGO
     {
@@ -17,50 +18,95 @@
             int indice = 0;
             int puntos = 0;
             int nivel;
-            int totalPreguntasNivel;
             TimeSpan tiempoRestante;
 
-            bool[] respuestasUsuario;
+        List<Preguntas> preguntasNivel;
+        bool[] respuestaUsuario;
+        Random rnd = new Random();
 
-            string[] preguntas =
+        public class Preguntas
+        {
+            public string Texto;
+            public List<string> Opciones;
+            public int Correcta;
+
+            public Preguntas(string t, string[] op, int c)
             {
-            "¿De dónde es originario el mango?",
-            "¿Qué tipo de fruta es el mango?",
-            "¿Con qué frutos secos está relacionado el mango?",
-            "¿Cuántas variedades de mango existen aproximadamente?",
-            "¿Qué diseño famoso está inspirado en la forma del mango?",
-            "¿Cuántos años puede vivir un árbol de mango?",
-            "¿Cómo se llama el hueso del mango?",
-            "¿El mango ayuda a qué proceso del cuerpo?",
-            "¿Cómo se conoce al mango por su importancia?",
-            "¿El mango pertenece a qué clima?"
-            };
+                Texto = t;
+                Opciones= op.ToList();
+                Correcta = c;
+            }
 
-            string[,] opciones =
+            public void Mezclar()
             {
-            { "África", "Asia", "América" },
-            { "Cítrico", "Drupa", "Baya" },
-            { "Almendras", "Anacardos y pistachos", "Nueces" },
-            { "10", "Más de 1000", "50" },
-            { "Patrón paisley", "Diseño floral", "Espiral" },
-            { "20 años", "50 años", "Más de 100 años" },
-            { "Cáscara", "Semilla", "Pulpa" },
-            { "La respiración", "La digestión", "La vista" },
-            { "Fruta dorada", "Rey de las frutas", "Fruta dulce" },
-            { "Frío", "Templado", "Tropical" }
-            };
+                var correcta = Opciones[Correcta];
+                Opciones = Opciones.OrderBy(x => Guid.NewGuid()).ToList();
+                Correcta = Opciones.IndexOf(correcta);
+            }
 
-            int[] respuestasCorrectas = { 1, 1, 1, 1, 0, 2, 1, 1, 1, 2 };
+        }
 
 
-            public FormPreguntas(int nivelSeleccionado)
+        List<Preguntas> bancoFacil = new List<Preguntas>()
+        {
+
+         new Preguntas("¿Cuál es el color más común del mango maduro?", new[]{"Amarillo","Morado","Gris","Azul"},0),
+         new Preguntas("¿Qué sabor tiene normalmente el mango?", new[]{"Dulce","Salado","Ácido extremo","Amargo"},0),
+
+         new Preguntas("¿Dónde crece el mango?", new[]{"En árboles","En el suelo","En el agua","En rocas"},0),
+         new Preguntas("¿Qué parte comemos?", new[]{"Pulpa","Raíz","Hoja","Tronco"},0),
+         new Preguntas("¿El mango es fruta o verdura?", new[]{"Fruta","Verdura","Cereal","Semilla"},0),
+         new Preguntas("¿Qué contiene en el centro?", new[]{"Semilla","Aire","Agua","Gel"},0),
+         new Preguntas("¿Qué clima favorece al mango?", new[]{"Tropical","Nevado","Polar","Seco extremo"},0),
+         new Preguntas("¿Qué textura tiene la pulpa?", new[]{"Suave","Dura","Metálica","Rocosa"},0)
+        };
+
+        List<Preguntas> bancoMedio = new List<Preguntas>()
+        {
+         new Preguntas("¿De qué continente es originario el mango?", new[]{"Asia","Europa","América","Oceanía"},0),
+         new Preguntas("¿A qué familia pertenece?", new[]{"Anacardiaceae","Rosaceae","Poaceae","Fabaceae"},0),
+         new Preguntas("¿Qué fruto es pariente del mango?", new[]{"Pistacho","Manzana","Banana","Uva"},0),
+         new Preguntas("¿Cuánto azúcar aprox tiene?", new[]{"14%","2%","50%","70%"},0),
+         new Preguntas("¿Qué diseño famoso se inspira en su forma?", new[]{"Paisley","Cuadros","Rayas","Puntos"},0),
+         new Preguntas("¿Qué parte protege la semilla?", new[]{"Hueso","Pulpa","Cáscara fina","Jugo"},0),
+         new Preguntas("¿Cuál es la parte comestible?", new[]{"Pulpa","Semilla","Hoja","Raíz"},0),
+         new Preguntas("¿Qué influye en su sabor?", new[]{"Clima","Sonido","Metal","Sombras"},0),
+         new Preguntas("¿Qué simboliza en muchas culturas?", new[]{"Amor","Odio","Miedo","Celos"},0),
+         new Preguntas("¿Hace cuántos años se cultiva aprox?", new[]{"5000","100","300","800"},0),
+         new Preguntas("¿Dónde se difundió primero fuera de Asia?", new[]{"África","Antártida","Ártico","Luna"},0),
+         new Preguntas("¿Qué parte tiene fibra?", new[]{"Pulpa","Aire","Luz","Agua"},0)
+        };
+
+        List<Preguntas> bancoDificil = new List<Preguntas>()
+        {
+         new Preguntas("¿Nombre científico del mango?", new[]{"Mangifera indica","Mangus real","Fructus mango","Mangium"},0),
+         new Preguntas("¿En qué siglo llegó a América?", new[]{"XVII","XX","X","XXI"},0),
+         new Preguntas("¿Qué tipo de fruto es botánicamente?", new[]{"Drupa","Baya","Tubérculo","Bulbo"},0),
+         new Preguntas("¿Qué porcentaje ácido tiene aprox?", new[]{"0.5%","10%","25%","60%"},0),
+         new Preguntas("¿Quién difundió el mango a América?", new[]{"Exploradores españoles","Romanos","Griegos","Vikingos"},0),
+         new Preguntas("¿Qué clima no tolera?", new[]{"Heladas","Sol","Calor","Humedad"},0),
+         new Preguntas("¿Cuántas partes estructurales tiene el fruto?", new[]{"Tres","Dos","Cinco","Una"},0),
+         new Preguntas("¿Qué parte protege al embrión?", new[]{"Semilla","Pulpa","Fibra","Cáscara"},0),
+         new Preguntas("¿Qué simboliza regalar mangos?", new[]{"Amistad","Odio","Tristeza","Celos"},0),
+         new Preguntas("¿Dónde se intentó cultivar en 1833?", new[]{"Florida","España","México","Perú"},0),
+         new Preguntas("¿Qué representa en Asia?", new[]{"Prosperidad","Miedo","Guerra","Caos"},0),
+        new Preguntas("¿Qué ayudó a expandir su cultivo?", new[]{"Migración humana","Volcanes","Rayos","Huracanes"},0),
+        new Preguntas("¿Qué parte se usa en medicina tradicional?", new[]{"Cáscara","Metal","Roca","Plástico"},0),
+        new Preguntas("¿Qué contiene más fibra?", new[]{"Pulpa","Agua","Aire","Luz"},0),
+        new Preguntas("¿Relación azúcar-ácido aproximada?", new[]{"28","2","100","7"},0),
+        new Preguntas("¿Quién meditó bajo un árbol de mango según tradición?", new[]{"Buda","Einstein","Newton","Tesla"},0),
+        new Preguntas("¿Qué pigmento da color amarillo al mango?", new[]{"Carotenoides","Clorofila","Melanina","Hemoglobina"},0)
+        };
+
+
+        public FormPreguntas(int nivelSeleccionado)
             {
                 InitializeComponent();
 
                 nivel = nivelSeleccionado;
                 ConfigurarNivel();
 
-                respuestasUsuario = new bool[totalPreguntasNivel];
+            respuestaUsuario = new bool[preguntasNivel.Count];
 
                 MostrarPreguntas();
                 timer1.Start();
@@ -69,20 +115,22 @@
             {
                 if (nivel == 1)
                 {
-                    totalPreguntasNivel = 5;
-                    tiempoRestante = new TimeSpan(0, 3, 30);
-                }
+                preguntasNivel = bancoFacil.OrderBy(x => rnd.Next()).Take(6).ToList();
+                tiempoRestante = new TimeSpan(0, 3, 0);
+            }
                 else if (nivel == 2)
                 {
-                    totalPreguntasNivel = 10;
-                    tiempoRestante = new TimeSpan(0, 2, 50);
-                }
+                preguntasNivel = bancoMedio.OrderBy(x => rnd.Next()).Take(10).ToList();
+                tiempoRestante = new TimeSpan(0, 2, 30);
+            }
                 else
                 {
-                    totalPreguntasNivel = 10;
-                    tiempoRestante = new TimeSpan(0, 2, 00);
-                }
+                preguntasNivel = bancoDificil.OrderBy(x => rnd.Next()).Take(15).ToList();
+                tiempoRestante = new TimeSpan(0, 2, 0);
+            }
 
+                foreach(var p in preguntasNivel)
+                p.Mezclar();
                 lblTiempo.Text = tiempoRestante.ToString(@"mm\:ss");
             }
 
@@ -90,17 +138,24 @@
 
             void MostrarPreguntas()
             {
-                lblPreguntas.Text = preguntas[indice];
-                rbOpcion1.Text = opciones[indice, 0];
-                rbOpcion2.Text = opciones[indice, 1];
-                rbOpcion3.Text = opciones[indice, 2];
+            if (indice >= preguntasNivel.Count)
+                return;
 
-                rbOpcion1.Checked = false;
-                rbOpcion2.Checked = false;
-                rbOpcion3.Checked = false;
+            var p = preguntasNivel[indice];
+            lblPreguntas.Text = p.Texto;
 
-                lblContador.Text = $"Pregunta {indice + 1} de {totalPreguntasNivel}";
-            }
+            rbOpcion1.Text = p.Opciones[0];
+            rbOpcion2.Text = p.Opciones[1];
+            rbOpcion3.Text = p.Opciones[2];
+            rbOpcion4.Text = p.Opciones[3];
+
+            rbOpcion1.Checked = false;
+            rbOpcion2.Checked = false;
+            rbOpcion3.Checked = false;
+            rbOpcion4.Checked = false;
+
+            lblContador.Text = $"Pregunta {indice + 1} de {preguntasNivel.Count}";
+        }
 
 
             private void labelTitulo_Click(object sender, EventArgs e)
@@ -110,51 +165,47 @@
 
             private void pictureBox1_Click(object sender, EventArgs e)
             {
-                Datoscuriosooi frme2 = new Datoscuriosooi();
-                frme2.Show();
-                this.Hide();
-            }
+            Datoscuriosooi frme2 = new Datoscuriosooi();
+            frme2.Show();
+
+            cerrandoPorCodigo = true;
+            this.Close();
+        }
 
             private void btnResponder1_Click(object sender, EventArgs e)
             {
-                int seleccion = -1;
+            int seleccion =
+             rbOpcion1.Checked ? 0 :
+             rbOpcion2.Checked ? 1 :
+             rbOpcion3.Checked ? 2 :
+             rbOpcion4.Checked ? 3 : -1;
 
-                if (rbOpcion1.Checked) seleccion = 0;
-                else if (rbOpcion2.Checked) seleccion = 1;
-                else if (rbOpcion3.Checked) seleccion = 2;
+            if (seleccion == -1)
+            {
+                MessageBox.Show(
+                 "Selecciona una opción",
+                   "Aviso",
+                  MessageBoxButtons.OK,
+                  MessageBoxIcon.Warning
+     );
+                return;
+            }
 
-                if (seleccion == -1)
-                {
-                    MessageBox.Show(
-                        "Por favor selecciona una opción antes de continuar.",
-                        "Aviso",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Warning
-                        );
-                    return;
-                }
-
-                if (seleccion == respuestasCorrectas[indice])
-                {
-                    puntos++;
-                    respuestasUsuario[indice] = true;
-                }
-                else
-                {
-                    respuestasUsuario[indice] = false;
-                }
+            if (seleccion == preguntasNivel[indice].Correcta)
+            {
+                puntos++;
+                respuestaUsuario[indice] = true;
+            }
+            else
+                respuestaUsuario[indice] = false;
 
                 indice++;
 
-                if (indice < totalPreguntasNivel)
-                {
-                    MostrarPreguntas();
-                }
-                else
-                {
-                    FinalizarQuiz();
-                }
-            }
+            if (indice < preguntasNivel.Count)
+                MostrarPreguntas();
+            else
+                FinalizarQuiz();
+        }
 
 
             private void FormPreguntas_Load(object sender, EventArgs e)
@@ -169,35 +220,50 @@
 
             private void timer1_Tick(object sender, EventArgs e)
             {
-                if (tiempoRestante.TotalSeconds > 0)
-                {
-                    tiempoRestante = tiempoRestante.Subtract(TimeSpan.FromSeconds(1));
-                    lblTiempo.Text = tiempoRestante.ToString(@"mm\:ss");
-                }
-                else
-                {
-                    timer1.Stop();
-                    MessageBox.Show("Tiempo terminado");
-                    FinalizarQuiz();
-                }
+            if (tiempoRestante.TotalSeconds > 0)
+            {
+                tiempoRestante = tiempoRestante.Subtract(TimeSpan.FromSeconds(1));
+                lblTiempo.Text = tiempoRestante.ToString(@"mm\:ss");
             }
-            void FinalizarQuiz()
+            else
             {
                 timer1.Stop();
+                FinalizarQuiz();
+            }
+        }
+            
+            void FinalizarQuiz()
+            {
+            timer1.Stop();
 
-                FormResultados fr = new FormResultados(
-                    preguntas,
-                    opciones,
-                    respuestasCorrectas,
-                    respuestasUsuario,
-                    puntos
-                );
+            FormResultados fr = new FormResultados(
+                preguntasNivel,
+                respuestaUsuario,
+                puntos
+            );
 
-                fr.Show();
-                this.Close();
+            fr.Show();
+
+            cerrandoPorCodigo = true;
+            this.Close();
 
             }
 
+        bool cerrandoPorCodigo = false;
+        private void FormPreguntas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!cerrandoPorCodigo && e.CloseReason == CloseReason.UserClosing)
+            {
+                DialogResult resultado = MessageBox.Show(
+                    "¿Seguro que quieres cerrar?",
+                    "Confirmar salida",
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Warning
+                );
 
+                if (resultado == DialogResult.No)
+                    e.Cancel = true;
+            }
         }
     }
+}

@@ -31,6 +31,8 @@
             this.lblPuntaje = new System.Windows.Forms.Label();
             this.lstResultados = new System.Windows.Forms.ListBox();
             this.btnFin = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnNivel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPuntaje
@@ -63,13 +65,40 @@
             this.btnFin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFin.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFin.ForeColor = System.Drawing.Color.Transparent;
-            this.btnFin.Location = new System.Drawing.Point(507, 413);
+            this.btnFin.Location = new System.Drawing.Point(393, 454);
             this.btnFin.Name = "btnFin";
             this.btnFin.Size = new System.Drawing.Size(112, 46);
             this.btnFin.TabIndex = 2;
-            this.btnFin.Text = "Salir";
+            this.btnFin.Text = "NO";
             this.btnFin.UseVisualStyleBackColor = false;
             this.btnFin.Click += new System.EventHandler(this.btnFin_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(83, 382);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(509, 41);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "¿Desea volver a realizar el Quiz?";
+            // 
+            // btnNivel
+            // 
+            this.btnNivel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(64)))), ((int)(((byte)(55)))));
+            this.btnNivel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNivel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNivel.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNivel.ForeColor = System.Drawing.Color.Transparent;
+            this.btnNivel.Location = new System.Drawing.Point(181, 454);
+            this.btnNivel.Name = "btnNivel";
+            this.btnNivel.Size = new System.Drawing.Size(112, 46);
+            this.btnNivel.TabIndex = 4;
+            this.btnNivel.Text = "SI";
+            this.btnNivel.UseVisualStyleBackColor = false;
+            this.btnNivel.Click += new System.EventHandler(this.btnNivel_Click);
             // 
             // FormResultados
             // 
@@ -77,7 +106,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(653, 481);
+            this.ClientSize = new System.Drawing.Size(720, 534);
+            this.Controls.Add(this.btnNivel);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnFin);
             this.Controls.Add(this.lstResultados);
             this.Controls.Add(this.lblPuntaje);
@@ -85,6 +116,7 @@
             this.MaximizeBox = false;
             this.Name = "FormResultados";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormResultados_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,5 +127,7 @@
         private System.Windows.Forms.Label lblPuntaje;
         private System.Windows.Forms.ListBox lstResultados;
         private System.Windows.Forms.Button btnFin;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnNivel;
     }
 }

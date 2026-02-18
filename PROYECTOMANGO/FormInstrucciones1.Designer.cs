@@ -58,13 +58,14 @@
             // BtnHard
             // 
             this.BtnHard.BackColor = System.Drawing.Color.Transparent;
-            this.BtnHard.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.demonn;
+            this.BtnHard.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.LVLDificil_PNG;
             this.BtnHard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnHard.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.BtnHard.FlatAppearance.BorderSize = 0;
             this.BtnHard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnHard.Location = new System.Drawing.Point(45, 360);
+            this.BtnHard.Location = new System.Drawing.Point(81, 329);
             this.BtnHard.Name = "BtnHard";
-            this.BtnHard.Size = new System.Drawing.Size(90, 80);
+            this.BtnHard.Size = new System.Drawing.Size(84, 79);
             this.BtnHard.TabIndex = 3;
             this.BtnHard.UseVisualStyleBackColor = false;
             this.BtnHard.Click += new System.EventHandler(this.BtnHard_Click);
@@ -76,7 +77,7 @@
             this.BtnInter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnInter.FlatAppearance.BorderSize = 0;
             this.BtnInter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnInter.Location = new System.Drawing.Point(45, 254);
+            this.BtnInter.Location = new System.Drawing.Point(72, 223);
             this.BtnInter.Name = "BtnInter";
             this.BtnInter.Size = new System.Drawing.Size(103, 100);
             this.BtnInter.TabIndex = 2;
@@ -100,7 +101,7 @@
             this.BtnEasy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnEasy.FlatAppearance.BorderSize = 0;
             this.BtnEasy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEasy.Location = new System.Drawing.Point(45, 162);
+            this.BtnEasy.Location = new System.Drawing.Point(72, 131);
             this.BtnEasy.Name = "BtnEasy";
             this.BtnEasy.Size = new System.Drawing.Size(103, 86);
             this.BtnEasy.TabIndex = 0;
@@ -116,16 +117,16 @@
             this.PnlLista.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlLista.Location = new System.Drawing.Point(252, 0);
             this.PnlLista.Name = "PnlLista";
-            this.PnlLista.Size = new System.Drawing.Size(343, 483);
+            this.PnlLista.Size = new System.Drawing.Size(371, 483);
             this.PnlLista.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 98);
+            this.label3.Location = new System.Drawing.Point(6, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(346, 270);
+            this.label3.Size = new System.Drawing.Size(351, 378);
             this.label3.TabIndex = 3;
             this.label3.Text = resources.GetString("label3.Text");
             // 
@@ -145,12 +146,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTOMANGO.Properties.Resources.WhatsApp_Image_2026_01_25_at_12_18_24_PM;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(595, 483);
+            this.ClientSize = new System.Drawing.Size(623, 483);
             this.Controls.Add(this.PnlLista);
             this.Controls.Add(this.PnlNiveles);
             this.Name = "FormInstrucciones1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormInstrucciones1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormInstrucciones1_FormClosing);
             this.Load += new System.EventHandler(this.FormInstrucciones1_Load);
             this.PnlNiveles.ResumeLayout(false);
             this.PnlNiveles.PerformLayout();
